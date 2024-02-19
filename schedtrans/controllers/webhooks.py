@@ -1,7 +1,9 @@
-from blacksheep.server.controllers import Controller, get
+from blacksheep import json
+from blacksheep.server.controllers import Controller, post
+from icecream import ic
 
 
 class WebhookController(Controller):
-    @get('/webhooks')
-    def webhooks(self):
-        return self.ok()
+    @post('/webhooks')
+    def webhooks(self, request):
+        return request.method
