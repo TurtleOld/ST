@@ -1,7 +1,7 @@
 [project]
 name = "ST"
 version = "0.1.0"
-description = "ScheDule Transport"
+description = "Schedule Transport"
 authors = [
     {name = "Alexander Pavlov (TurtleOld)", email = "dev@pavlovteam.ru"},
 ]
