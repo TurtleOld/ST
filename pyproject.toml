@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "st"
+name = "schedtrans"
 version = "0.1.0"
 description = "Schedule Transport"
 authors = ["TurtleOld <dev@pavlovteam.ru>"]
@@ -17,6 +17,7 @@ asyncpg = "^0.29.0"
 sqlalchemy = {extras = ["asyncio"], version = "^2.0.27"}
 python-dotenv = "^1.0.1"
 uvicorn = "^0.27.1"
+aiohttp = "^3.9.3"
 
 
 [tool.poetry.group.dev.dependencies]
@@ -29,3 +30,7 @@ pylint = "^3.0.3"
 [build-system]
 requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
+
+
+[tool.poetry.scripts]
+startbot = "schedtrans.telegram.management.commands.startbot:main"
