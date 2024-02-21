@@ -5,7 +5,7 @@ from icecream import ic
 from telebot import types
 from telebot.types import InlineKeyboardMarkup, InlineKeyboardButton
 
-from schedtrans.telegram.common import SentMessage
+from schedtrans.telegram.common import SentMessage, prepare_json_file_route
 from schedtrans.telegram.config import bot
 
 
@@ -30,21 +30,19 @@ async def select_transport_type(message: types.Message) -> None:
 
 async def selected_transport_type(message: types.Message, call_data) -> None:
     keyboard = InlineKeyboardMarkup(row_width=2)
-    current_directory = os.path.dirname(__file__)
-    file_name = 'routes.json'
-    file_path = os.path.abspath(os.path.join(current_directory, file_name))
-    with open(file_path, 'r') as route_file:
-        json_route = json.load(route_file)
+    json_route = await prepare_json_file_route()
     for key, value in json_route.items():
+        name_route = value.get('name_route', None)
+        transport_types = value.get('transport_types', None)
         if (
             call_data == 'bus'
-            and value.get('transport_types') == 'bus'
+            and transport_types == 'bus'
             or call_data == 'suburban'
-            and value.get('transport_types') == 'suburban'
+            and transport_types == 'suburban'
         ):
             keyboard.row(
                 InlineKeyboardButton(
-                    text=value.get('name_route'),
+                    text=f'\u00A0\u00A0{name_route}\u00A0\u00A0',
                     callback_data=f'{key}',
                 )
             )

@@ -4,146 +4,146 @@
         "text": "Выбран маршрут: От Автовокзала Сергиев Посад до Северного посёлка",
         "from_station": 9742908,
         "to_station": 9742891,
-        "name_route":  "\\u00A0\\u00A0Автовокзал - Северный\\u00A0\\u00A0"
+        "name_route":  "Автовокзал - Северный"
     },
     "north_bus_station": {
         "transport_types": "bus",
         "text": "Выбран маршрут: От Северного посёлка до Автовокзала Сергиев Посад",
         "from_station": 9742891,
         "to_station": 9742908,
-        "name_route":  "\\u00A0\\u00A0Северный - Автовокзал\\u00A0\\u00A0"
+        "name_route":  "Северный - Автовокзал"
     },
     "north_zhbi": {
         "transport_types": "bus",
         "text": "Выбран маршрут: От Северного посёлка до Завода ЖБИ",
         "from_station": 9742891,
         "to_station": 9742916,
-        "name_route":  "\\u00A0\\u00A0Северный - Завод ЖБИ\\u00A0\\u00A0"
+        "name_route":  "Северный - Завод ЖБИ"
     },
     "north_gymnasium": {
         "transport_types": "bus",
         "text": "Выбран маршрут: От Северного посёлка до Гимназии №5",
         "from_station": 9742891,
         "to_station": 9742870,
-        "name_route":  "\\u00A0\\u00A0Северный - Гимназия № 5\\u00A0\\u00A0"
+        "name_route":  "Северный - Гимназия № 5"
     },
     "north_vorobyovskaya": {
         "transport_types": "bus",
         "text": "Выбран маршрут: От Северного посёлка до Воробьёвской улицы",
         "from_station": 9742891,
         "to_station": 9742900,
-        "name_route":  "\\u00A0\\u00A0Северный - Воробьёвская улица\\u00A0\\u00A0"
+        "name_route":  "Северный - Воробьёвская улица"
     },
     "vorobyovskaya_north": {
         "transport_types": "bus",
         "text": "Выбран маршрут: От Воробьёвской улицы до Северного посёлка",
         "from_station": 9742900,
         "to_station": 9742891,
-        "name_route":  "\\u00A0\\u00A0Воробьёвская улица - Северный\\u00A0\\u00A0"
+        "name_route":  "Воробьёвская улица - Северный"
     },
     "north_capitol": {
         "transport_types": "bus",
         "text": "Выбран маршрут: От Северного посёлка до ТЦ Капитолий",
         "from_station": 9742891,
         "to_station": 9742877,
-        "name_route":  "\\u00A0\\u00A0Северный - ТЦ Капитолий\\u00A0\\u00A0"
+        "name_route":  "Северный - ТЦ Капитолий"
     },
     "capitol_north": {
         "transport_types": "bus",
         "text": "Выбран маршрут: От ТЦ Капитолий до Северного посёлка",
         "from_station": 9742877,
         "to_station": 9742891,
-        "name_route":  "\\u00A0\\u00A0ТЦ Капитолий - Северный\\u00A0\\u00A0"
+        "name_route":  "ТЦ Капитолий - Северный"
     },
     "yaroslavsky_railway_station_sergiev_posad": {
         "transport_types": "suburban",
         "text": "Выбран маршрут: От Ярославского вокзала до Сергиев Посада",
         "from_station": 2000002,
         "to_station": 9601389,
-        "name_route":  "\\u00A0\\u00A0Ярославкий вокзал - Сергиев Посад\\u00A0\\u00A0"
+        "name_route":  "Ярославкий вокзал - Сергиев Посад"
     },
     "sergiev_posad_yaroslavsky_railway_station": {
         "transport_types": "suburban",
         "text": "Выбран маршрут: От Сергиев Посада до Ярославского вокзала",
         "from_station": 9601389,
         "to_station": 2000002,
-        "name_route":  "\\u00A0\\u00A0Сергиев Посад - Ярославкий вокзал\\u00A0\\u00A0"
+        "name_route":  "Сергиев Посад - Ярославкий вокзал"
     },
     "yaroslavsky_railway_station_podlipki": {
         "transport_types": "suburban",
         "text": "Выбран маршрут: От Ярославского вокзала до Подлипки-Дачные",
         "from_station": 2000002,
         "to_station": 9600691,
-        "name_route":  "\\u00A0\\u00A0Ярославкий вокзал - Подлипки-Дачные\\u00A0\\u00A0"
+        "name_route":  "Ярославкий вокзал - Подлипки-Дачные"
     },
     "podlipki_yaroslavsky_railway_station": {
         "transport_types": "suburban",
         "text": "Выбран маршрут: От Подлипки-Дачные до Ярославского вокзала",
         "from_station": 9600691,
         "to_station": 2000002,
-        "name_route":  "\\u00A0\\u00A0Подлипки-Дачные - Ярославкий вокзал\\u00A0\\u00A0"
+        "name_route":  "Подлипки-Дачные - Ярославкий вокзал"
     },
     "podlipki_mytischi": {
         "transport_types": "suburban",
         "text": "Выбран маршрут: От Подлипки-Дачные до Мытищи",
         "from_station": 9600691,
         "to_station": 9600681,
-        "name_route":  "\\u00A0\\u00A0Подлипки-Дачные - Мытищи\\u00A0\\u00A0"
+        "name_route":  "Подлипки-Дачные - Мытищи"
     },
     "mytischi_podlipki": {
         "transport_types": "suburban",
         "text": "Выбран маршрут: От Мытищи до Подлипки-Дачные",
         "from_station": 9600681,
         "to_station": 9600691,
-        "name_route":  "\\u00A0\\u00A0Мытищи - Подлипки-Дачные\\u00A0\\u00A0"
+        "name_route":  "Мытищи - Подлипки-Дачные"
     },
     "yaroslavsky_railway_station_mytischi": {
         "transport_types": "suburban",
         "text": "Выбран маршрут: От Ярославского вокзала до Мытищи",
         "from_station": 2000002,
         "to_station": 9600681,
-        "name_route":  "\\u00A0\\u00A0Ярославкий вокзал - Мытищи\\u00A0\\u00A0"
+        "name_route":  "Ярославкий вокзал - Мытищи"
     },
     "sergiev_posad_mytischi": {
         "transport_types": "suburban",
         "text": "Выбран маршрут: От Сергиев Посада до Мытищи",
         "from_station": 9601389,
         "to_station": 9600681,
-        "name_route":  "\\u00A0\\u00A0Сергиев Посад - Мытищи\\u00A0\\u00A0"
+        "name_route":  "Сергиев Посад - Мытищи"
     },
     "mytischi_sergiev_posad": {
         "transport_types": "suburban",
         "text": "Выбран маршрут: От Мытищи до Сергиев Посад",
         "from_station": 9600681,
         "to_station": 9601389,
-        "name_route":  "\\u00A0\\u00A0Мытищи - Сергиев Посад\\u00A0\\u00A0"
+        "name_route":  "Мытищи - Сергиев Посад"
     },
     "black_serp_molot": {
         "transport_types": "suburban",
         "text": "Выбран маршрут: От Чёрное до Серп и Молот",
         "from_station": 9601301,
         "to_station": 9601796,
-        "name_route":  "\\u00A0\\u00A0Чёрное - Серп и Молот\\u00A0\\u00A0"
+        "name_route":  "Чёрное - Серп и Молот"
     },
     "serp_molot_black": {
         "transport_types": "suburban",
         "text": "Выбран маршрут: От Серп и Молот до Чёрное",
         "from_station": 9601796,
         "to_station": 9601301,
-        "name_route": "\\u00A0\\u00A0Серп и Молот - Чёрное\\u00A0\\u00A0"
+        "name_route": "Серп и Молот - Чёрное"
     },
     "kalanchevskaya_black": {
         "transport_types": "suburban",
         "text": "Выбран маршрут: От Каланчёвская до Чёрное",
         "from_station": 2001005,
         "to_station": 9601301,
-        "name_route":  "\\u00A0\\u00A0Каланчёвская - Чёрное\\u00A0\\u00A0"
+        "name_route":  "Каланчёвская - Чёрное"
     },
     "serp_molot_olgino": {
         "transport_types": "suburban",
         "text": "Выбран маршрут: От Серп и Молот до Ольгино",
         "from_station": 9601796,
         "to_station": 9881697,
-        "name_route":  "\\u00A0\\u00A0Серп и Молот - Ольгино\\u00A0\\u00A0"
+        "name_route":  "Серп и Молот - Ольгино"
     }
 }
