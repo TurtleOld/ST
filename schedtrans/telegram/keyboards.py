@@ -83,3 +83,19 @@ async def selected_route(message, json_route, transport_type):
         parse_mode='HTML',
     )
     SentMessage.send_message.append(sent_message)
+
+
+async def back_from_routes(message: types.Message, routes: str) -> None:
+    keyboard = InlineKeyboardMarkup()
+    keyboard.add(
+        InlineKeyboardButton(
+            text='Вернуться в начало',
+            callback_data='back',
+        )
+    )
+    sent_message = await bot.send_message(
+        message.chat.id,
+        routes,
+        reply_markup=keyboard,
+    )
+    SentMessage.send_message.append(sent_message)

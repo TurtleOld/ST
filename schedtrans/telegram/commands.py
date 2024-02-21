@@ -10,13 +10,13 @@ from schedtrans.prepare_data.process_data_generate import Processing
 from schedtrans.telegram.common import (
     SentMessage,
     prepare_json_file_route,
-    get_thread_json_data,
 )
 from schedtrans.telegram.config import bot
 from schedtrans.telegram.keyboards import (
     select_transport_type,
     selected_transport_type,
     selected_route,
+    back_from_routes,
 )
 
 
@@ -81,12 +81,45 @@ class CallBackQueryHandlerTransportType:
                 process_json_data = Processing(result_request.json())
                 await process_json_data.detail_route()
                 thread_json_data = await process_json_data.detail_thread()
+                CallBackQueryHandlerTransportType.result_json_route = thread_json_data
                 await selected_route(
                     message=call.message,
                     json_route=thread_json_data,
                     transport_type=transport_type,
                 )
-                get_thread_json_data(thread_json_data)
+
+    @staticmethod
+    @bot.callback_query_handler(func=lambda call: True)
+    async def callback_handle_detail_transport(call: types):
+        result_detail_transport = ''
+        for key, value in CallBackQueryHandlerTransportType.result_json_route.items():
+            if call.data == key:
+                transport_type = value.get('transport_type')
+                number = value.get('number')
+                short_title = value.get('short_title')
+                days = value.get('days')
+                duration = value.get('duration')
+                departure_format_date = value.get('departure_format_date')
+                arrival_format_date = value.get('arrival_format_date')
+                to_station = value.get('to_station').get('title')
+                stops = value.get('stops')
+                if stops == '':
+                    stops = 'Везде'
+                transport_type_name = 'Электричка'
+                if transport_type == 'bus':
+                    transport_type_name = 'Автобус'
+                result_detail_transport = '<strong>{}:</strong> #{} {}\n<strong>Отправляется в:</strong> {}\n<strong>График движения:</strong> {}\n<strong>С остановками:</strong> {}\n<strong>Время в пути:</strong> {}\n<strong>Приезжает в пункт назначения {} в {}</strong>'.format(
+                    transport_type_name,
+                    number,
+                    short_title,
+                    departure_format_date,
+                    days,
+                    stops,
+                    duration,
+                    to_station,
+                    arrival_format_date,
+                )
+        await back_from_routes(call.message, result_detail_transport)
 
 
 def start_bot() -> Any:
