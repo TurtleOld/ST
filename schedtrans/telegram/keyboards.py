@@ -30,7 +30,7 @@ async def select_transport_type(message: types.Message) -> None:
 
 async def selected_transport_type(message: types.Message, call_data) -> None:
     keyboard = InlineKeyboardMarkup(row_width=2)
-    json_route = await prepare_json_file_route()
+    json_route = prepare_json_file_route()
     for key, value in json_route.items():
         name_route = value.get('name_route', None)
         transport_types = value.get('transport_types', None)
@@ -49,6 +49,36 @@ async def selected_transport_type(message: types.Message, call_data) -> None:
     sent_message = await bot.send_message(
         message.chat.id,
         'Выбери направление',
+        reply_markup=keyboard,
+        parse_mode='HTML',
+    )
+    SentMessage.send_message.append(sent_message)
+
+
+async def selected_route(message, json_route, transport_type):
+    keyboard = InlineKeyboardMarkup(row_width=2)
+    for key, value in json_route.items():
+        tp_types = value.get('transport_type', None)
+        if tp_types == transport_type:
+            number = value.get('number', None)
+            short_title = value.get('short_title', None)
+            departure_format_date = value.get('departure_format_date', None)
+            duration = value.get('duration', None)
+            text_button = '{} | {} ({}) | {}'.format(
+                number,
+                departure_format_date,
+                duration,
+                short_title,
+            )
+            keyboard.row(
+                InlineKeyboardButton(
+                    text=f'\u00A0\u00A0{text_button}\u00A0\u00A0',
+                    callback_data=key,
+                ),
+            )
+    sent_message = await bot.send_message(
+        message.chat.id,
+        'Выбери маршрут:',
         reply_markup=keyboard,
         parse_mode='HTML',
     )
