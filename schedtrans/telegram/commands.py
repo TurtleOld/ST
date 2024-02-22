@@ -89,8 +89,25 @@ class CallBackQueryHandlerTransportType:
                 )
 
     @staticmethod
+    @bot.callback_query_handler(
+        func=lambda call: call.data in 'back',
+    )  # type: ignore
+    async def come_back_main(call: types.CallbackQuery) -> None:
+        for message in SentMessage.send_message:
+            try:
+                await bot.delete_message(
+                    call.message.chat.id,
+                    message.message_id,
+                )
+            except Exception as e:
+                print(e)
+                continue
+        await select_transport_type(call.message)
+
+    @staticmethod
     @bot.callback_query_handler(func=lambda call: True)
     async def callback_handle_detail_transport(call: types):
+        await bot.delete_message(call.message.chat.id, call.message.id)
         result_detail_transport = ''
         for key, value in CallBackQueryHandlerTransportType.result_json_route.items():
             if call.data == key:
@@ -108,16 +125,29 @@ class CallBackQueryHandlerTransportType:
                 transport_type_name = 'Электричка'
                 if transport_type == 'bus':
                     transport_type_name = 'Автобус'
-                result_detail_transport = '<strong>{}:</strong> #{} {}\n<strong>Отправляется в:</strong> {}\n<strong>График движения:</strong> {}\n<strong>С остановками:</strong> {}\n<strong>Время в пути:</strong> {}\n<strong>Приезжает в пункт назначения {} в {}</strong>'.format(
+                result_detail_transport += '<strong>{}:</strong> #{} {}\n'.format(
                     transport_type_name,
                     number,
                     short_title,
-                    departure_format_date,
-                    days,
-                    stops,
-                    duration,
-                    to_station,
-                    arrival_format_date,
+                )
+                result_detail_transport += (
+                    '<strong>Отправляется в:</strong> {}\n'.format(
+                        departure_format_date
+                    )
+                )
+                result_detail_transport += (
+                    '<strong>График движения:</strong> {}\n'.format(days)
+                )
+                result_detail_transport += (
+                    '<strong>С остановками:</strong> {}\n'.format(stops)
+                )
+                result_detail_transport += '<strong>Время в пути:</strong> {}\n'.format(
+                    duration
+                )
+                result_detail_transport += (
+                    '<strong>Приезжает в пункт назначения {} в {}</strong>'.format(
+                        to_station, arrival_format_date
+                    )
                 )
         await back_from_routes(call.message, result_detail_transport)
 

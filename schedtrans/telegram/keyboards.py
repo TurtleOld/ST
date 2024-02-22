@@ -46,6 +46,12 @@ async def selected_transport_type(message: types.Message, call_data) -> None:
                     callback_data=f'{key}',
                 )
             )
+    keyboard.add(
+        InlineKeyboardButton(
+            text='Вернуться в начало',
+            callback_data='back',
+        )
+    )
     sent_message = await bot.send_message(
         message.chat.id,
         'Выбери направление',
@@ -76,11 +82,39 @@ async def selected_route(message, json_route, transport_type):
                     callback_data=key,
                 ),
             )
+    keyboard.add(
+        InlineKeyboardButton(
+            text='Вернуться в начало',
+            callback_data='back',
+        )
+    )
     sent_message = await bot.send_message(
         message.chat.id,
         'Выбери маршрут:',
         reply_markup=keyboard,
         parse_mode='HTML',
+    )
+    SentMessage.send_message.append(sent_message)
+
+
+async def back_main(message: types.Message, threads: str) -> None:
+    keyboard = InlineKeyboardMarkup()
+    keyboard.add(
+        InlineKeyboardButton(
+            text='Вернуться в начало',
+            callback_data='back',
+        )
+    )
+    keyboard.add(
+        InlineKeyboardButton(
+            text='Запомнить маршрут',
+            callback_data=f'schedule_{message.chat.id}',
+        )
+    )
+    sent_message = await bot.send_message(
+        message.chat.id,
+        threads,
+        reply_markup=keyboard,
     )
     SentMessage.send_message.append(sent_message)
 
