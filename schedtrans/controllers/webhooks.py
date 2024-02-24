@@ -1,7 +1,6 @@
 import asyncio
 
 from blacksheep import post, Request
-from icecream import ic
 from telebot import types
 
 from schedtrans.telegram.config import bot
