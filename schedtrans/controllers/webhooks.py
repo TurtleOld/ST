@@ -10,6 +10,6 @@ from schedtrans.telegram.config import bot
 @post('/webhooks')
 async def webhooks(request: Request) -> None:
     json_data = await request.json()
-    ic(json_data)
+    print(json_data)
     update = types.Update.de_json(json_data)
     asyncio.ensure_future(bot.process_new_updates([update]))
