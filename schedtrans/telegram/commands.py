@@ -89,6 +89,7 @@ class CallBackQueryHandlerTransportType:
         func=lambda call: call.data in 'back',
     )  # type: ignore
     async def come_back_main(call: types.CallbackQuery) -> None:
+        SentMessage.send_message.clear()
         for message in SentMessage.send_message:
             try:
                 await bot.delete_message(
