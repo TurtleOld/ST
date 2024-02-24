@@ -1,1 +1,1 @@
-web: uvicorn schedtrans.engine:app --port $PORT --reload
+web: uvicorn schedtrans.engine:app --host 0.0.0.0 --port $PORT --reload
