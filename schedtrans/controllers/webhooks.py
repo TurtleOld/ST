@@ -10,6 +10,7 @@ from schedtrans.telegram.config import bot
 async def webhooks(request: Request) -> None:
     if request.method == 'POST':
         json_request = await request.json()
-        json_data = json.loads(json_request)
-        update = types.Update.de_json(json_data)
-        bot.process_new_updates([update])
+        print(json_request)
+        # json_data = json.loads(json_request)
+        # update = types.Update.de_json(json_data)
+        # bot.process_new_updates([update])
