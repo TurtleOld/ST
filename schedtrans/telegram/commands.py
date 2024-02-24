@@ -98,7 +98,7 @@ class CallBackQueryHandlerTransportType:
             except Exception as e:
                 print(e)
                 continue
-        SentMessage.send_message.clear()
+        CallBackQueryHandlerTransportType.result_json_route.clear()
         await select_transport_type(call.message)
 
     @staticmethod
