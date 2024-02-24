@@ -1,7 +1,3 @@
-import json
-import os
-
-from icecream import ic
 from telebot import types
 from telebot.types import InlineKeyboardMarkup, InlineKeyboardButton
 

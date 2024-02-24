@@ -1,8 +1,4 @@
-import json
-import os
 from typing import Any
-
-from icecream import ic
 from telebot import types
 
 from schedtrans.json_request.request import RequestSchedule

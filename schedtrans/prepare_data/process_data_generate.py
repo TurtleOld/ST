@@ -1,7 +1,4 @@
 from datetime import timedelta, datetime, timezone
-
-from icecream import ic
-
 from schedtrans.json_parser.json_parse import JsonParser
 from schedtrans.json_request.request import RequestSchedule
 
