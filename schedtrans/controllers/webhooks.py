@@ -1,14 +1,14 @@
 import json
-from blacksheep.server.controllers import Controller, post
+
+from blacksheep import post, Request
 from telebot import types
 
 from schedtrans.telegram.config import bot
 
 
-class WebhookController(Controller):
-    @post('/webhooks/')
-    def webhooks(self, request) -> None:
-        if request.method == 'POST':
-            json_data = json.loads(request.body)
-            update = types.Update.de_json(json_data)
-            bot.process_new_updates([update])
+@post('/webhooks')
+async def webhooks(request: Request) -> None:
+    json_request = await request.json()
+    json_data = json.loads(json_request)
+    update = types.Update.de_json(json_data)
+    bot.process_new_updates([update])
