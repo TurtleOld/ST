@@ -11,9 +11,7 @@ def convert_time(seconds: str | float) -> str:
 
 
 class Processing:
-    utc_offset = timedelta(hours=3)
-    current_time = timezone(utc_offset)
-    current_datetime = datetime.now(current_time)
+
     count_results = 0
     parser = JsonParser()
     result_json_route = {}
@@ -25,6 +23,9 @@ class Processing:
 
     async def detail_route(self) -> None:
         segments = self.parser.parse_json(self.json_data, 'segments')
+        utc_offset = timedelta(hours=3)
+        current_time = timezone(utc_offset)
+        current_datetime = datetime.now(current_time)
         if segments:
             for segment in segments:
                 departure = self.parser.parse_json(segment, 'departure')
@@ -32,7 +33,7 @@ class Processing:
                     str(departure),
                     '%Y-%m-%dT%H:%M:%S%z',
                 )
-                if date_departure > self.current_datetime:
+                if date_departure > current_datetime:
                     from_station = self.parser.parse_json(segment, 'from')
                     to_station = self.parser.parse_json(segment, 'to')
                     transport_type = self.parser.parse_json(
