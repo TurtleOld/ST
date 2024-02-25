@@ -1,8 +1,5 @@
 from typing import Any
-
-from icecream import ic
 from telebot import types
-
 from schedtrans.json_request.request import RequestSchedule
 from schedtrans.prepare_data.process_data_generate import Processing
 from schedtrans.telegram.common import (
@@ -74,8 +71,6 @@ class CallBackQueryHandlerTransportType:
             call.message.chat.id,
             'Загружается...',
         )
-
-        ic(sent_message)
         SentMessage.send_message.append(sent_message)
         json_route = prepare_json_file_route()
         for key, value in json_route.items():
