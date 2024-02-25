@@ -1,4 +1,6 @@
 from typing import Any
+
+from icecream import ic
 from telebot import types
 
 from schedtrans.json_request.request import RequestSchedule
@@ -30,7 +32,13 @@ class CallBackQueryHandlerTransportType:
     result_json_route = {}
 
     @staticmethod
-    @bot.callback_query_handler(func=lambda call: call.data in ['bus', 'suburban'])
+    @bot.callback_query_handler(
+        func=lambda call: call.data
+        in [
+            'bus',
+            'suburban',
+        ]
+    )
     async def callback_handle_transport_type(call: types.CallbackQuery) -> None:
         await bot.delete_message(call.message.chat.id, call.message.id)
         if call.data == 'bus':
@@ -62,6 +70,13 @@ class CallBackQueryHandlerTransportType:
     )
     async def callback_handle_transport_route(call: types):
         await bot.delete_message(call.message.chat.id, call.message.id)
+        sent_message = await bot.send_message(
+            call.message.chat.id,
+            'Загружается...',
+        )
+
+        ic(sent_message)
+        SentMessage.send_message.append(sent_message)
         json_route = prepare_json_file_route()
         for key, value in json_route.items():
             if call.data == key:
@@ -83,6 +98,10 @@ class CallBackQueryHandlerTransportType:
                     json_route=thread_json_data,
                     transport_type=transport_type,
                 )
+        await bot.delete_message(
+            call.message.chat.id,
+            SentMessage.send_message[-2].message_id,
+        )
 
     @staticmethod
     @bot.callback_query_handler(
@@ -103,7 +122,7 @@ class CallBackQueryHandlerTransportType:
 
     @staticmethod
     @bot.callback_query_handler(func=lambda call: True)
-    async def callback_handle_detail_transport(call: types):
+    async def callback_handle_detail_transport(call: types.CallbackQuery) -> None:
         await bot.delete_message(call.message.chat.id, call.message.id)
         result_detail_transport = ''
         for key, value in CallBackQueryHandlerTransportType.result_json_route.items():
