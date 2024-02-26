@@ -86,7 +86,7 @@ class Processing:
                         break
             await self.detail_thread()
         else:
-            return None
+            self.result_json_route = None
 
     async def detail_thread(self):
         result = self.result_json_route
