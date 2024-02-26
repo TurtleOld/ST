@@ -27,34 +27,50 @@ async def select_transport_type(message: types.Message) -> None:
 async def selected_transport_type(message: types.Message, call_data) -> None:
     keyboard = InlineKeyboardMarkup(row_width=2)
     json_route = prepare_json_file_route()
-    for key, value in json_route.items():
-        name_route = value.get('name_route', None)
-        transport_types = value.get('transport_types', None)
-        if (
-            call_data == 'bus'
-            and transport_types == 'bus'
-            or call_data == 'suburban'
-            and transport_types == 'suburban'
-        ):
-            keyboard.row(
-                InlineKeyboardButton(
-                    text=f'\u00A0\u00A0{name_route}\u00A0\u00A0',
-                    callback_data=f'{key}',
+    if json_route:
+        print(json_route, 'json_route')
+        for key, value in json_route.items():
+            name_route = value.get('name_route', None)
+            transport_types = value.get('transport_types', None)
+            if (
+                call_data == 'bus'
+                and transport_types == 'bus'
+                or call_data == 'suburban'
+                and transport_types == 'suburban'
+            ):
+                keyboard.row(
+                    InlineKeyboardButton(
+                        text=f'\u00A0\u00A0{name_route}\u00A0\u00A0',
+                        callback_data=f'{key}',
+                    )
                 )
+        keyboard.add(
+            InlineKeyboardButton(
+                text='Вернуться в начало',
+                callback_data='back',
             )
-    keyboard.add(
-        InlineKeyboardButton(
-            text='Вернуться в начало',
-            callback_data='back',
         )
-    )
-    sent_message = await bot.send_message(
-        message.chat.id,
-        'Выбери направление',
-        reply_markup=keyboard,
-        parse_mode='HTML',
-    )
-    SentMessage.send_message.append(sent_message)
+        sent_message = await bot.send_message(
+            message.chat.id,
+            'Выбери направление',
+            reply_markup=keyboard,
+            parse_mode='HTML',
+        )
+        SentMessage.send_message.append(sent_message)
+    else:
+        keyboard.add(
+            InlineKeyboardButton(
+                text='Вернуться в начало',
+                callback_data='back',
+            )
+        )
+        sent_message = await bot.send_message(
+            message.chat.id,
+            'Нет маршрутов. Саша снова облажался:)',
+            reply_markup=keyboard,
+            parse_mode='HTML',
+        )
+        SentMessage.send_message.append(sent_message)
 
 
 async def selected_route(message, json_route, transport_type):
