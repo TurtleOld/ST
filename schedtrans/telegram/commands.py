@@ -77,7 +77,9 @@ class CallBackQueryHandlerTransportType:
                     await prepare_request.request_transport_between_stations()
                 )
                 process_json_data = Processing(result_request.json())
-                await process_json_data.detail_route()
+                detail_route = await process_json_data.detail_route()
+                if not detail_route:
+
                 thread_json_data = await process_json_data.detail_thread()
                 CallBackQueryHandlerTransportType.result_json_route = thread_json_data
                 await selected_route(

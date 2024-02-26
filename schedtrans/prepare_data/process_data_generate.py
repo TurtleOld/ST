@@ -85,6 +85,8 @@ class Processing:
                     if self.count_results >= 10:
                         break
             await self.detail_thread()
+        else:
+            return None
 
     async def detail_thread(self):
         result = self.result_json_route

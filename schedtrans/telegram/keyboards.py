@@ -74,39 +74,51 @@ async def selected_transport_type(message: types.Message, call_data) -> None:
 
 async def selected_route(message, json_route, transport_type):
     keyboard = InlineKeyboardMarkup(row_width=2)
-    print(json_route, 'json_route')
-    for key, value in json_route.items():
-        tp_types = value.get('transport_type', None)
-        if tp_types == transport_type:
-            number = value.get('number', None)
-            short_title = value.get('short_title', None)
-            departure_format_date = value.get('departure_format_date', None)
-            duration = value.get('duration', None)
-            text_button = '{} | {} ({}) | {}'.format(
-                number,
-                departure_format_date,
-                duration,
-                short_title,
+    if json_route:
+        for key, value in json_route.items():
+            tp_types = value.get('transport_type', None)
+            if tp_types == transport_type:
+                number = value.get('number', None)
+                short_title = value.get('short_title', None)
+                departure_format_date = value.get('departure_format_date', None)
+                duration = value.get('duration', None)
+                text_button = '{} | {} ({}) | {}'.format(
+                    number,
+                    departure_format_date,
+                    duration,
+                    short_title,
+                )
+                keyboard.row(
+                    InlineKeyboardButton(
+                        text=f'\u00A0\u00A0{text_button}\u00A0\u00A0',
+                        callback_data=key,
+                    ),
+                )
+        keyboard.add(
+            InlineKeyboardButton(
+                text='Вернуться в начало',
+                callback_data='back',
             )
-            keyboard.row(
-                InlineKeyboardButton(
-                    text=f'\u00A0\u00A0{text_button}\u00A0\u00A0',
-                    callback_data=key,
-                ),
-            )
-    keyboard.add(
-        InlineKeyboardButton(
-            text='Вернуться в начало',
-            callback_data='back',
         )
-    )
-    sent_message = await bot.send_message(
-        message.chat.id,
-        'Выбери маршрут:',
-        reply_markup=keyboard,
-        parse_mode='HTML',
-    )
-    SentMessage.send_message.append(sent_message)
+        sent_message = await bot.send_message(
+            message.chat.id,
+            'Выбери маршрут:',
+            reply_markup=keyboard,
+            parse_mode='HTML',
+        )
+        SentMessage.send_message.append(sent_message)
+    else:
+        keyboard.add(
+            InlineKeyboardButton(
+                text='Вернуться в начало',
+                callback_data='back',
+            )
+        )
+        sent_message = await bot.send_message(
+            message.chat.id,
+            'Не получены данные из Яндекса!',
+        )
+        SentMessage.send_message.append(sent_message)
 
 
 async def back_main(message: types.Message, threads: str) -> None:
