@@ -26,10 +26,11 @@ class Processing:
         utc_offset = timedelta(hours=3)
         current_time = timezone(utc_offset)
         current_datetime = datetime.now(current_time)
-        print(segments, 'CHECK')
+        print(segments == [], 'CHECK')
         if segments:
             for segment in segments:
                 departure = self.parser.parse_json(segment, 'departure')
+                print(departure, 'departure')
                 date_departure = datetime.strptime(
                     str(departure),
                     '%Y-%m-%dT%H:%M:%S%z',
