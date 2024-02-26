@@ -28,7 +28,6 @@ async def selected_transport_type(message: types.Message, call_data) -> None:
     keyboard = InlineKeyboardMarkup(row_width=2)
     json_route = prepare_json_file_route()
     if json_route:
-        print(json_route, 'json_route')
         for key, value in json_route.items():
             name_route = value.get('name_route', None)
             transport_types = value.get('transport_types', None)
@@ -75,6 +74,7 @@ async def selected_transport_type(message: types.Message, call_data) -> None:
 
 async def selected_route(message, json_route, transport_type):
     keyboard = InlineKeyboardMarkup(row_width=2)
+    print(json_route, 'json_route')
     for key, value in json_route.items():
         tp_types = value.get('transport_type', None)
         if tp_types == transport_type:

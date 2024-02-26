@@ -54,14 +54,6 @@ class CallBackQueryHandlerTransportType:
             await selected_transport_type(call.message, call.data)
 
     @staticmethod
-    def prepare_callback_key():
-        json_route = prepare_json_file_route()
-        result = []
-        for key in json_route:
-            result.append(key)
-        return result
-
-    @staticmethod
     @bot.callback_query_handler(
         func=lambda call: call.data in [key for key in prepare_json_file_route()],
     )
