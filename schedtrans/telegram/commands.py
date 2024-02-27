@@ -82,7 +82,7 @@ class CallBackQueryHandlerTransportType:
                 CallBackQueryHandlerTransportType.result_json_route = thread_json_data
                 print(
                     thread_json_data
-                    == CallBackQueryHandlerTransportType.result_json_route.items(),
+                    == CallBackQueryHandlerTransportType.result_json_route,
                     'thread_json_data',
                 )
 
