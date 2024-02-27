@@ -85,6 +85,7 @@ class Processing:
                     if self.count_results >= 10:
                         break
             await self.detail_thread()
+            print(self.result_json_route, 'detail_route')
         else:
             self.result_json_route = None
 
@@ -110,4 +111,5 @@ class Processing:
             threads = await request.request_thread_transport_route()
             days = self.parser.parse_json(threads.json(), 'days')
             self.result_json_route[uid]['days'] = days
+        print(self.result_json_route, 'thread_process')
         return self.result_json_route
