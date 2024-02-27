@@ -80,7 +80,11 @@ class CallBackQueryHandlerTransportType:
                 await process_json_data.detail_route()
                 thread_json_data = await process_json_data.detail_thread()
                 CallBackQueryHandlerTransportType.result_json_route = thread_json_data
-                print(thread_json_data == CallBackQueryHandlerTransportType.result_json_route.items(), 'thread_json_data')
+                print(
+                    thread_json_data
+                    == CallBackQueryHandlerTransportType.result_json_route.items(),
+                    'thread_json_data',
+                )
                 await selected_route(
                     message=call.message,
                     json_route=thread_json_data,
