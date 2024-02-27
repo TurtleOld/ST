@@ -1,0 +1,4133 @@
+{
+  "search": {
+    "from": {
+      "type": "station",
+      "title": "Чёрное",
+      "short_title": "",
+      "popular_title": "",
+      "code": "s9601301",
+      "station_type": "platform",
+      "station_type_name": "платформа",
+      "transport_type": "train"
+    },
+    "to": {
+      "type": "station",
+      "title": "Серп и Молот",
+      "short_title": "",
+      "popular_title": "",
+      "code": "s9601796",
+      "station_type": "platform",
+      "station_type_name": "платформа",
+      "transport_type": "train"
+    },
+    "date": "2024-02-27"
+  },
+  "segments": [
+    {
+      "thread": {
+        "number": "6605/6606",
+        "title": "Захарово — Апрелевка",
+        "short_title": "Захарово — Апрелевка",
+        "express_type": null,
+        "transport_type": "suburban",
+        "carrier": {
+          "code": 153,
+          "title": "Центральная пригородная пассажирская компания",
+          "codes": {
+            "sirena": null,
+            "iata": null,
+            "icao": null
+          },
+          "address": "г. Москва, ул.Новорязанская, д.18, стр.22",
+          "url": "http://www.central-ppk.ru/",
+          "email": "info@central-ppk.ru",
+          "contacts": "&bull; <strong>Горячая линия для пассажиров:</strong><br/>телефон +7 (800) 775-00-00 <i>(звонок из регионов России бесплатный)</i><br/><br/>\r\n&bull; <strong>Для юридических лиц по вопросам перевозки корпоративных клиентов:</strong><br/>телефон +7 (499) 266-02-65,  доб. 7842, 7582, 7368;<br/>e-mail: <a href=\"mailto:corp@central-ppk.ru\">corp@central-ppk.ru</a><br/><br/>\r\n&bull; <strong>Пожелания и предложения:</strong> <br/>факс: +7 (499) 266-02-55<br/>e-mail: <a href=\"mailto:info@central-ppk.ru\">info@central-ppk.ru</a><br/><br/>\r\n&bull; <strong>Социальные сети:</strong><br/>\r\n<a href=\"http://www.facebook.com/CentralnayaPPK\">www.facebook.com/CentralnayaPPK</a><br/>\r\n<a href=\"http://www.vk.com/centralppk\">www.vk.com/centralppk</a><br/>\r\n<a href=\"http://www.odnoklassniki.ru/centralppk\">www.odnoklassniki.ru/centralppk</a><br/>",
+          "phone": "",
+          "logo": "https://yastat.net/s3/rasp/media/data/company/logo/cppk.png",
+          "logo_svg": null
+        },
+        "uid": "6605x6606_0_9601712_g24_4",
+        "vehicle": null,
+        "transport_subtype": {
+          "title": "Пригородный поезд",
+          "code": "suburban",
+          "color": "#CC6600"
+        },
+        "thread_method_link": "api.rasp.yandex.net/v3/thread/?date=2024-02-27&uid=6605x6606_0_9601712_g24_4"
+      },
+      "stops": "везде",
+      "from": {
+        "type": "station",
+        "title": "Чёрное",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9601301",
+        "station_type": "platform",
+        "station_type_name": "платформа",
+        "transport_type": "train"
+      },
+      "to": {
+        "type": "station",
+        "title": "Серп и Молот",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9601796",
+        "station_type": "platform",
+        "station_type_name": "платформа",
+        "transport_type": "train"
+      },
+      "departure_platform": "",
+      "arrival_platform": "",
+      "departure_terminal": null,
+      "arrival_terminal": null,
+      "duration": 2220.0,
+      "has_transfers": false,
+      "tickets_info": null,
+      "departure": "2024-02-27T04:57:00+03:00",
+      "arrival": "2024-02-27T05:34:00+03:00",
+      "start_date": "2024-02-27"
+    },
+    {
+      "thread": {
+        "number": "6615/6616",
+        "title": "Электрогорск — Лесной Городок",
+        "short_title": "Электрогорск — Лесн. Городок",
+        "express_type": null,
+        "transport_type": "suburban",
+        "carrier": {
+          "code": 153,
+          "title": "Центральная пригородная пассажирская компания",
+          "codes": {
+            "sirena": null,
+            "iata": null,
+            "icao": null
+          },
+          "address": "г. Москва, ул.Новорязанская, д.18, стр.22",
+          "url": "http://www.central-ppk.ru/",
+          "email": "info@central-ppk.ru",
+          "contacts": "&bull; <strong>Горячая линия для пассажиров:</strong><br/>телефон +7 (800) 775-00-00 <i>(звонок из регионов России бесплатный)</i><br/><br/>\r\n&bull; <strong>Для юридических лиц по вопросам перевозки корпоративных клиентов:</strong><br/>телефон +7 (499) 266-02-65,  доб. 7842, 7582, 7368;<br/>e-mail: <a href=\"mailto:corp@central-ppk.ru\">corp@central-ppk.ru</a><br/><br/>\r\n&bull; <strong>Пожелания и предложения:</strong> <br/>факс: +7 (499) 266-02-55<br/>e-mail: <a href=\"mailto:info@central-ppk.ru\">info@central-ppk.ru</a><br/><br/>\r\n&bull; <strong>Социальные сети:</strong><br/>\r\n<a href=\"http://www.facebook.com/CentralnayaPPK\">www.facebook.com/CentralnayaPPK</a><br/>\r\n<a href=\"http://www.vk.com/centralppk\">www.vk.com/centralppk</a><br/>\r\n<a href=\"http://www.odnoklassniki.ru/centralppk\">www.odnoklassniki.ru/centralppk</a><br/>",
+          "phone": "",
+          "logo": "https://yastat.net/s3/rasp/media/data/company/logo/cppk.png",
+          "logo_svg": null
+        },
+        "uid": "6615x6616_0_9600677_g24_4",
+        "vehicle": null,
+        "transport_subtype": {
+          "title": "Пригородный поезд",
+          "code": "suburban",
+          "color": "#CC6600"
+        },
+        "thread_method_link": "api.rasp.yandex.net/v3/thread/?date=2024-02-27&uid=6615x6616_0_9600677_g24_4"
+      },
+      "stops": "везде",
+      "from": {
+        "type": "station",
+        "title": "Чёрное",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9601301",
+        "station_type": "platform",
+        "station_type_name": "платформа",
+        "transport_type": "train"
+      },
+      "to": {
+        "type": "station",
+        "title": "Серп и Молот",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9601796",
+        "station_type": "platform",
+        "station_type_name": "платформа",
+        "transport_type": "train"
+      },
+      "departure_platform": "",
+      "arrival_platform": "",
+      "departure_terminal": null,
+      "arrival_terminal": null,
+      "duration": 2160.0,
+      "has_transfers": false,
+      "tickets_info": null,
+      "departure": "2024-02-27T05:27:00+03:00",
+      "arrival": "2024-02-27T06:03:00+03:00",
+      "start_date": "2024-02-27"
+    },
+    {
+      "thread": {
+        "number": "6617/6618",
+        "title": "Захарово — Апрелевка",
+        "short_title": "Захарово — Апрелевка",
+        "express_type": null,
+        "transport_type": "suburban",
+        "carrier": {
+          "code": 153,
+          "title": "Центральная пригородная пассажирская компания",
+          "codes": {
+            "sirena": null,
+            "iata": null,
+            "icao": null
+          },
+          "address": "г. Москва, ул.Новорязанская, д.18, стр.22",
+          "url": "http://www.central-ppk.ru/",
+          "email": "info@central-ppk.ru",
+          "contacts": "&bull; <strong>Горячая линия для пассажиров:</strong><br/>телефон +7 (800) 775-00-00 <i>(звонок из регионов России бесплатный)</i><br/><br/>\r\n&bull; <strong>Для юридических лиц по вопросам перевозки корпоративных клиентов:</strong><br/>телефон +7 (499) 266-02-65,  доб. 7842, 7582, 7368;<br/>e-mail: <a href=\"mailto:corp@central-ppk.ru\">corp@central-ppk.ru</a><br/><br/>\r\n&bull; <strong>Пожелания и предложения:</strong> <br/>факс: +7 (499) 266-02-55<br/>e-mail: <a href=\"mailto:info@central-ppk.ru\">info@central-ppk.ru</a><br/><br/>\r\n&bull; <strong>Социальные сети:</strong><br/>\r\n<a href=\"http://www.facebook.com/CentralnayaPPK\">www.facebook.com/CentralnayaPPK</a><br/>\r\n<a href=\"http://www.vk.com/centralppk\">www.vk.com/centralppk</a><br/>\r\n<a href=\"http://www.odnoklassniki.ru/centralppk\">www.odnoklassniki.ru/centralppk</a><br/>",
+          "phone": "",
+          "logo": "https://yastat.net/s3/rasp/media/data/company/logo/cppk.png",
+          "logo_svg": null
+        },
+        "uid": "6617x6618_0_9601712_g24_4",
+        "vehicle": null,
+        "transport_subtype": {
+          "title": "Пригородный поезд",
+          "code": "suburban",
+          "color": "#CC6600"
+        },
+        "thread_method_link": "api.rasp.yandex.net/v3/thread/?date=2024-02-27&uid=6617x6618_0_9601712_g24_4"
+      },
+      "stops": "везде",
+      "from": {
+        "type": "station",
+        "title": "Чёрное",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9601301",
+        "station_type": "platform",
+        "station_type_name": "платформа",
+        "transport_type": "train"
+      },
+      "to": {
+        "type": "station",
+        "title": "Серп и Молот",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9601796",
+        "station_type": "platform",
+        "station_type_name": "платформа",
+        "transport_type": "train"
+      },
+      "departure_platform": "",
+      "arrival_platform": "",
+      "departure_terminal": null,
+      "arrival_terminal": null,
+      "duration": 2340.0,
+      "has_transfers": false,
+      "tickets_info": null,
+      "departure": "2024-02-27T05:34:00+03:00",
+      "arrival": "2024-02-27T06:13:00+03:00",
+      "start_date": "2024-02-27"
+    },
+    {
+      "thread": {
+        "number": "6619/6620",
+        "title": "Крутое — Лесной Городок",
+        "short_title": "Крутое — Лесн. Городок",
+        "express_type": null,
+        "transport_type": "suburban",
+        "carrier": {
+          "code": 153,
+          "title": "Центральная пригородная пассажирская компания",
+          "codes": {
+            "sirena": null,
+            "iata": null,
+            "icao": null
+          },
+          "address": "г. Москва, ул.Новорязанская, д.18, стр.22",
+          "url": "http://www.central-ppk.ru/",
+          "email": "info@central-ppk.ru",
+          "contacts": "&bull; <strong>Горячая линия для пассажиров:</strong><br/>телефон +7 (800) 775-00-00 <i>(звонок из регионов России бесплатный)</i><br/><br/>\r\n&bull; <strong>Для юридических лиц по вопросам перевозки корпоративных клиентов:</strong><br/>телефон +7 (499) 266-02-65,  доб. 7842, 7582, 7368;<br/>e-mail: <a href=\"mailto:corp@central-ppk.ru\">corp@central-ppk.ru</a><br/><br/>\r\n&bull; <strong>Пожелания и предложения:</strong> <br/>факс: +7 (499) 266-02-55<br/>e-mail: <a href=\"mailto:info@central-ppk.ru\">info@central-ppk.ru</a><br/><br/>\r\n&bull; <strong>Социальные сети:</strong><br/>\r\n<a href=\"http://www.facebook.com/CentralnayaPPK\">www.facebook.com/CentralnayaPPK</a><br/>\r\n<a href=\"http://www.vk.com/centralppk\">www.vk.com/centralppk</a><br/>\r\n<a href=\"http://www.odnoklassniki.ru/centralppk\">www.odnoklassniki.ru/centralppk</a><br/>",
+          "phone": "",
+          "logo": "https://yastat.net/s3/rasp/media/data/company/logo/cppk.png",
+          "logo_svg": null
+        },
+        "uid": "6619x6620_0_9602107_g24_4",
+        "vehicle": null,
+        "transport_subtype": {
+          "title": "Пригородный поезд",
+          "code": "suburban",
+          "color": "#CC6600"
+        },
+        "thread_method_link": "api.rasp.yandex.net/v3/thread/?date=2024-02-27&uid=6619x6620_0_9602107_g24_4"
+      },
+      "stops": "везде",
+      "from": {
+        "type": "station",
+        "title": "Чёрное",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9601301",
+        "station_type": "platform",
+        "station_type_name": "платформа",
+        "transport_type": "train"
+      },
+      "to": {
+        "type": "station",
+        "title": "Серп и Молот",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9601796",
+        "station_type": "platform",
+        "station_type_name": "платформа",
+        "transport_type": "train"
+      },
+      "departure_platform": "",
+      "arrival_platform": "",
+      "departure_terminal": null,
+      "arrival_terminal": null,
+      "duration": 2280.0,
+      "has_transfers": false,
+      "tickets_info": null,
+      "departure": "2024-02-27T05:45:00+03:00",
+      "arrival": "2024-02-27T06:23:00+03:00",
+      "start_date": "2024-02-27"
+    },
+    {
+      "thread": {
+        "number": "6621/6622",
+        "title": "Петушки — Апрелевка",
+        "short_title": "Петушки — Апрелевка",
+        "express_type": null,
+        "transport_type": "suburban",
+        "carrier": {
+          "code": 153,
+          "title": "Центральная пригородная пассажирская компания",
+          "codes": {
+            "sirena": null,
+            "iata": null,
+            "icao": null
+          },
+          "address": "г. Москва, ул.Новорязанская, д.18, стр.22",
+          "url": "http://www.central-ppk.ru/",
+          "email": "info@central-ppk.ru",
+          "contacts": "&bull; <strong>Горячая линия для пассажиров:</strong><br/>телефон +7 (800) 775-00-00 <i>(звонок из регионов России бесплатный)</i><br/><br/>\r\n&bull; <strong>Для юридических лиц по вопросам перевозки корпоративных клиентов:</strong><br/>телефон +7 (499) 266-02-65,  доб. 7842, 7582, 7368;<br/>e-mail: <a href=\"mailto:corp@central-ppk.ru\">corp@central-ppk.ru</a><br/><br/>\r\n&bull; <strong>Пожелания и предложения:</strong> <br/>факс: +7 (499) 266-02-55<br/>e-mail: <a href=\"mailto:info@central-ppk.ru\">info@central-ppk.ru</a><br/><br/>\r\n&bull; <strong>Социальные сети:</strong><br/>\r\n<a href=\"http://www.facebook.com/CentralnayaPPK\">www.facebook.com/CentralnayaPPK</a><br/>\r\n<a href=\"http://www.vk.com/centralppk\">www.vk.com/centralppk</a><br/>\r\n<a href=\"http://www.odnoklassniki.ru/centralppk\">www.odnoklassniki.ru/centralppk</a><br/>",
+          "phone": "",
+          "logo": "https://yastat.net/s3/rasp/media/data/company/logo/cppk.png",
+          "logo_svg": null
+        },
+        "uid": "6621x6622_0_9612144_g24_4",
+        "vehicle": null,
+        "transport_subtype": {
+          "title": "Пригородный поезд",
+          "code": "suburban",
+          "color": "#CC6600"
+        },
+        "thread_method_link": "api.rasp.yandex.net/v3/thread/?date=2024-02-27&uid=6621x6622_0_9612144_g24_4"
+      },
+      "stops": "везде",
+      "from": {
+        "type": "station",
+        "title": "Чёрное",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9601301",
+        "station_type": "platform",
+        "station_type_name": "платформа",
+        "transport_type": "train"
+      },
+      "to": {
+        "type": "station",
+        "title": "Серп и Молот",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9601796",
+        "station_type": "platform",
+        "station_type_name": "платформа",
+        "transport_type": "train"
+      },
+      "departure_platform": "",
+      "arrival_platform": "",
+      "departure_terminal": null,
+      "arrival_terminal": null,
+      "duration": 2280.0,
+      "has_transfers": false,
+      "tickets_info": null,
+      "departure": "2024-02-27T05:55:00+03:00",
+      "arrival": "2024-02-27T06:33:00+03:00",
+      "start_date": "2024-02-27"
+    },
+    {
+      "thread": {
+        "number": "6623/6624",
+        "title": "Захарово — Апрелевка",
+        "short_title": "Захарово — Апрелевка",
+        "express_type": null,
+        "transport_type": "suburban",
+        "carrier": {
+          "code": 153,
+          "title": "Центральная пригородная пассажирская компания",
+          "codes": {
+            "sirena": null,
+            "iata": null,
+            "icao": null
+          },
+          "address": "г. Москва, ул.Новорязанская, д.18, стр.22",
+          "url": "http://www.central-ppk.ru/",
+          "email": "info@central-ppk.ru",
+          "contacts": "&bull; <strong>Горячая линия для пассажиров:</strong><br/>телефон +7 (800) 775-00-00 <i>(звонок из регионов России бесплатный)</i><br/><br/>\r\n&bull; <strong>Для юридических лиц по вопросам перевозки корпоративных клиентов:</strong><br/>телефон +7 (499) 266-02-65,  доб. 7842, 7582, 7368;<br/>e-mail: <a href=\"mailto:corp@central-ppk.ru\">corp@central-ppk.ru</a><br/><br/>\r\n&bull; <strong>Пожелания и предложения:</strong> <br/>факс: +7 (499) 266-02-55<br/>e-mail: <a href=\"mailto:info@central-ppk.ru\">info@central-ppk.ru</a><br/><br/>\r\n&bull; <strong>Социальные сети:</strong><br/>\r\n<a href=\"http://www.facebook.com/CentralnayaPPK\">www.facebook.com/CentralnayaPPK</a><br/>\r\n<a href=\"http://www.vk.com/centralppk\">www.vk.com/centralppk</a><br/>\r\n<a href=\"http://www.odnoklassniki.ru/centralppk\">www.odnoklassniki.ru/centralppk</a><br/>",
+          "phone": "",
+          "logo": "https://yastat.net/s3/rasp/media/data/company/logo/cppk.png",
+          "logo_svg": null
+        },
+        "uid": "6623x6624_0_9601712_g24_4",
+        "vehicle": null,
+        "transport_subtype": {
+          "title": "Стандарт плюс",
+          "code": "stdplus",
+          "color": "#17c104"
+        },
+        "thread_method_link": "api.rasp.yandex.net/v3/thread/?date=2024-02-27&uid=6623x6624_0_9601712_g24_4"
+      },
+      "stops": "Железнодорожная, Реутов, Новогиреево, Нижегородская (Горьковское направление), Серп и Молот",
+      "from": {
+        "type": "station",
+        "title": "Чёрное",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9601301",
+        "station_type": "platform",
+        "station_type_name": "платформа",
+        "transport_type": "train"
+      },
+      "to": {
+        "type": "station",
+        "title": "Серп и Молот",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9601796",
+        "station_type": "platform",
+        "station_type_name": "платформа",
+        "transport_type": "train"
+      },
+      "departure_platform": "",
+      "arrival_platform": "",
+      "departure_terminal": null,
+      "arrival_terminal": null,
+      "duration": 1740.0,
+      "has_transfers": false,
+      "tickets_info": null,
+      "departure": "2024-02-27T06:09:00+03:00",
+      "arrival": "2024-02-27T06:38:00+03:00",
+      "start_date": "2024-02-27"
+    },
+    {
+      "thread": {
+        "number": "6627/6628",
+        "title": "Крутое — Апрелевка",
+        "short_title": "Крутое — Апрелевка",
+        "express_type": null,
+        "transport_type": "suburban",
+        "carrier": {
+          "code": 153,
+          "title": "Центральная пригородная пассажирская компания",
+          "codes": {
+            "sirena": null,
+            "iata": null,
+            "icao": null
+          },
+          "address": "г. Москва, ул.Новорязанская, д.18, стр.22",
+          "url": "http://www.central-ppk.ru/",
+          "email": "info@central-ppk.ru",
+          "contacts": "&bull; <strong>Горячая линия для пассажиров:</strong><br/>телефон +7 (800) 775-00-00 <i>(звонок из регионов России бесплатный)</i><br/><br/>\r\n&bull; <strong>Для юридических лиц по вопросам перевозки корпоративных клиентов:</strong><br/>телефон +7 (499) 266-02-65,  доб. 7842, 7582, 7368;<br/>e-mail: <a href=\"mailto:corp@central-ppk.ru\">corp@central-ppk.ru</a><br/><br/>\r\n&bull; <strong>Пожелания и предложения:</strong> <br/>факс: +7 (499) 266-02-55<br/>e-mail: <a href=\"mailto:info@central-ppk.ru\">info@central-ppk.ru</a><br/><br/>\r\n&bull; <strong>Социальные сети:</strong><br/>\r\n<a href=\"http://www.facebook.com/CentralnayaPPK\">www.facebook.com/CentralnayaPPK</a><br/>\r\n<a href=\"http://www.vk.com/centralppk\">www.vk.com/centralppk</a><br/>\r\n<a href=\"http://www.odnoklassniki.ru/centralppk\">www.odnoklassniki.ru/centralppk</a><br/>",
+          "phone": "",
+          "logo": "https://yastat.net/s3/rasp/media/data/company/logo/cppk.png",
+          "logo_svg": null
+        },
+        "uid": "6627x6628_0_9602107_g24_4",
+        "vehicle": null,
+        "transport_subtype": {
+          "title": "Пригородный поезд",
+          "code": "suburban",
+          "color": "#CC6600"
+        },
+        "thread_method_link": "api.rasp.yandex.net/v3/thread/?date=2024-02-27&uid=6627x6628_0_9602107_g24_4"
+      },
+      "stops": "везде",
+      "from": {
+        "type": "station",
+        "title": "Чёрное",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9601301",
+        "station_type": "platform",
+        "station_type_name": "платформа",
+        "transport_type": "train"
+      },
+      "to": {
+        "type": "station",
+        "title": "Серп и Молот",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9601796",
+        "station_type": "platform",
+        "station_type_name": "платформа",
+        "transport_type": "train"
+      },
+      "departure_platform": "",
+      "arrival_platform": "",
+      "departure_terminal": null,
+      "arrival_terminal": null,
+      "duration": 2280.0,
+      "has_transfers": false,
+      "tickets_info": null,
+      "departure": "2024-02-27T06:15:00+03:00",
+      "arrival": "2024-02-27T06:53:00+03:00",
+      "start_date": "2024-02-27"
+    },
+    {
+      "thread": {
+        "number": "6629/6630",
+        "title": "Электрогорск — Апрелевка",
+        "short_title": "Электрогорск — Апрелевка",
+        "express_type": null,
+        "transport_type": "suburban",
+        "carrier": {
+          "code": 153,
+          "title": "Центральная пригородная пассажирская компания",
+          "codes": {
+            "sirena": null,
+            "iata": null,
+            "icao": null
+          },
+          "address": "г. Москва, ул.Новорязанская, д.18, стр.22",
+          "url": "http://www.central-ppk.ru/",
+          "email": "info@central-ppk.ru",
+          "contacts": "&bull; <strong>Горячая линия для пассажиров:</strong><br/>телефон +7 (800) 775-00-00 <i>(звонок из регионов России бесплатный)</i><br/><br/>\r\n&bull; <strong>Для юридических лиц по вопросам перевозки корпоративных клиентов:</strong><br/>телефон +7 (499) 266-02-65,  доб. 7842, 7582, 7368;<br/>e-mail: <a href=\"mailto:corp@central-ppk.ru\">corp@central-ppk.ru</a><br/><br/>\r\n&bull; <strong>Пожелания и предложения:</strong> <br/>факс: +7 (499) 266-02-55<br/>e-mail: <a href=\"mailto:info@central-ppk.ru\">info@central-ppk.ru</a><br/><br/>\r\n&bull; <strong>Социальные сети:</strong><br/>\r\n<a href=\"http://www.facebook.com/CentralnayaPPK\">www.facebook.com/CentralnayaPPK</a><br/>\r\n<a href=\"http://www.vk.com/centralppk\">www.vk.com/centralppk</a><br/>\r\n<a href=\"http://www.odnoklassniki.ru/centralppk\">www.odnoklassniki.ru/centralppk</a><br/>",
+          "phone": "",
+          "logo": "https://yastat.net/s3/rasp/media/data/company/logo/cppk.png",
+          "logo_svg": null
+        },
+        "uid": "6629x6630_0_9600677_g24_4",
+        "vehicle": null,
+        "transport_subtype": {
+          "title": "Пригородный поезд",
+          "code": "suburban",
+          "color": "#CC6600"
+        },
+        "thread_method_link": "api.rasp.yandex.net/v3/thread/?date=2024-02-27&uid=6629x6630_0_9600677_g24_4"
+      },
+      "stops": "везде",
+      "from": {
+        "type": "station",
+        "title": "Чёрное",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9601301",
+        "station_type": "platform",
+        "station_type_name": "платформа",
+        "transport_type": "train"
+      },
+      "to": {
+        "type": "station",
+        "title": "Серп и Молот",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9601796",
+        "station_type": "platform",
+        "station_type_name": "платформа",
+        "transport_type": "train"
+      },
+      "departure_platform": "",
+      "arrival_platform": "",
+      "departure_terminal": null,
+      "arrival_terminal": null,
+      "duration": 2220.0,
+      "has_transfers": false,
+      "tickets_info": null,
+      "departure": "2024-02-27T06:21:00+03:00",
+      "arrival": "2024-02-27T06:58:00+03:00",
+      "start_date": "2024-02-27"
+    },
+    {
+      "thread": {
+        "number": "6631/6632",
+        "title": "Крутое — Лесной Городок",
+        "short_title": "Крутое — Лесн. Городок",
+        "express_type": null,
+        "transport_type": "suburban",
+        "carrier": {
+          "code": 153,
+          "title": "Центральная пригородная пассажирская компания",
+          "codes": {
+            "sirena": null,
+            "iata": null,
+            "icao": null
+          },
+          "address": "г. Москва, ул.Новорязанская, д.18, стр.22",
+          "url": "http://www.central-ppk.ru/",
+          "email": "info@central-ppk.ru",
+          "contacts": "&bull; <strong>Горячая линия для пассажиров:</strong><br/>телефон +7 (800) 775-00-00 <i>(звонок из регионов России бесплатный)</i><br/><br/>\r\n&bull; <strong>Для юридических лиц по вопросам перевозки корпоративных клиентов:</strong><br/>телефон +7 (499) 266-02-65,  доб. 7842, 7582, 7368;<br/>e-mail: <a href=\"mailto:corp@central-ppk.ru\">corp@central-ppk.ru</a><br/><br/>\r\n&bull; <strong>Пожелания и предложения:</strong> <br/>факс: +7 (499) 266-02-55<br/>e-mail: <a href=\"mailto:info@central-ppk.ru\">info@central-ppk.ru</a><br/><br/>\r\n&bull; <strong>Социальные сети:</strong><br/>\r\n<a href=\"http://www.facebook.com/CentralnayaPPK\">www.facebook.com/CentralnayaPPK</a><br/>\r\n<a href=\"http://www.vk.com/centralppk\">www.vk.com/centralppk</a><br/>\r\n<a href=\"http://www.odnoklassniki.ru/centralppk\">www.odnoklassniki.ru/centralppk</a><br/>",
+          "phone": "",
+          "logo": "https://yastat.net/s3/rasp/media/data/company/logo/cppk.png",
+          "logo_svg": null
+        },
+        "uid": "6631x6632_0_9602107_g24_4",
+        "vehicle": null,
+        "transport_subtype": {
+          "title": "Пригородный поезд",
+          "code": "suburban",
+          "color": "#CC6600"
+        },
+        "thread_method_link": "api.rasp.yandex.net/v3/thread/?date=2024-02-27&uid=6631x6632_0_9602107_g24_4"
+      },
+      "stops": "Железнодорожная, Реутов, Новогиреево, Нижегородская (Горьковское направление), Серп и Молот",
+      "from": {
+        "type": "station",
+        "title": "Чёрное",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9601301",
+        "station_type": "platform",
+        "station_type_name": "платформа",
+        "transport_type": "train"
+      },
+      "to": {
+        "type": "station",
+        "title": "Серп и Молот",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9601796",
+        "station_type": "platform",
+        "station_type_name": "платформа",
+        "transport_type": "train"
+      },
+      "departure_platform": "",
+      "arrival_platform": "",
+      "departure_terminal": null,
+      "arrival_terminal": null,
+      "duration": 2160.0,
+      "has_transfers": false,
+      "tickets_info": null,
+      "departure": "2024-02-27T06:27:00+03:00",
+      "arrival": "2024-02-27T07:03:00+03:00",
+      "start_date": "2024-02-27"
+    },
+    {
+      "thread": {
+        "number": "6633/6634",
+        "title": "Захарово — Апрелевка",
+        "short_title": "Захарово — Апрелевка",
+        "express_type": null,
+        "transport_type": "suburban",
+        "carrier": {
+          "code": 153,
+          "title": "Центральная пригородная пассажирская компания",
+          "codes": {
+            "sirena": null,
+            "iata": null,
+            "icao": null
+          },
+          "address": "г. Москва, ул.Новорязанская, д.18, стр.22",
+          "url": "http://www.central-ppk.ru/",
+          "email": "info@central-ppk.ru",
+          "contacts": "&bull; <strong>Горячая линия для пассажиров:</strong><br/>телефон +7 (800) 775-00-00 <i>(звонок из регионов России бесплатный)</i><br/><br/>\r\n&bull; <strong>Для юридических лиц по вопросам перевозки корпоративных клиентов:</strong><br/>телефон +7 (499) 266-02-65,  доб. 7842, 7582, 7368;<br/>e-mail: <a href=\"mailto:corp@central-ppk.ru\">corp@central-ppk.ru</a><br/><br/>\r\n&bull; <strong>Пожелания и предложения:</strong> <br/>факс: +7 (499) 266-02-55<br/>e-mail: <a href=\"mailto:info@central-ppk.ru\">info@central-ppk.ru</a><br/><br/>\r\n&bull; <strong>Социальные сети:</strong><br/>\r\n<a href=\"http://www.facebook.com/CentralnayaPPK\">www.facebook.com/CentralnayaPPK</a><br/>\r\n<a href=\"http://www.vk.com/centralppk\">www.vk.com/centralppk</a><br/>\r\n<a href=\"http://www.odnoklassniki.ru/centralppk\">www.odnoklassniki.ru/centralppk</a><br/>",
+          "phone": "",
+          "logo": "https://yastat.net/s3/rasp/media/data/company/logo/cppk.png",
+          "logo_svg": null
+        },
+        "uid": "6633x6634_0_9601712_g24_4",
+        "vehicle": null,
+        "transport_subtype": {
+          "title": "Пригородный поезд",
+          "code": "suburban",
+          "color": "#CC6600"
+        },
+        "thread_method_link": "api.rasp.yandex.net/v3/thread/?date=2024-02-27&uid=6633x6634_0_9601712_g24_4"
+      },
+      "stops": "везде",
+      "from": {
+        "type": "station",
+        "title": "Чёрное",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9601301",
+        "station_type": "platform",
+        "station_type_name": "платформа",
+        "transport_type": "train"
+      },
+      "to": {
+        "type": "station",
+        "title": "Серп и Молот",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9601796",
+        "station_type": "platform",
+        "station_type_name": "платформа",
+        "transport_type": "train"
+      },
+      "departure_platform": "",
+      "arrival_platform": "",
+      "departure_terminal": null,
+      "arrival_terminal": null,
+      "duration": 2220.0,
+      "has_transfers": false,
+      "tickets_info": null,
+      "departure": "2024-02-27T06:36:00+03:00",
+      "arrival": "2024-02-27T07:13:00+03:00",
+      "start_date": "2024-02-27"
+    },
+    {
+      "thread": {
+        "number": "6635/6636",
+        "title": "Павловский Посад — Лесной Городок",
+        "short_title": "Павлов.Посад — Лесн. Городок",
+        "express_type": null,
+        "transport_type": "suburban",
+        "carrier": {
+          "code": 153,
+          "title": "Центральная пригородная пассажирская компания",
+          "codes": {
+            "sirena": null,
+            "iata": null,
+            "icao": null
+          },
+          "address": "г. Москва, ул.Новорязанская, д.18, стр.22",
+          "url": "http://www.central-ppk.ru/",
+          "email": "info@central-ppk.ru",
+          "contacts": "&bull; <strong>Горячая линия для пассажиров:</strong><br/>телефон +7 (800) 775-00-00 <i>(звонок из регионов России бесплатный)</i><br/><br/>\r\n&bull; <strong>Для юридических лиц по вопросам перевозки корпоративных клиентов:</strong><br/>телефон +7 (499) 266-02-65,  доб. 7842, 7582, 7368;<br/>e-mail: <a href=\"mailto:corp@central-ppk.ru\">corp@central-ppk.ru</a><br/><br/>\r\n&bull; <strong>Пожелания и предложения:</strong> <br/>факс: +7 (499) 266-02-55<br/>e-mail: <a href=\"mailto:info@central-ppk.ru\">info@central-ppk.ru</a><br/><br/>\r\n&bull; <strong>Социальные сети:</strong><br/>\r\n<a href=\"http://www.facebook.com/CentralnayaPPK\">www.facebook.com/CentralnayaPPK</a><br/>\r\n<a href=\"http://www.vk.com/centralppk\">www.vk.com/centralppk</a><br/>\r\n<a href=\"http://www.odnoklassniki.ru/centralppk\">www.odnoklassniki.ru/centralppk</a><br/>",
+          "phone": "",
+          "logo": "https://yastat.net/s3/rasp/media/data/company/logo/cppk.png",
+          "logo_svg": null
+        },
+        "uid": "6635x6636_0_9601872_g24_4",
+        "vehicle": null,
+        "transport_subtype": {
+          "title": "Стандарт плюс",
+          "code": "stdplus",
+          "color": "#17c104"
+        },
+        "thread_method_link": "api.rasp.yandex.net/v3/thread/?date=2024-02-27&uid=6635x6636_0_9601872_g24_4"
+      },
+      "stops": "везде",
+      "from": {
+        "type": "station",
+        "title": "Чёрное",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9601301",
+        "station_type": "platform",
+        "station_type_name": "платформа",
+        "transport_type": "train"
+      },
+      "to": {
+        "type": "station",
+        "title": "Серп и Молот",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9601796",
+        "station_type": "platform",
+        "station_type_name": "платформа",
+        "transport_type": "train"
+      },
+      "departure_platform": "",
+      "arrival_platform": "",
+      "departure_terminal": null,
+      "arrival_terminal": null,
+      "duration": 2340.0,
+      "has_transfers": false,
+      "tickets_info": null,
+      "departure": "2024-02-27T06:44:00+03:00",
+      "arrival": "2024-02-27T07:23:00+03:00",
+      "start_date": "2024-02-27"
+    },
+    {
+      "thread": {
+        "number": "6639/6640",
+        "title": "Петушки — Очаково",
+        "short_title": "Петушки — Очаково",
+        "express_type": null,
+        "transport_type": "suburban",
+        "carrier": {
+          "code": 153,
+          "title": "Центральная пригородная пассажирская компания",
+          "codes": {
+            "sirena": null,
+            "iata": null,
+            "icao": null
+          },
+          "address": "г. Москва, ул.Новорязанская, д.18, стр.22",
+          "url": "http://www.central-ppk.ru/",
+          "email": "info@central-ppk.ru",
+          "contacts": "&bull; <strong>Горячая линия для пассажиров:</strong><br/>телефон +7 (800) 775-00-00 <i>(звонок из регионов России бесплатный)</i><br/><br/>\r\n&bull; <strong>Для юридических лиц по вопросам перевозки корпоративных клиентов:</strong><br/>телефон +7 (499) 266-02-65,  доб. 7842, 7582, 7368;<br/>e-mail: <a href=\"mailto:corp@central-ppk.ru\">corp@central-ppk.ru</a><br/><br/>\r\n&bull; <strong>Пожелания и предложения:</strong> <br/>факс: +7 (499) 266-02-55<br/>e-mail: <a href=\"mailto:info@central-ppk.ru\">info@central-ppk.ru</a><br/><br/>\r\n&bull; <strong>Социальные сети:</strong><br/>\r\n<a href=\"http://www.facebook.com/CentralnayaPPK\">www.facebook.com/CentralnayaPPK</a><br/>\r\n<a href=\"http://www.vk.com/centralppk\">www.vk.com/centralppk</a><br/>\r\n<a href=\"http://www.odnoklassniki.ru/centralppk\">www.odnoklassniki.ru/centralppk</a><br/>",
+          "phone": "",
+          "logo": "https://yastat.net/s3/rasp/media/data/company/logo/cppk.png",
+          "logo_svg": null
+        },
+        "uid": "6639x6640_0_9612144_g24_4",
+        "vehicle": null,
+        "transport_subtype": {
+          "title": "Пригородный поезд",
+          "code": "suburban",
+          "color": "#CC6600"
+        },
+        "thread_method_link": "api.rasp.yandex.net/v3/thread/?date=2024-02-27&uid=6639x6640_0_9612144_g24_4"
+      },
+      "stops": "везде",
+      "from": {
+        "type": "station",
+        "title": "Чёрное",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9601301",
+        "station_type": "platform",
+        "station_type_name": "платформа",
+        "transport_type": "train"
+      },
+      "to": {
+        "type": "station",
+        "title": "Серп и Молот",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9601796",
+        "station_type": "platform",
+        "station_type_name": "платформа",
+        "transport_type": "train"
+      },
+      "departure_platform": "",
+      "arrival_platform": "",
+      "departure_terminal": null,
+      "arrival_terminal": null,
+      "duration": 2220.0,
+      "has_transfers": false,
+      "tickets_info": null,
+      "departure": "2024-02-27T07:01:00+03:00",
+      "arrival": "2024-02-27T07:38:00+03:00",
+      "start_date": "2024-02-27"
+    },
+    {
+      "thread": {
+        "number": "6641/6642",
+        "title": "Захарово — Очаково",
+        "short_title": "Захарово — Очаково",
+        "express_type": null,
+        "transport_type": "suburban",
+        "carrier": {
+          "code": 153,
+          "title": "Центральная пригородная пассажирская компания",
+          "codes": {
+            "sirena": null,
+            "iata": null,
+            "icao": null
+          },
+          "address": "г. Москва, ул.Новорязанская, д.18, стр.22",
+          "url": "http://www.central-ppk.ru/",
+          "email": "info@central-ppk.ru",
+          "contacts": "&bull; <strong>Горячая линия для пассажиров:</strong><br/>телефон +7 (800) 775-00-00 <i>(звонок из регионов России бесплатный)</i><br/><br/>\r\n&bull; <strong>Для юридических лиц по вопросам перевозки корпоративных клиентов:</strong><br/>телефон +7 (499) 266-02-65,  доб. 7842, 7582, 7368;<br/>e-mail: <a href=\"mailto:corp@central-ppk.ru\">corp@central-ppk.ru</a><br/><br/>\r\n&bull; <strong>Пожелания и предложения:</strong> <br/>факс: +7 (499) 266-02-55<br/>e-mail: <a href=\"mailto:info@central-ppk.ru\">info@central-ppk.ru</a><br/><br/>\r\n&bull; <strong>Социальные сети:</strong><br/>\r\n<a href=\"http://www.facebook.com/CentralnayaPPK\">www.facebook.com/CentralnayaPPK</a><br/>\r\n<a href=\"http://www.vk.com/centralppk\">www.vk.com/centralppk</a><br/>\r\n<a href=\"http://www.odnoklassniki.ru/centralppk\">www.odnoklassniki.ru/centralppk</a><br/>",
+          "phone": "",
+          "logo": "https://yastat.net/s3/rasp/media/data/company/logo/cppk.png",
+          "logo_svg": null
+        },
+        "uid": "6641x6642_0_9601712_g24_4",
+        "vehicle": null,
+        "transport_subtype": {
+          "title": "Пригородный поезд",
+          "code": "suburban",
+          "color": "#CC6600"
+        },
+        "thread_method_link": "api.rasp.yandex.net/v3/thread/?date=2024-02-27&uid=6641x6642_0_9601712_g24_4"
+      },
+      "stops": "везде",
+      "from": {
+        "type": "station",
+        "title": "Чёрное",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9601301",
+        "station_type": "platform",
+        "station_type_name": "платформа",
+        "transport_type": "train"
+      },
+      "to": {
+        "type": "station",
+        "title": "Серп и Молот",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9601796",
+        "station_type": "platform",
+        "station_type_name": "платформа",
+        "transport_type": "train"
+      },
+      "departure_platform": "",
+      "arrival_platform": "",
+      "departure_terminal": null,
+      "arrival_terminal": null,
+      "duration": 2220.0,
+      "has_transfers": false,
+      "tickets_info": null,
+      "departure": "2024-02-27T07:16:00+03:00",
+      "arrival": "2024-02-27T07:53:00+03:00",
+      "start_date": "2024-02-27"
+    },
+    {
+      "thread": {
+        "number": "6647/6648",
+        "title": "Электрогорск — Очаково",
+        "short_title": "Электрогорск — Очаково",
+        "express_type": null,
+        "transport_type": "suburban",
+        "carrier": {
+          "code": 153,
+          "title": "Центральная пригородная пассажирская компания",
+          "codes": {
+            "sirena": null,
+            "iata": null,
+            "icao": null
+          },
+          "address": "г. Москва, ул.Новорязанская, д.18, стр.22",
+          "url": "http://www.central-ppk.ru/",
+          "email": "info@central-ppk.ru",
+          "contacts": "&bull; <strong>Горячая линия для пассажиров:</strong><br/>телефон +7 (800) 775-00-00 <i>(звонок из регионов России бесплатный)</i><br/><br/>\r\n&bull; <strong>Для юридических лиц по вопросам перевозки корпоративных клиентов:</strong><br/>телефон +7 (499) 266-02-65,  доб. 7842, 7582, 7368;<br/>e-mail: <a href=\"mailto:corp@central-ppk.ru\">corp@central-ppk.ru</a><br/><br/>\r\n&bull; <strong>Пожелания и предложения:</strong> <br/>факс: +7 (499) 266-02-55<br/>e-mail: <a href=\"mailto:info@central-ppk.ru\">info@central-ppk.ru</a><br/><br/>\r\n&bull; <strong>Социальные сети:</strong><br/>\r\n<a href=\"http://www.facebook.com/CentralnayaPPK\">www.facebook.com/CentralnayaPPK</a><br/>\r\n<a href=\"http://www.vk.com/centralppk\">www.vk.com/centralppk</a><br/>\r\n<a href=\"http://www.odnoklassniki.ru/centralppk\">www.odnoklassniki.ru/centralppk</a><br/>",
+          "phone": "",
+          "logo": "https://yastat.net/s3/rasp/media/data/company/logo/cppk.png",
+          "logo_svg": null
+        },
+        "uid": "6647x6648_0_9600677_g24_4",
+        "vehicle": null,
+        "transport_subtype": {
+          "title": "Пригородный поезд",
+          "code": "suburban",
+          "color": "#CC6600"
+        },
+        "thread_method_link": "api.rasp.yandex.net/v3/thread/?date=2024-02-27&uid=6647x6648_0_9600677_g24_4"
+      },
+      "stops": "Железнодорожная, Реутов, Новогиреево, Нижегородская (Горьковское направление), Серп и Молот",
+      "from": {
+        "type": "station",
+        "title": "Чёрное",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9601301",
+        "station_type": "platform",
+        "station_type_name": "платформа",
+        "transport_type": "train"
+      },
+      "to": {
+        "type": "station",
+        "title": "Серп и Молот",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9601796",
+        "station_type": "platform",
+        "station_type_name": "платформа",
+        "transport_type": "train"
+      },
+      "departure_platform": "",
+      "arrival_platform": "",
+      "departure_terminal": null,
+      "arrival_terminal": null,
+      "duration": 2700.0,
+      "has_transfers": false,
+      "tickets_info": null,
+      "departure": "2024-02-27T07:28:00+03:00",
+      "arrival": "2024-02-27T08:13:00+03:00",
+      "start_date": "2024-02-27"
+    },
+    {
+      "thread": {
+        "number": "6649/6650",
+        "title": "Петушки — Апрелевка",
+        "short_title": "Петушки — Апрелевка",
+        "express_type": null,
+        "transport_type": "suburban",
+        "carrier": {
+          "code": 153,
+          "title": "Центральная пригородная пассажирская компания",
+          "codes": {
+            "sirena": null,
+            "iata": null,
+            "icao": null
+          },
+          "address": "г. Москва, ул.Новорязанская, д.18, стр.22",
+          "url": "http://www.central-ppk.ru/",
+          "email": "info@central-ppk.ru",
+          "contacts": "&bull; <strong>Горячая линия для пассажиров:</strong><br/>телефон +7 (800) 775-00-00 <i>(звонок из регионов России бесплатный)</i><br/><br/>\r\n&bull; <strong>Для юридических лиц по вопросам перевозки корпоративных клиентов:</strong><br/>телефон +7 (499) 266-02-65,  доб. 7842, 7582, 7368;<br/>e-mail: <a href=\"mailto:corp@central-ppk.ru\">corp@central-ppk.ru</a><br/><br/>\r\n&bull; <strong>Пожелания и предложения:</strong> <br/>факс: +7 (499) 266-02-55<br/>e-mail: <a href=\"mailto:info@central-ppk.ru\">info@central-ppk.ru</a><br/><br/>\r\n&bull; <strong>Социальные сети:</strong><br/>\r\n<a href=\"http://www.facebook.com/CentralnayaPPK\">www.facebook.com/CentralnayaPPK</a><br/>\r\n<a href=\"http://www.vk.com/centralppk\">www.vk.com/centralppk</a><br/>\r\n<a href=\"http://www.odnoklassniki.ru/centralppk\">www.odnoklassniki.ru/centralppk</a><br/>",
+          "phone": "",
+          "logo": "https://yastat.net/s3/rasp/media/data/company/logo/cppk.png",
+          "logo_svg": null
+        },
+        "uid": "6649x6650_0_9612144_g24_4",
+        "vehicle": null,
+        "transport_subtype": {
+          "title": "Пригородный поезд",
+          "code": "suburban",
+          "color": "#CC6600"
+        },
+        "thread_method_link": "api.rasp.yandex.net/v3/thread/?date=2024-02-27&uid=6649x6650_0_9612144_g24_4"
+      },
+      "stops": "Железнодорожная, Реутов, Новогиреево, Нижегородская (Горьковское направление), Серп и Молот",
+      "from": {
+        "type": "station",
+        "title": "Чёрное",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9601301",
+        "station_type": "platform",
+        "station_type_name": "платформа",
+        "transport_type": "train"
+      },
+      "to": {
+        "type": "station",
+        "title": "Серп и Молот",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9601796",
+        "station_type": "platform",
+        "station_type_name": "платформа",
+        "transport_type": "train"
+      },
+      "departure_platform": "",
+      "arrival_platform": "",
+      "departure_terminal": null,
+      "arrival_terminal": null,
+      "duration": 1740.0,
+      "has_transfers": false,
+      "tickets_info": null,
+      "departure": "2024-02-27T07:49:00+03:00",
+      "arrival": "2024-02-27T08:18:00+03:00",
+      "start_date": "2024-02-27"
+    },
+    {
+      "thread": {
+        "number": "6657/6658",
+        "title": "Петушки — Апрелевка",
+        "short_title": "Петушки — Апрелевка",
+        "express_type": null,
+        "transport_type": "suburban",
+        "carrier": {
+          "code": 153,
+          "title": "Центральная пригородная пассажирская компания",
+          "codes": {
+            "sirena": null,
+            "iata": null,
+            "icao": null
+          },
+          "address": "г. Москва, ул.Новорязанская, д.18, стр.22",
+          "url": "http://www.central-ppk.ru/",
+          "email": "info@central-ppk.ru",
+          "contacts": "&bull; <strong>Горячая линия для пассажиров:</strong><br/>телефон +7 (800) 775-00-00 <i>(звонок из регионов России бесплатный)</i><br/><br/>\r\n&bull; <strong>Для юридических лиц по вопросам перевозки корпоративных клиентов:</strong><br/>телефон +7 (499) 266-02-65,  доб. 7842, 7582, 7368;<br/>e-mail: <a href=\"mailto:corp@central-ppk.ru\">corp@central-ppk.ru</a><br/><br/>\r\n&bull; <strong>Пожелания и предложения:</strong> <br/>факс: +7 (499) 266-02-55<br/>e-mail: <a href=\"mailto:info@central-ppk.ru\">info@central-ppk.ru</a><br/><br/>\r\n&bull; <strong>Социальные сети:</strong><br/>\r\n<a href=\"http://www.facebook.com/CentralnayaPPK\">www.facebook.com/CentralnayaPPK</a><br/>\r\n<a href=\"http://www.vk.com/centralppk\">www.vk.com/centralppk</a><br/>\r\n<a href=\"http://www.odnoklassniki.ru/centralppk\">www.odnoklassniki.ru/centralppk</a><br/>",
+          "phone": "",
+          "logo": "https://yastat.net/s3/rasp/media/data/company/logo/cppk.png",
+          "logo_svg": null
+        },
+        "uid": "6657x6658_0_9612144_g24_4",
+        "vehicle": null,
+        "transport_subtype": {
+          "title": "Пригородный поезд",
+          "code": "suburban",
+          "color": "#CC6600"
+        },
+        "thread_method_link": "api.rasp.yandex.net/v3/thread/?date=2024-02-27&uid=6657x6658_0_9612144_g24_4"
+      },
+      "stops": "везде",
+      "from": {
+        "type": "station",
+        "title": "Чёрное",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9601301",
+        "station_type": "platform",
+        "station_type_name": "платформа",
+        "transport_type": "train"
+      },
+      "to": {
+        "type": "station",
+        "title": "Серп и Молот",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9601796",
+        "station_type": "platform",
+        "station_type_name": "платформа",
+        "transport_type": "train"
+      },
+      "departure_platform": "",
+      "arrival_platform": "",
+      "departure_terminal": null,
+      "arrival_terminal": null,
+      "duration": 2220.0,
+      "has_transfers": false,
+      "tickets_info": null,
+      "departure": "2024-02-27T08:06:00+03:00",
+      "arrival": "2024-02-27T08:43:00+03:00",
+      "start_date": "2024-02-27"
+    },
+    {
+      "thread": {
+        "number": "6663/6664",
+        "title": "Крутое — Апрелевка",
+        "short_title": "Крутое — Апрелевка",
+        "express_type": null,
+        "transport_type": "suburban",
+        "carrier": {
+          "code": 153,
+          "title": "Центральная пригородная пассажирская компания",
+          "codes": {
+            "sirena": null,
+            "iata": null,
+            "icao": null
+          },
+          "address": "г. Москва, ул.Новорязанская, д.18, стр.22",
+          "url": "http://www.central-ppk.ru/",
+          "email": "info@central-ppk.ru",
+          "contacts": "&bull; <strong>Горячая линия для пассажиров:</strong><br/>телефон +7 (800) 775-00-00 <i>(звонок из регионов России бесплатный)</i><br/><br/>\r\n&bull; <strong>Для юридических лиц по вопросам перевозки корпоративных клиентов:</strong><br/>телефон +7 (499) 266-02-65,  доб. 7842, 7582, 7368;<br/>e-mail: <a href=\"mailto:corp@central-ppk.ru\">corp@central-ppk.ru</a><br/><br/>\r\n&bull; <strong>Пожелания и предложения:</strong> <br/>факс: +7 (499) 266-02-55<br/>e-mail: <a href=\"mailto:info@central-ppk.ru\">info@central-ppk.ru</a><br/><br/>\r\n&bull; <strong>Социальные сети:</strong><br/>\r\n<a href=\"http://www.facebook.com/CentralnayaPPK\">www.facebook.com/CentralnayaPPK</a><br/>\r\n<a href=\"http://www.vk.com/centralppk\">www.vk.com/centralppk</a><br/>\r\n<a href=\"http://www.odnoklassniki.ru/centralppk\">www.odnoklassniki.ru/centralppk</a><br/>",
+          "phone": "",
+          "logo": "https://yastat.net/s3/rasp/media/data/company/logo/cppk.png",
+          "logo_svg": null
+        },
+        "uid": "6663x6664_0_9602107_g24_4",
+        "vehicle": null,
+        "transport_subtype": {
+          "title": "Пригородный поезд",
+          "code": "suburban",
+          "color": "#CC6600"
+        },
+        "thread_method_link": "api.rasp.yandex.net/v3/thread/?date=2024-02-27&uid=6663x6664_0_9602107_g24_4"
+      },
+      "stops": "везде",
+      "from": {
+        "type": "station",
+        "title": "Чёрное",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9601301",
+        "station_type": "platform",
+        "station_type_name": "платформа",
+        "transport_type": "train"
+      },
+      "to": {
+        "type": "station",
+        "title": "Серп и Молот",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9601796",
+        "station_type": "platform",
+        "station_type_name": "платформа",
+        "transport_type": "train"
+      },
+      "departure_platform": "",
+      "arrival_platform": "",
+      "departure_terminal": null,
+      "arrival_terminal": null,
+      "duration": 2160.0,
+      "has_transfers": false,
+      "tickets_info": null,
+      "departure": "2024-02-27T08:27:00+03:00",
+      "arrival": "2024-02-27T09:03:00+03:00",
+      "start_date": "2024-02-27"
+    },
+    {
+      "thread": {
+        "number": "6665/6666",
+        "title": "Захарово — Лесной Городок",
+        "short_title": "Захарово — Лесн. Городок",
+        "express_type": null,
+        "transport_type": "suburban",
+        "carrier": {
+          "code": 153,
+          "title": "Центральная пригородная пассажирская компания",
+          "codes": {
+            "sirena": null,
+            "iata": null,
+            "icao": null
+          },
+          "address": "г. Москва, ул.Новорязанская, д.18, стр.22",
+          "url": "http://www.central-ppk.ru/",
+          "email": "info@central-ppk.ru",
+          "contacts": "&bull; <strong>Горячая линия для пассажиров:</strong><br/>телефон +7 (800) 775-00-00 <i>(звонок из регионов России бесплатный)</i><br/><br/>\r\n&bull; <strong>Для юридических лиц по вопросам перевозки корпоративных клиентов:</strong><br/>телефон +7 (499) 266-02-65,  доб. 7842, 7582, 7368;<br/>e-mail: <a href=\"mailto:corp@central-ppk.ru\">corp@central-ppk.ru</a><br/><br/>\r\n&bull; <strong>Пожелания и предложения:</strong> <br/>факс: +7 (499) 266-02-55<br/>e-mail: <a href=\"mailto:info@central-ppk.ru\">info@central-ppk.ru</a><br/><br/>\r\n&bull; <strong>Социальные сети:</strong><br/>\r\n<a href=\"http://www.facebook.com/CentralnayaPPK\">www.facebook.com/CentralnayaPPK</a><br/>\r\n<a href=\"http://www.vk.com/centralppk\">www.vk.com/centralppk</a><br/>\r\n<a href=\"http://www.odnoklassniki.ru/centralppk\">www.odnoklassniki.ru/centralppk</a><br/>",
+          "phone": "",
+          "logo": "https://yastat.net/s3/rasp/media/data/company/logo/cppk.png",
+          "logo_svg": null
+        },
+        "uid": "6665x6666_0_9601712_g24_4",
+        "vehicle": null,
+        "transport_subtype": {
+          "title": "Пригородный поезд",
+          "code": "suburban",
+          "color": "#CC6600"
+        },
+        "thread_method_link": "api.rasp.yandex.net/v3/thread/?date=2024-02-27&uid=6665x6666_0_9601712_g24_4"
+      },
+      "stops": "везде",
+      "from": {
+        "type": "station",
+        "title": "Чёрное",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9601301",
+        "station_type": "platform",
+        "station_type_name": "платформа",
+        "transport_type": "train"
+      },
+      "to": {
+        "type": "station",
+        "title": "Серп и Молот",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9601796",
+        "station_type": "platform",
+        "station_type_name": "платформа",
+        "transport_type": "train"
+      },
+      "departure_platform": "",
+      "arrival_platform": "",
+      "departure_terminal": null,
+      "arrival_terminal": null,
+      "duration": 2280.0,
+      "has_transfers": false,
+      "tickets_info": null,
+      "departure": "2024-02-27T08:35:00+03:00",
+      "arrival": "2024-02-27T09:13:00+03:00",
+      "start_date": "2024-02-27"
+    },
+    {
+      "thread": {
+        "number": "6669/6670",
+        "title": "Фрязево — Апрелевка",
+        "short_title": "Фрязево — Апрелевка",
+        "express_type": null,
+        "transport_type": "suburban",
+        "carrier": {
+          "code": 153,
+          "title": "Центральная пригородная пассажирская компания",
+          "codes": {
+            "sirena": null,
+            "iata": null,
+            "icao": null
+          },
+          "address": "г. Москва, ул.Новорязанская, д.18, стр.22",
+          "url": "http://www.central-ppk.ru/",
+          "email": "info@central-ppk.ru",
+          "contacts": "&bull; <strong>Горячая линия для пассажиров:</strong><br/>телефон +7 (800) 775-00-00 <i>(звонок из регионов России бесплатный)</i><br/><br/>\r\n&bull; <strong>Для юридических лиц по вопросам перевозки корпоративных клиентов:</strong><br/>телефон +7 (499) 266-02-65,  доб. 7842, 7582, 7368;<br/>e-mail: <a href=\"mailto:corp@central-ppk.ru\">corp@central-ppk.ru</a><br/><br/>\r\n&bull; <strong>Пожелания и предложения:</strong> <br/>факс: +7 (499) 266-02-55<br/>e-mail: <a href=\"mailto:info@central-ppk.ru\">info@central-ppk.ru</a><br/><br/>\r\n&bull; <strong>Социальные сети:</strong><br/>\r\n<a href=\"http://www.facebook.com/CentralnayaPPK\">www.facebook.com/CentralnayaPPK</a><br/>\r\n<a href=\"http://www.vk.com/centralppk\">www.vk.com/centralppk</a><br/>\r\n<a href=\"http://www.odnoklassniki.ru/centralppk\">www.odnoklassniki.ru/centralppk</a><br/>",
+          "phone": "",
+          "logo": "https://yastat.net/s3/rasp/media/data/company/logo/cppk.png",
+          "logo_svg": null
+        },
+        "uid": "6669x6670_0_9601680_g24_4",
+        "vehicle": null,
+        "transport_subtype": {
+          "title": "Пригородный поезд",
+          "code": "suburban",
+          "color": "#CC6600"
+        },
+        "thread_method_link": "api.rasp.yandex.net/v3/thread/?date=2024-02-27&uid=6669x6670_0_9601680_g24_4"
+      },
+      "stops": "везде",
+      "from": {
+        "type": "station",
+        "title": "Чёрное",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9601301",
+        "station_type": "platform",
+        "station_type_name": "платформа",
+        "transport_type": "train"
+      },
+      "to": {
+        "type": "station",
+        "title": "Серп и Молот",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9601796",
+        "station_type": "platform",
+        "station_type_name": "платформа",
+        "transport_type": "train"
+      },
+      "departure_platform": "",
+      "arrival_platform": "",
+      "departure_terminal": null,
+      "arrival_terminal": null,
+      "duration": 2160.0,
+      "has_transfers": false,
+      "tickets_info": null,
+      "departure": "2024-02-27T08:47:00+03:00",
+      "arrival": "2024-02-27T09:23:00+03:00",
+      "start_date": "2024-02-27"
+    },
+    {
+      "thread": {
+        "number": "6891/6892",
+        "title": "Электрогорск — Площадь трёх вокзалов (Каланчёвская)",
+        "short_title": "Электрогорск — Площадь трёх вокзалов",
+        "express_type": null,
+        "transport_type": "suburban",
+        "carrier": {
+          "code": 153,
+          "title": "Центральная пригородная пассажирская компания",
+          "codes": {
+            "sirena": null,
+            "iata": null,
+            "icao": null
+          },
+          "address": "г. Москва, ул.Новорязанская, д.18, стр.22",
+          "url": "http://www.central-ppk.ru/",
+          "email": "info@central-ppk.ru",
+          "contacts": "&bull; <strong>Горячая линия для пассажиров:</strong><br/>телефон +7 (800) 775-00-00 <i>(звонок из регионов России бесплатный)</i><br/><br/>\r\n&bull; <strong>Для юридических лиц по вопросам перевозки корпоративных клиентов:</strong><br/>телефон +7 (499) 266-02-65,  доб. 7842, 7582, 7368;<br/>e-mail: <a href=\"mailto:corp@central-ppk.ru\">corp@central-ppk.ru</a><br/><br/>\r\n&bull; <strong>Пожелания и предложения:</strong> <br/>факс: +7 (499) 266-02-55<br/>e-mail: <a href=\"mailto:info@central-ppk.ru\">info@central-ppk.ru</a><br/><br/>\r\n&bull; <strong>Социальные сети:</strong><br/>\r\n<a href=\"http://www.facebook.com/CentralnayaPPK\">www.facebook.com/CentralnayaPPK</a><br/>\r\n<a href=\"http://www.vk.com/centralppk\">www.vk.com/centralppk</a><br/>\r\n<a href=\"http://www.odnoklassniki.ru/centralppk\">www.odnoklassniki.ru/centralppk</a><br/>",
+          "phone": "",
+          "logo": "https://yastat.net/s3/rasp/media/data/company/logo/cppk.png",
+          "logo_svg": null
+        },
+        "uid": "6891x6892_0_9600677_g24_4",
+        "vehicle": null,
+        "transport_subtype": {
+          "title": "Пригородный поезд",
+          "code": "suburban",
+          "color": "#CC6600"
+        },
+        "thread_method_link": "api.rasp.yandex.net/v3/thread/?date=2024-02-27&uid=6891x6892_0_9600677_g24_4"
+      },
+      "stops": "Железнодорожная, Реутов, Новогиреево, Нижегородская (Горьковское направление), Серп и Молот",
+      "from": {
+        "type": "station",
+        "title": "Чёрное",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9601301",
+        "station_type": "platform",
+        "station_type_name": "платформа",
+        "transport_type": "train"
+      },
+      "to": {
+        "type": "station",
+        "title": "Серп и Молот",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9601796",
+        "station_type": "platform",
+        "station_type_name": "платформа",
+        "transport_type": "train"
+      },
+      "departure_platform": "",
+      "arrival_platform": "",
+      "departure_terminal": null,
+      "arrival_terminal": null,
+      "duration": 2280.0,
+      "has_transfers": false,
+      "tickets_info": null,
+      "departure": "2024-02-27T08:55:00+03:00",
+      "arrival": "2024-02-27T09:33:00+03:00",
+      "start_date": "2024-02-27"
+    },
+    {
+      "thread": {
+        "number": "6671/6672",
+        "title": "Купавна — Апрелевка",
+        "short_title": "Купавна — Апрелевка",
+        "express_type": null,
+        "transport_type": "suburban",
+        "carrier": {
+          "code": 153,
+          "title": "Центральная пригородная пассажирская компания",
+          "codes": {
+            "sirena": null,
+            "iata": null,
+            "icao": null
+          },
+          "address": "г. Москва, ул.Новорязанская, д.18, стр.22",
+          "url": "http://www.central-ppk.ru/",
+          "email": "info@central-ppk.ru",
+          "contacts": "&bull; <strong>Горячая линия для пассажиров:</strong><br/>телефон +7 (800) 775-00-00 <i>(звонок из регионов России бесплатный)</i><br/><br/>\r\n&bull; <strong>Для юридических лиц по вопросам перевозки корпоративных клиентов:</strong><br/>телефон +7 (499) 266-02-65,  доб. 7842, 7582, 7368;<br/>e-mail: <a href=\"mailto:corp@central-ppk.ru\">corp@central-ppk.ru</a><br/><br/>\r\n&bull; <strong>Пожелания и предложения:</strong> <br/>факс: +7 (499) 266-02-55<br/>e-mail: <a href=\"mailto:info@central-ppk.ru\">info@central-ppk.ru</a><br/><br/>\r\n&bull; <strong>Социальные сети:</strong><br/>\r\n<a href=\"http://www.facebook.com/CentralnayaPPK\">www.facebook.com/CentralnayaPPK</a><br/>\r\n<a href=\"http://www.vk.com/centralppk\">www.vk.com/centralppk</a><br/>\r\n<a href=\"http://www.odnoklassniki.ru/centralppk\">www.odnoklassniki.ru/centralppk</a><br/>",
+          "phone": "",
+          "logo": "https://yastat.net/s3/rasp/media/data/company/logo/cppk.png",
+          "logo_svg": null
+        },
+        "uid": "6671x6672_0_9601192_g24_4",
+        "vehicle": null,
+        "transport_subtype": {
+          "title": "Пригородный поезд",
+          "code": "suburban",
+          "color": "#CC6600"
+        },
+        "thread_method_link": "api.rasp.yandex.net/v3/thread/?date=2024-02-27&uid=6671x6672_0_9601192_g24_4"
+      },
+      "stops": "везде",
+      "from": {
+        "type": "station",
+        "title": "Чёрное",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9601301",
+        "station_type": "platform",
+        "station_type_name": "платформа",
+        "transport_type": "train"
+      },
+      "to": {
+        "type": "station",
+        "title": "Серп и Молот",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9601796",
+        "station_type": "platform",
+        "station_type_name": "платформа",
+        "transport_type": "train"
+      },
+      "departure_platform": "",
+      "arrival_platform": "",
+      "departure_terminal": null,
+      "arrival_terminal": null,
+      "duration": 2220.0,
+      "has_transfers": false,
+      "tickets_info": null,
+      "departure": "2024-02-27T09:01:00+03:00",
+      "arrival": "2024-02-27T09:38:00+03:00",
+      "start_date": "2024-02-27"
+    },
+    {
+      "thread": {
+        "number": "6673/6674",
+        "title": "Крутое — Лесной Городок",
+        "short_title": "Крутое — Лесн. Городок",
+        "express_type": null,
+        "transport_type": "suburban",
+        "carrier": {
+          "code": 153,
+          "title": "Центральная пригородная пассажирская компания",
+          "codes": {
+            "sirena": null,
+            "iata": null,
+            "icao": null
+          },
+          "address": "г. Москва, ул.Новорязанская, д.18, стр.22",
+          "url": "http://www.central-ppk.ru/",
+          "email": "info@central-ppk.ru",
+          "contacts": "&bull; <strong>Горячая линия для пассажиров:</strong><br/>телефон +7 (800) 775-00-00 <i>(звонок из регионов России бесплатный)</i><br/><br/>\r\n&bull; <strong>Для юридических лиц по вопросам перевозки корпоративных клиентов:</strong><br/>телефон +7 (499) 266-02-65,  доб. 7842, 7582, 7368;<br/>e-mail: <a href=\"mailto:corp@central-ppk.ru\">corp@central-ppk.ru</a><br/><br/>\r\n&bull; <strong>Пожелания и предложения:</strong> <br/>факс: +7 (499) 266-02-55<br/>e-mail: <a href=\"mailto:info@central-ppk.ru\">info@central-ppk.ru</a><br/><br/>\r\n&bull; <strong>Социальные сети:</strong><br/>\r\n<a href=\"http://www.facebook.com/CentralnayaPPK\">www.facebook.com/CentralnayaPPK</a><br/>\r\n<a href=\"http://www.vk.com/centralppk\">www.vk.com/centralppk</a><br/>\r\n<a href=\"http://www.odnoklassniki.ru/centralppk\">www.odnoklassniki.ru/centralppk</a><br/>",
+          "phone": "",
+          "logo": "https://yastat.net/s3/rasp/media/data/company/logo/cppk.png",
+          "logo_svg": null
+        },
+        "uid": "6673x6674_0_9602107_g24_4",
+        "vehicle": null,
+        "transport_subtype": {
+          "title": "Пригородный поезд",
+          "code": "suburban",
+          "color": "#CC6600"
+        },
+        "thread_method_link": "api.rasp.yandex.net/v3/thread/?date=2024-02-27&uid=6673x6674_0_9602107_g24_4"
+      },
+      "stops": "Железнодорожная, Реутов, Новогиреево, Нижегородская (Горьковское направление), Серп и Молот",
+      "from": {
+        "type": "station",
+        "title": "Чёрное",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9601301",
+        "station_type": "platform",
+        "station_type_name": "платформа",
+        "transport_type": "train"
+      },
+      "to": {
+        "type": "station",
+        "title": "Серп и Молот",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9601796",
+        "station_type": "platform",
+        "station_type_name": "платформа",
+        "transport_type": "train"
+      },
+      "departure_platform": "",
+      "arrival_platform": "",
+      "departure_terminal": null,
+      "arrival_terminal": null,
+      "duration": 2160.0,
+      "has_transfers": false,
+      "tickets_info": null,
+      "departure": "2024-02-27T09:07:00+03:00",
+      "arrival": "2024-02-27T09:43:00+03:00",
+      "start_date": "2024-02-27"
+    },
+    {
+      "thread": {
+        "number": "6679/6680",
+        "title": "Захарово — Апрелевка",
+        "short_title": "Захарово — Апрелевка",
+        "express_type": null,
+        "transport_type": "suburban",
+        "carrier": {
+          "code": 153,
+          "title": "Центральная пригородная пассажирская компания",
+          "codes": {
+            "sirena": null,
+            "iata": null,
+            "icao": null
+          },
+          "address": "г. Москва, ул.Новорязанская, д.18, стр.22",
+          "url": "http://www.central-ppk.ru/",
+          "email": "info@central-ppk.ru",
+          "contacts": "&bull; <strong>Горячая линия для пассажиров:</strong><br/>телефон +7 (800) 775-00-00 <i>(звонок из регионов России бесплатный)</i><br/><br/>\r\n&bull; <strong>Для юридических лиц по вопросам перевозки корпоративных клиентов:</strong><br/>телефон +7 (499) 266-02-65,  доб. 7842, 7582, 7368;<br/>e-mail: <a href=\"mailto:corp@central-ppk.ru\">corp@central-ppk.ru</a><br/><br/>\r\n&bull; <strong>Пожелания и предложения:</strong> <br/>факс: +7 (499) 266-02-55<br/>e-mail: <a href=\"mailto:info@central-ppk.ru\">info@central-ppk.ru</a><br/><br/>\r\n&bull; <strong>Социальные сети:</strong><br/>\r\n<a href=\"http://www.facebook.com/CentralnayaPPK\">www.facebook.com/CentralnayaPPK</a><br/>\r\n<a href=\"http://www.vk.com/centralppk\">www.vk.com/centralppk</a><br/>\r\n<a href=\"http://www.odnoklassniki.ru/centralppk\">www.odnoklassniki.ru/centralppk</a><br/>",
+          "phone": "",
+          "logo": "https://yastat.net/s3/rasp/media/data/company/logo/cppk.png",
+          "logo_svg": null
+        },
+        "uid": "6679x6680_0_9601712_g24_4",
+        "vehicle": null,
+        "transport_subtype": {
+          "title": "Пригородный поезд",
+          "code": "suburban",
+          "color": "#CC6600"
+        },
+        "thread_method_link": "api.rasp.yandex.net/v3/thread/?date=2024-02-27&uid=6679x6680_0_9601712_g24_4"
+      },
+      "stops": "везде",
+      "from": {
+        "type": "station",
+        "title": "Чёрное",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9601301",
+        "station_type": "platform",
+        "station_type_name": "платформа",
+        "transport_type": "train"
+      },
+      "to": {
+        "type": "station",
+        "title": "Серп и Молот",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9601796",
+        "station_type": "platform",
+        "station_type_name": "платформа",
+        "transport_type": "train"
+      },
+      "departure_platform": "",
+      "arrival_platform": "",
+      "departure_terminal": null,
+      "arrival_terminal": null,
+      "duration": 2160.0,
+      "has_transfers": false,
+      "tickets_info": null,
+      "departure": "2024-02-27T09:22:00+03:00",
+      "arrival": "2024-02-27T09:58:00+03:00",
+      "start_date": "2024-02-27"
+    },
+    {
+      "thread": {
+        "number": "6689/6690",
+        "title": "Фрязево — Апрелевка",
+        "short_title": "Фрязево — Апрелевка",
+        "express_type": null,
+        "transport_type": "suburban",
+        "carrier": {
+          "code": 153,
+          "title": "Центральная пригородная пассажирская компания",
+          "codes": {
+            "sirena": null,
+            "iata": null,
+            "icao": null
+          },
+          "address": "г. Москва, ул.Новорязанская, д.18, стр.22",
+          "url": "http://www.central-ppk.ru/",
+          "email": "info@central-ppk.ru",
+          "contacts": "&bull; <strong>Горячая линия для пассажиров:</strong><br/>телефон +7 (800) 775-00-00 <i>(звонок из регионов России бесплатный)</i><br/><br/>\r\n&bull; <strong>Для юридических лиц по вопросам перевозки корпоративных клиентов:</strong><br/>телефон +7 (499) 266-02-65,  доб. 7842, 7582, 7368;<br/>e-mail: <a href=\"mailto:corp@central-ppk.ru\">corp@central-ppk.ru</a><br/><br/>\r\n&bull; <strong>Пожелания и предложения:</strong> <br/>факс: +7 (499) 266-02-55<br/>e-mail: <a href=\"mailto:info@central-ppk.ru\">info@central-ppk.ru</a><br/><br/>\r\n&bull; <strong>Социальные сети:</strong><br/>\r\n<a href=\"http://www.facebook.com/CentralnayaPPK\">www.facebook.com/CentralnayaPPK</a><br/>\r\n<a href=\"http://www.vk.com/centralppk\">www.vk.com/centralppk</a><br/>\r\n<a href=\"http://www.odnoklassniki.ru/centralppk\">www.odnoklassniki.ru/centralppk</a><br/>",
+          "phone": "",
+          "logo": "https://yastat.net/s3/rasp/media/data/company/logo/cppk.png",
+          "logo_svg": null
+        },
+        "uid": "6689x6690_0_9601680_g24_4",
+        "vehicle": null,
+        "transport_subtype": {
+          "title": "Стандарт плюс",
+          "code": "stdplus",
+          "color": "#17c104"
+        },
+        "thread_method_link": "api.rasp.yandex.net/v3/thread/?date=2024-02-27&uid=6689x6690_0_9601680_g24_4"
+      },
+      "stops": "везде",
+      "from": {
+        "type": "station",
+        "title": "Чёрное",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9601301",
+        "station_type": "platform",
+        "station_type_name": "платформа",
+        "transport_type": "train"
+      },
+      "to": {
+        "type": "station",
+        "title": "Серп и Молот",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9601796",
+        "station_type": "platform",
+        "station_type_name": "платформа",
+        "transport_type": "train"
+      },
+      "departure_platform": "",
+      "arrival_platform": "",
+      "departure_terminal": null,
+      "arrival_terminal": null,
+      "duration": 2280.0,
+      "has_transfers": false,
+      "tickets_info": null,
+      "departure": "2024-02-27T10:15:00+03:00",
+      "arrival": "2024-02-27T10:53:00+03:00",
+      "start_date": "2024-02-27"
+    },
+    {
+      "thread": {
+        "number": "6691/6692",
+        "title": "Захарово — Апрелевка",
+        "short_title": "Захарово — Апрелевка",
+        "express_type": null,
+        "transport_type": "suburban",
+        "carrier": {
+          "code": 153,
+          "title": "Центральная пригородная пассажирская компания",
+          "codes": {
+            "sirena": null,
+            "iata": null,
+            "icao": null
+          },
+          "address": "г. Москва, ул.Новорязанская, д.18, стр.22",
+          "url": "http://www.central-ppk.ru/",
+          "email": "info@central-ppk.ru",
+          "contacts": "&bull; <strong>Горячая линия для пассажиров:</strong><br/>телефон +7 (800) 775-00-00 <i>(звонок из регионов России бесплатный)</i><br/><br/>\r\n&bull; <strong>Для юридических лиц по вопросам перевозки корпоративных клиентов:</strong><br/>телефон +7 (499) 266-02-65,  доб. 7842, 7582, 7368;<br/>e-mail: <a href=\"mailto:corp@central-ppk.ru\">corp@central-ppk.ru</a><br/><br/>\r\n&bull; <strong>Пожелания и предложения:</strong> <br/>факс: +7 (499) 266-02-55<br/>e-mail: <a href=\"mailto:info@central-ppk.ru\">info@central-ppk.ru</a><br/><br/>\r\n&bull; <strong>Социальные сети:</strong><br/>\r\n<a href=\"http://www.facebook.com/CentralnayaPPK\">www.facebook.com/CentralnayaPPK</a><br/>\r\n<a href=\"http://www.vk.com/centralppk\">www.vk.com/centralppk</a><br/>\r\n<a href=\"http://www.odnoklassniki.ru/centralppk\">www.odnoklassniki.ru/centralppk</a><br/>",
+          "phone": "",
+          "logo": "https://yastat.net/s3/rasp/media/data/company/logo/cppk.png",
+          "logo_svg": null
+        },
+        "uid": "6691x6692_0_9601712_g24_4",
+        "vehicle": null,
+        "transport_subtype": {
+          "title": "Пригородный поезд",
+          "code": "suburban",
+          "color": "#CC6600"
+        },
+        "thread_method_link": "api.rasp.yandex.net/v3/thread/?date=2024-02-27&uid=6691x6692_0_9601712_g24_4"
+      },
+      "stops": "везде",
+      "from": {
+        "type": "station",
+        "title": "Чёрное",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9601301",
+        "station_type": "platform",
+        "station_type_name": "платформа",
+        "transport_type": "train"
+      },
+      "to": {
+        "type": "station",
+        "title": "Серп и Молот",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9601796",
+        "station_type": "platform",
+        "station_type_name": "платформа",
+        "transport_type": "train"
+      },
+      "departure_platform": "",
+      "arrival_platform": "",
+      "departure_terminal": null,
+      "arrival_terminal": null,
+      "duration": 2220.0,
+      "has_transfers": false,
+      "tickets_info": null,
+      "departure": "2024-02-27T10:26:00+03:00",
+      "arrival": "2024-02-27T11:03:00+03:00",
+      "start_date": "2024-02-27"
+    },
+    {
+      "thread": {
+        "number": "6991/6992",
+        "title": "Владимир — Площадь трёх вокзалов (Каланчёвская)",
+        "short_title": "Владимир — Площадь трёх вокзалов",
+        "express_type": null,
+        "transport_type": "suburban",
+        "carrier": {
+          "code": 153,
+          "title": "Центральная пригородная пассажирская компания",
+          "codes": {
+            "sirena": null,
+            "iata": null,
+            "icao": null
+          },
+          "address": "г. Москва, ул.Новорязанская, д.18, стр.22",
+          "url": "http://www.central-ppk.ru/",
+          "email": "info@central-ppk.ru",
+          "contacts": "&bull; <strong>Горячая линия для пассажиров:</strong><br/>телефон +7 (800) 775-00-00 <i>(звонок из регионов России бесплатный)</i><br/><br/>\r\n&bull; <strong>Для юридических лиц по вопросам перевозки корпоративных клиентов:</strong><br/>телефон +7 (499) 266-02-65,  доб. 7842, 7582, 7368;<br/>e-mail: <a href=\"mailto:corp@central-ppk.ru\">corp@central-ppk.ru</a><br/><br/>\r\n&bull; <strong>Пожелания и предложения:</strong> <br/>факс: +7 (499) 266-02-55<br/>e-mail: <a href=\"mailto:info@central-ppk.ru\">info@central-ppk.ru</a><br/><br/>\r\n&bull; <strong>Социальные сети:</strong><br/>\r\n<a href=\"http://www.facebook.com/CentralnayaPPK\">www.facebook.com/CentralnayaPPK</a><br/>\r\n<a href=\"http://www.vk.com/centralppk\">www.vk.com/centralppk</a><br/>\r\n<a href=\"http://www.odnoklassniki.ru/centralppk\">www.odnoklassniki.ru/centralppk</a><br/>",
+          "phone": "",
+          "logo": "https://yastat.net/s3/rasp/media/data/company/logo/cppk.png",
+          "logo_svg": null
+        },
+        "uid": "6991x6992_0_2060340_g24_4",
+        "vehicle": null,
+        "transport_subtype": {
+          "title": "Пригородный поезд",
+          "code": "suburban",
+          "color": "#CC6600"
+        },
+        "thread_method_link": "api.rasp.yandex.net/v3/thread/?date=2024-02-27&uid=6991x6992_0_2060340_g24_4"
+      },
+      "stops": "Железнодорожная, Реутов, Новогиреево, Нижегородская (Горьковское направление), Серп и Молот",
+      "from": {
+        "type": "station",
+        "title": "Чёрное",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9601301",
+        "station_type": "platform",
+        "station_type_name": "платформа",
+        "transport_type": "train"
+      },
+      "to": {
+        "type": "station",
+        "title": "Серп и Молот",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9601796",
+        "station_type": "platform",
+        "station_type_name": "платформа",
+        "transport_type": "train"
+      },
+      "departure_platform": "",
+      "arrival_platform": "",
+      "departure_terminal": null,
+      "arrival_terminal": null,
+      "duration": 2100.0,
+      "has_transfers": false,
+      "tickets_info": null,
+      "departure": "2024-02-27T10:38:00+03:00",
+      "arrival": "2024-02-27T11:13:00+03:00",
+      "start_date": "2024-02-27"
+    },
+    {
+      "thread": {
+        "number": "6695/6696",
+        "title": "Крутое — Апрелевка",
+        "short_title": "Крутое — Апрелевка",
+        "express_type": null,
+        "transport_type": "suburban",
+        "carrier": {
+          "code": 153,
+          "title": "Центральная пригородная пассажирская компания",
+          "codes": {
+            "sirena": null,
+            "iata": null,
+            "icao": null
+          },
+          "address": "г. Москва, ул.Новорязанская, д.18, стр.22",
+          "url": "http://www.central-ppk.ru/",
+          "email": "info@central-ppk.ru",
+          "contacts": "&bull; <strong>Горячая линия для пассажиров:</strong><br/>телефон +7 (800) 775-00-00 <i>(звонок из регионов России бесплатный)</i><br/><br/>\r\n&bull; <strong>Для юридических лиц по вопросам перевозки корпоративных клиентов:</strong><br/>телефон +7 (499) 266-02-65,  доб. 7842, 7582, 7368;<br/>e-mail: <a href=\"mailto:corp@central-ppk.ru\">corp@central-ppk.ru</a><br/><br/>\r\n&bull; <strong>Пожелания и предложения:</strong> <br/>факс: +7 (499) 266-02-55<br/>e-mail: <a href=\"mailto:info@central-ppk.ru\">info@central-ppk.ru</a><br/><br/>\r\n&bull; <strong>Социальные сети:</strong><br/>\r\n<a href=\"http://www.facebook.com/CentralnayaPPK\">www.facebook.com/CentralnayaPPK</a><br/>\r\n<a href=\"http://www.vk.com/centralppk\">www.vk.com/centralppk</a><br/>\r\n<a href=\"http://www.odnoklassniki.ru/centralppk\">www.odnoklassniki.ru/centralppk</a><br/>",
+          "phone": "",
+          "logo": "https://yastat.net/s3/rasp/media/data/company/logo/cppk.png",
+          "logo_svg": null
+        },
+        "uid": "6695x6696_0_9602107_g24_4",
+        "vehicle": null,
+        "transport_subtype": {
+          "title": "Стандарт плюс",
+          "code": "stdplus",
+          "color": "#17c104"
+        },
+        "thread_method_link": "api.rasp.yandex.net/v3/thread/?date=2024-02-27&uid=6695x6696_0_9602107_g24_4"
+      },
+      "stops": "везде",
+      "from": {
+        "type": "station",
+        "title": "Чёрное",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9601301",
+        "station_type": "platform",
+        "station_type_name": "платформа",
+        "transport_type": "train"
+      },
+      "to": {
+        "type": "station",
+        "title": "Серп и Молот",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9601796",
+        "station_type": "platform",
+        "station_type_name": "платформа",
+        "transport_type": "train"
+      },
+      "departure_platform": "",
+      "arrival_platform": "",
+      "departure_terminal": null,
+      "arrival_terminal": null,
+      "duration": 2460.0,
+      "has_transfers": false,
+      "tickets_info": null,
+      "departure": "2024-02-27T10:52:00+03:00",
+      "arrival": "2024-02-27T11:33:00+03:00",
+      "start_date": "2024-02-27"
+    },
+    {
+      "thread": {
+        "number": "6699/6700",
+        "title": "Фрязево — Апрелевка",
+        "short_title": "Фрязево — Апрелевка",
+        "express_type": null,
+        "transport_type": "suburban",
+        "carrier": {
+          "code": 153,
+          "title": "Центральная пригородная пассажирская компания",
+          "codes": {
+            "sirena": null,
+            "iata": null,
+            "icao": null
+          },
+          "address": "г. Москва, ул.Новорязанская, д.18, стр.22",
+          "url": "http://www.central-ppk.ru/",
+          "email": "info@central-ppk.ru",
+          "contacts": "&bull; <strong>Горячая линия для пассажиров:</strong><br/>телефон +7 (800) 775-00-00 <i>(звонок из регионов России бесплатный)</i><br/><br/>\r\n&bull; <strong>Для юридических лиц по вопросам перевозки корпоративных клиентов:</strong><br/>телефон +7 (499) 266-02-65,  доб. 7842, 7582, 7368;<br/>e-mail: <a href=\"mailto:corp@central-ppk.ru\">corp@central-ppk.ru</a><br/><br/>\r\n&bull; <strong>Пожелания и предложения:</strong> <br/>факс: +7 (499) 266-02-55<br/>e-mail: <a href=\"mailto:info@central-ppk.ru\">info@central-ppk.ru</a><br/><br/>\r\n&bull; <strong>Социальные сети:</strong><br/>\r\n<a href=\"http://www.facebook.com/CentralnayaPPK\">www.facebook.com/CentralnayaPPK</a><br/>\r\n<a href=\"http://www.vk.com/centralppk\">www.vk.com/centralppk</a><br/>\r\n<a href=\"http://www.odnoklassniki.ru/centralppk\">www.odnoklassniki.ru/centralppk</a><br/>",
+          "phone": "",
+          "logo": "https://yastat.net/s3/rasp/media/data/company/logo/cppk.png",
+          "logo_svg": null
+        },
+        "uid": "6699x6700_0_9601680_g24_4",
+        "vehicle": null,
+        "transport_subtype": {
+          "title": "Стандарт плюс",
+          "code": "stdplus",
+          "color": "#17c104"
+        },
+        "thread_method_link": "api.rasp.yandex.net/v3/thread/?date=2024-02-27&uid=6699x6700_0_9601680_g24_4"
+      },
+      "stops": "везде",
+      "from": {
+        "type": "station",
+        "title": "Чёрное",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9601301",
+        "station_type": "platform",
+        "station_type_name": "платформа",
+        "transport_type": "train"
+      },
+      "to": {
+        "type": "station",
+        "title": "Серп и Молот",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9601796",
+        "station_type": "platform",
+        "station_type_name": "платформа",
+        "transport_type": "train"
+      },
+      "departure_platform": "",
+      "arrival_platform": "",
+      "departure_terminal": null,
+      "arrival_terminal": null,
+      "duration": 3240.0,
+      "has_transfers": false,
+      "tickets_info": null,
+      "departure": "2024-02-27T11:05:00+03:00",
+      "arrival": "2024-02-27T11:59:00+03:00",
+      "start_date": "2024-02-27"
+    },
+    {
+      "thread": {
+        "number": "6721/6722",
+        "title": "Купавна — Апрелевка",
+        "short_title": "Купавна — Апрелевка",
+        "express_type": null,
+        "transport_type": "suburban",
+        "carrier": {
+          "code": 153,
+          "title": "Центральная пригородная пассажирская компания",
+          "codes": {
+            "sirena": null,
+            "iata": null,
+            "icao": null
+          },
+          "address": "г. Москва, ул.Новорязанская, д.18, стр.22",
+          "url": "http://www.central-ppk.ru/",
+          "email": "info@central-ppk.ru",
+          "contacts": "&bull; <strong>Горячая линия для пассажиров:</strong><br/>телефон +7 (800) 775-00-00 <i>(звонок из регионов России бесплатный)</i><br/><br/>\r\n&bull; <strong>Для юридических лиц по вопросам перевозки корпоративных клиентов:</strong><br/>телефон +7 (499) 266-02-65,  доб. 7842, 7582, 7368;<br/>e-mail: <a href=\"mailto:corp@central-ppk.ru\">corp@central-ppk.ru</a><br/><br/>\r\n&bull; <strong>Пожелания и предложения:</strong> <br/>факс: +7 (499) 266-02-55<br/>e-mail: <a href=\"mailto:info@central-ppk.ru\">info@central-ppk.ru</a><br/><br/>\r\n&bull; <strong>Социальные сети:</strong><br/>\r\n<a href=\"http://www.facebook.com/CentralnayaPPK\">www.facebook.com/CentralnayaPPK</a><br/>\r\n<a href=\"http://www.vk.com/centralppk\">www.vk.com/centralppk</a><br/>\r\n<a href=\"http://www.odnoklassniki.ru/centralppk\">www.odnoklassniki.ru/centralppk</a><br/>",
+          "phone": "",
+          "logo": "https://yastat.net/s3/rasp/media/data/company/logo/cppk.png",
+          "logo_svg": null
+        },
+        "uid": "6721x6722_0_9601192_g24_4",
+        "vehicle": null,
+        "transport_subtype": {
+          "title": "Пригородный поезд",
+          "code": "suburban",
+          "color": "#CC6600"
+        },
+        "thread_method_link": "api.rasp.yandex.net/v3/thread/?date=2024-02-27&uid=6721x6722_0_9601192_g24_4"
+      },
+      "stops": "везде",
+      "from": {
+        "type": "station",
+        "title": "Чёрное",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9601301",
+        "station_type": "platform",
+        "station_type_name": "платформа",
+        "transport_type": "train"
+      },
+      "to": {
+        "type": "station",
+        "title": "Серп и Молот",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9601796",
+        "station_type": "platform",
+        "station_type_name": "платформа",
+        "transport_type": "train"
+      },
+      "departure_platform": "",
+      "arrival_platform": "",
+      "departure_terminal": null,
+      "arrival_terminal": null,
+      "duration": 2220.0,
+      "has_transfers": false,
+      "tickets_info": null,
+      "departure": "2024-02-27T13:37:00+03:00",
+      "arrival": "2024-02-27T14:14:00+03:00",
+      "start_date": "2024-02-27"
+    },
+    {
+      "thread": {
+        "number": "6723/6724",
+        "title": "Захарово — Апрелевка",
+        "short_title": "Захарово — Апрелевка",
+        "express_type": null,
+        "transport_type": "suburban",
+        "carrier": {
+          "code": 153,
+          "title": "Центральная пригородная пассажирская компания",
+          "codes": {
+            "sirena": null,
+            "iata": null,
+            "icao": null
+          },
+          "address": "г. Москва, ул.Новорязанская, д.18, стр.22",
+          "url": "http://www.central-ppk.ru/",
+          "email": "info@central-ppk.ru",
+          "contacts": "&bull; <strong>Горячая линия для пассажиров:</strong><br/>телефон +7 (800) 775-00-00 <i>(звонок из регионов России бесплатный)</i><br/><br/>\r\n&bull; <strong>Для юридических лиц по вопросам перевозки корпоративных клиентов:</strong><br/>телефон +7 (499) 266-02-65,  доб. 7842, 7582, 7368;<br/>e-mail: <a href=\"mailto:corp@central-ppk.ru\">corp@central-ppk.ru</a><br/><br/>\r\n&bull; <strong>Пожелания и предложения:</strong> <br/>факс: +7 (499) 266-02-55<br/>e-mail: <a href=\"mailto:info@central-ppk.ru\">info@central-ppk.ru</a><br/><br/>\r\n&bull; <strong>Социальные сети:</strong><br/>\r\n<a href=\"http://www.facebook.com/CentralnayaPPK\">www.facebook.com/CentralnayaPPK</a><br/>\r\n<a href=\"http://www.vk.com/centralppk\">www.vk.com/centralppk</a><br/>\r\n<a href=\"http://www.odnoklassniki.ru/centralppk\">www.odnoklassniki.ru/centralppk</a><br/>",
+          "phone": "",
+          "logo": "https://yastat.net/s3/rasp/media/data/company/logo/cppk.png",
+          "logo_svg": null
+        },
+        "uid": "6723x6724_0_9601712_g24_4",
+        "vehicle": null,
+        "transport_subtype": {
+          "title": "Пригородный поезд",
+          "code": "suburban",
+          "color": "#CC6600"
+        },
+        "thread_method_link": "api.rasp.yandex.net/v3/thread/?date=2024-02-27&uid=6723x6724_0_9601712_g24_4"
+      },
+      "stops": "Железнодорожная, Реутов, Новогиреево, Нижегородская (Горьковское направление), Серп и Молот",
+      "from": {
+        "type": "station",
+        "title": "Чёрное",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9601301",
+        "station_type": "platform",
+        "station_type_name": "платформа",
+        "transport_type": "train"
+      },
+      "to": {
+        "type": "station",
+        "title": "Серп и Молот",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9601796",
+        "station_type": "platform",
+        "station_type_name": "платформа",
+        "transport_type": "train"
+      },
+      "departure_platform": "",
+      "arrival_platform": "",
+      "departure_terminal": null,
+      "arrival_terminal": null,
+      "duration": 2100.0,
+      "has_transfers": false,
+      "tickets_info": null,
+      "departure": "2024-02-27T13:46:00+03:00",
+      "arrival": "2024-02-27T14:21:00+03:00",
+      "start_date": "2024-02-27"
+    },
+    {
+      "thread": {
+        "number": "6729/6730",
+        "title": "Электрогорск — Лесной Городок",
+        "short_title": "Электрогорск — Лесн. Городок",
+        "express_type": null,
+        "transport_type": "suburban",
+        "carrier": {
+          "code": 153,
+          "title": "Центральная пригородная пассажирская компания",
+          "codes": {
+            "sirena": null,
+            "iata": null,
+            "icao": null
+          },
+          "address": "г. Москва, ул.Новорязанская, д.18, стр.22",
+          "url": "http://www.central-ppk.ru/",
+          "email": "info@central-ppk.ru",
+          "contacts": "&bull; <strong>Горячая линия для пассажиров:</strong><br/>телефон +7 (800) 775-00-00 <i>(звонок из регионов России бесплатный)</i><br/><br/>\r\n&bull; <strong>Для юридических лиц по вопросам перевозки корпоративных клиентов:</strong><br/>телефон +7 (499) 266-02-65,  доб. 7842, 7582, 7368;<br/>e-mail: <a href=\"mailto:corp@central-ppk.ru\">corp@central-ppk.ru</a><br/><br/>\r\n&bull; <strong>Пожелания и предложения:</strong> <br/>факс: +7 (499) 266-02-55<br/>e-mail: <a href=\"mailto:info@central-ppk.ru\">info@central-ppk.ru</a><br/><br/>\r\n&bull; <strong>Социальные сети:</strong><br/>\r\n<a href=\"http://www.facebook.com/CentralnayaPPK\">www.facebook.com/CentralnayaPPK</a><br/>\r\n<a href=\"http://www.vk.com/centralppk\">www.vk.com/centralppk</a><br/>\r\n<a href=\"http://www.odnoklassniki.ru/centralppk\">www.odnoklassniki.ru/centralppk</a><br/>",
+          "phone": "",
+          "logo": "https://yastat.net/s3/rasp/media/data/company/logo/cppk.png",
+          "logo_svg": null
+        },
+        "uid": "6729x6730_0_9600677_g24_4",
+        "vehicle": null,
+        "transport_subtype": {
+          "title": "Стандарт плюс",
+          "code": "stdplus",
+          "color": "#17c104"
+        },
+        "thread_method_link": "api.rasp.yandex.net/v3/thread/?date=2024-02-27&uid=6729x6730_0_9600677_g24_4"
+      },
+      "stops": "везде",
+      "from": {
+        "type": "station",
+        "title": "Чёрное",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9601301",
+        "station_type": "platform",
+        "station_type_name": "платформа",
+        "transport_type": "train"
+      },
+      "to": {
+        "type": "station",
+        "title": "Серп и Молот",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9601796",
+        "station_type": "platform",
+        "station_type_name": "платформа",
+        "transport_type": "train"
+      },
+      "departure_platform": "",
+      "arrival_platform": "",
+      "departure_terminal": null,
+      "arrival_terminal": null,
+      "duration": 2400.0,
+      "has_transfers": false,
+      "tickets_info": null,
+      "departure": "2024-02-27T14:03:00+03:00",
+      "arrival": "2024-02-27T14:43:00+03:00",
+      "start_date": "2024-02-27"
+    },
+    {
+      "thread": {
+        "number": "6735/6736",
+        "title": "Петушки — Апрелевка",
+        "short_title": "Петушки — Апрелевка",
+        "express_type": null,
+        "transport_type": "suburban",
+        "carrier": {
+          "code": 153,
+          "title": "Центральная пригородная пассажирская компания",
+          "codes": {
+            "sirena": null,
+            "iata": null,
+            "icao": null
+          },
+          "address": "г. Москва, ул.Новорязанская, д.18, стр.22",
+          "url": "http://www.central-ppk.ru/",
+          "email": "info@central-ppk.ru",
+          "contacts": "&bull; <strong>Горячая линия для пассажиров:</strong><br/>телефон +7 (800) 775-00-00 <i>(звонок из регионов России бесплатный)</i><br/><br/>\r\n&bull; <strong>Для юридических лиц по вопросам перевозки корпоративных клиентов:</strong><br/>телефон +7 (499) 266-02-65,  доб. 7842, 7582, 7368;<br/>e-mail: <a href=\"mailto:corp@central-ppk.ru\">corp@central-ppk.ru</a><br/><br/>\r\n&bull; <strong>Пожелания и предложения:</strong> <br/>факс: +7 (499) 266-02-55<br/>e-mail: <a href=\"mailto:info@central-ppk.ru\">info@central-ppk.ru</a><br/><br/>\r\n&bull; <strong>Социальные сети:</strong><br/>\r\n<a href=\"http://www.facebook.com/CentralnayaPPK\">www.facebook.com/CentralnayaPPK</a><br/>\r\n<a href=\"http://www.vk.com/centralppk\">www.vk.com/centralppk</a><br/>\r\n<a href=\"http://www.odnoklassniki.ru/centralppk\">www.odnoklassniki.ru/centralppk</a><br/>",
+          "phone": "",
+          "logo": "https://yastat.net/s3/rasp/media/data/company/logo/cppk.png",
+          "logo_svg": null
+        },
+        "uid": "6735x6736_0_9612144_g24_4",
+        "vehicle": null,
+        "transport_subtype": {
+          "title": "Пригородный поезд",
+          "code": "suburban",
+          "color": "#CC6600"
+        },
+        "thread_method_link": "api.rasp.yandex.net/v3/thread/?date=2024-02-27&uid=6735x6736_0_9612144_g24_4"
+      },
+      "stops": "везде",
+      "from": {
+        "type": "station",
+        "title": "Чёрное",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9601301",
+        "station_type": "platform",
+        "station_type_name": "платформа",
+        "transport_type": "train"
+      },
+      "to": {
+        "type": "station",
+        "title": "Серп и Молот",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9601796",
+        "station_type": "platform",
+        "station_type_name": "платформа",
+        "transport_type": "train"
+      },
+      "departure_platform": "",
+      "arrival_platform": "",
+      "departure_terminal": null,
+      "arrival_terminal": null,
+      "duration": 2220.0,
+      "has_transfers": false,
+      "tickets_info": null,
+      "departure": "2024-02-27T14:41:00+03:00",
+      "arrival": "2024-02-27T15:18:00+03:00",
+      "start_date": "2024-02-27"
+    },
+    {
+      "thread": {
+        "number": "6737/6738",
+        "title": "Захарово — Поклонная",
+        "short_title": "Захарово — Поклонная",
+        "express_type": null,
+        "transport_type": "suburban",
+        "carrier": {
+          "code": 153,
+          "title": "Центральная пригородная пассажирская компания",
+          "codes": {
+            "sirena": null,
+            "iata": null,
+            "icao": null
+          },
+          "address": "г. Москва, ул.Новорязанская, д.18, стр.22",
+          "url": "http://www.central-ppk.ru/",
+          "email": "info@central-ppk.ru",
+          "contacts": "&bull; <strong>Горячая линия для пассажиров:</strong><br/>телефон +7 (800) 775-00-00 <i>(звонок из регионов России бесплатный)</i><br/><br/>\r\n&bull; <strong>Для юридических лиц по вопросам перевозки корпоративных клиентов:</strong><br/>телефон +7 (499) 266-02-65,  доб. 7842, 7582, 7368;<br/>e-mail: <a href=\"mailto:corp@central-ppk.ru\">corp@central-ppk.ru</a><br/><br/>\r\n&bull; <strong>Пожелания и предложения:</strong> <br/>факс: +7 (499) 266-02-55<br/>e-mail: <a href=\"mailto:info@central-ppk.ru\">info@central-ppk.ru</a><br/><br/>\r\n&bull; <strong>Социальные сети:</strong><br/>\r\n<a href=\"http://www.facebook.com/CentralnayaPPK\">www.facebook.com/CentralnayaPPK</a><br/>\r\n<a href=\"http://www.vk.com/centralppk\">www.vk.com/centralppk</a><br/>\r\n<a href=\"http://www.odnoklassniki.ru/centralppk\">www.odnoklassniki.ru/centralppk</a><br/>",
+          "phone": "",
+          "logo": "https://yastat.net/s3/rasp/media/data/company/logo/cppk.png",
+          "logo_svg": null
+        },
+        "uid": "6737x6738_0_9601712_g24_4",
+        "vehicle": null,
+        "transport_subtype": {
+          "title": "Пригородный поезд",
+          "code": "suburban",
+          "color": "#CC6600"
+        },
+        "thread_method_link": "api.rasp.yandex.net/v3/thread/?date=2024-02-27&uid=6737x6738_0_9601712_g24_4"
+      },
+      "stops": "везде",
+      "from": {
+        "type": "station",
+        "title": "Чёрное",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9601301",
+        "station_type": "platform",
+        "station_type_name": "платформа",
+        "transport_type": "train"
+      },
+      "to": {
+        "type": "station",
+        "title": "Серп и Молот",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9601796",
+        "station_type": "platform",
+        "station_type_name": "платформа",
+        "transport_type": "train"
+      },
+      "departure_platform": "",
+      "arrival_platform": "",
+      "departure_terminal": null,
+      "arrival_terminal": null,
+      "duration": 2160.0,
+      "has_transfers": false,
+      "tickets_info": null,
+      "departure": "2024-02-27T14:47:00+03:00",
+      "arrival": "2024-02-27T15:23:00+03:00",
+      "start_date": "2024-02-27"
+    },
+    {
+      "thread": {
+        "number": "6741/6742",
+        "title": "Электрогорск — Апрелевка",
+        "short_title": "Электрогорск — Апрелевка",
+        "express_type": null,
+        "transport_type": "suburban",
+        "carrier": {
+          "code": 153,
+          "title": "Центральная пригородная пассажирская компания",
+          "codes": {
+            "sirena": null,
+            "iata": null,
+            "icao": null
+          },
+          "address": "г. Москва, ул.Новорязанская, д.18, стр.22",
+          "url": "http://www.central-ppk.ru/",
+          "email": "info@central-ppk.ru",
+          "contacts": "&bull; <strong>Горячая линия для пассажиров:</strong><br/>телефон +7 (800) 775-00-00 <i>(звонок из регионов России бесплатный)</i><br/><br/>\r\n&bull; <strong>Для юридических лиц по вопросам перевозки корпоративных клиентов:</strong><br/>телефон +7 (499) 266-02-65,  доб. 7842, 7582, 7368;<br/>e-mail: <a href=\"mailto:corp@central-ppk.ru\">corp@central-ppk.ru</a><br/><br/>\r\n&bull; <strong>Пожелания и предложения:</strong> <br/>факс: +7 (499) 266-02-55<br/>e-mail: <a href=\"mailto:info@central-ppk.ru\">info@central-ppk.ru</a><br/><br/>\r\n&bull; <strong>Социальные сети:</strong><br/>\r\n<a href=\"http://www.facebook.com/CentralnayaPPK\">www.facebook.com/CentralnayaPPK</a><br/>\r\n<a href=\"http://www.vk.com/centralppk\">www.vk.com/centralppk</a><br/>\r\n<a href=\"http://www.odnoklassniki.ru/centralppk\">www.odnoklassniki.ru/centralppk</a><br/>",
+          "phone": "",
+          "logo": "https://yastat.net/s3/rasp/media/data/company/logo/cppk.png",
+          "logo_svg": null
+        },
+        "uid": "6741x6742_0_9600677_g24_4",
+        "vehicle": null,
+        "transport_subtype": {
+          "title": "Стандарт плюс",
+          "code": "stdplus",
+          "color": "#17c104"
+        },
+        "thread_method_link": "api.rasp.yandex.net/v3/thread/?date=2024-02-27&uid=6741x6742_0_9600677_g24_4"
+      },
+      "stops": "везде",
+      "from": {
+        "type": "station",
+        "title": "Чёрное",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9601301",
+        "station_type": "platform",
+        "station_type_name": "платформа",
+        "transport_type": "train"
+      },
+      "to": {
+        "type": "station",
+        "title": "Серп и Молот",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9601796",
+        "station_type": "platform",
+        "station_type_name": "платформа",
+        "transport_type": "train"
+      },
+      "departure_platform": "",
+      "arrival_platform": "",
+      "departure_terminal": null,
+      "arrival_terminal": null,
+      "duration": 2220.0,
+      "has_transfers": false,
+      "tickets_info": null,
+      "departure": "2024-02-27T15:01:00+03:00",
+      "arrival": "2024-02-27T15:38:00+03:00",
+      "start_date": "2024-02-27"
+    },
+    {
+      "thread": {
+        "number": "6743/6744",
+        "title": "Крутое — Лесной Городок",
+        "short_title": "Крутое — Лесн. Городок",
+        "express_type": null,
+        "transport_type": "suburban",
+        "carrier": {
+          "code": 153,
+          "title": "Центральная пригородная пассажирская компания",
+          "codes": {
+            "sirena": null,
+            "iata": null,
+            "icao": null
+          },
+          "address": "г. Москва, ул.Новорязанская, д.18, стр.22",
+          "url": "http://www.central-ppk.ru/",
+          "email": "info@central-ppk.ru",
+          "contacts": "&bull; <strong>Горячая линия для пассажиров:</strong><br/>телефон +7 (800) 775-00-00 <i>(звонок из регионов России бесплатный)</i><br/><br/>\r\n&bull; <strong>Для юридических лиц по вопросам перевозки корпоративных клиентов:</strong><br/>телефон +7 (499) 266-02-65,  доб. 7842, 7582, 7368;<br/>e-mail: <a href=\"mailto:corp@central-ppk.ru\">corp@central-ppk.ru</a><br/><br/>\r\n&bull; <strong>Пожелания и предложения:</strong> <br/>факс: +7 (499) 266-02-55<br/>e-mail: <a href=\"mailto:info@central-ppk.ru\">info@central-ppk.ru</a><br/><br/>\r\n&bull; <strong>Социальные сети:</strong><br/>\r\n<a href=\"http://www.facebook.com/CentralnayaPPK\">www.facebook.com/CentralnayaPPK</a><br/>\r\n<a href=\"http://www.vk.com/centralppk\">www.vk.com/centralppk</a><br/>\r\n<a href=\"http://www.odnoklassniki.ru/centralppk\">www.odnoklassniki.ru/centralppk</a><br/>",
+          "phone": "",
+          "logo": "https://yastat.net/s3/rasp/media/data/company/logo/cppk.png",
+          "logo_svg": null
+        },
+        "uid": "6743x6744_0_9602107_g24_4",
+        "vehicle": null,
+        "transport_subtype": {
+          "title": "Пригородный поезд",
+          "code": "suburban",
+          "color": "#CC6600"
+        },
+        "thread_method_link": "api.rasp.yandex.net/v3/thread/?date=2024-02-27&uid=6743x6744_0_9602107_g24_4"
+      },
+      "stops": "Железнодорожная, Реутов, Новогиреево, Нижегородская (Горьковское направление), Серп и Молот",
+      "from": {
+        "type": "station",
+        "title": "Чёрное",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9601301",
+        "station_type": "platform",
+        "station_type_name": "платформа",
+        "transport_type": "train"
+      },
+      "to": {
+        "type": "station",
+        "title": "Серп и Молот",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9601796",
+        "station_type": "platform",
+        "station_type_name": "платформа",
+        "transport_type": "train"
+      },
+      "departure_platform": "",
+      "arrival_platform": "",
+      "departure_terminal": null,
+      "arrival_terminal": null,
+      "duration": 2160.0,
+      "has_transfers": false,
+      "tickets_info": null,
+      "departure": "2024-02-27T15:07:00+03:00",
+      "arrival": "2024-02-27T15:43:00+03:00",
+      "start_date": "2024-02-27"
+    },
+    {
+      "thread": {
+        "number": "6751/6752",
+        "title": "Петушки — Лесной Городок",
+        "short_title": "Петушки — Лесн. Городок",
+        "express_type": null,
+        "transport_type": "suburban",
+        "carrier": {
+          "code": 153,
+          "title": "Центральная пригородная пассажирская компания",
+          "codes": {
+            "sirena": null,
+            "iata": null,
+            "icao": null
+          },
+          "address": "г. Москва, ул.Новорязанская, д.18, стр.22",
+          "url": "http://www.central-ppk.ru/",
+          "email": "info@central-ppk.ru",
+          "contacts": "&bull; <strong>Горячая линия для пассажиров:</strong><br/>телефон +7 (800) 775-00-00 <i>(звонок из регионов России бесплатный)</i><br/><br/>\r\n&bull; <strong>Для юридических лиц по вопросам перевозки корпоративных клиентов:</strong><br/>телефон +7 (499) 266-02-65,  доб. 7842, 7582, 7368;<br/>e-mail: <a href=\"mailto:corp@central-ppk.ru\">corp@central-ppk.ru</a><br/><br/>\r\n&bull; <strong>Пожелания и предложения:</strong> <br/>факс: +7 (499) 266-02-55<br/>e-mail: <a href=\"mailto:info@central-ppk.ru\">info@central-ppk.ru</a><br/><br/>\r\n&bull; <strong>Социальные сети:</strong><br/>\r\n<a href=\"http://www.facebook.com/CentralnayaPPK\">www.facebook.com/CentralnayaPPK</a><br/>\r\n<a href=\"http://www.vk.com/centralppk\">www.vk.com/centralppk</a><br/>\r\n<a href=\"http://www.odnoklassniki.ru/centralppk\">www.odnoklassniki.ru/centralppk</a><br/>",
+          "phone": "",
+          "logo": "https://yastat.net/s3/rasp/media/data/company/logo/cppk.png",
+          "logo_svg": null
+        },
+        "uid": "6751x6752_0_9612144_g24_4",
+        "vehicle": null,
+        "transport_subtype": {
+          "title": "Пригородный поезд",
+          "code": "suburban",
+          "color": "#CC6600"
+        },
+        "thread_method_link": "api.rasp.yandex.net/v3/thread/?date=2024-02-27&uid=6751x6752_0_9612144_g24_4"
+      },
+      "stops": "Железнодорожная, Реутов, Новогиреево, Нижегородская (Горьковское направление), Серп и Молот",
+      "from": {
+        "type": "station",
+        "title": "Чёрное",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9601301",
+        "station_type": "platform",
+        "station_type_name": "платформа",
+        "transport_type": "train"
+      },
+      "to": {
+        "type": "station",
+        "title": "Серп и Молот",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9601796",
+        "station_type": "platform",
+        "station_type_name": "платформа",
+        "transport_type": "train"
+      },
+      "departure_platform": "",
+      "arrival_platform": "",
+      "departure_terminal": null,
+      "arrival_terminal": null,
+      "duration": 2160.0,
+      "has_transfers": false,
+      "tickets_info": null,
+      "departure": "2024-02-27T15:37:00+03:00",
+      "arrival": "2024-02-27T16:13:00+03:00",
+      "start_date": "2024-02-27"
+    },
+    {
+      "thread": {
+        "number": "6755/6756",
+        "title": "Фрязево — Поклонная",
+        "short_title": "Фрязево — Поклонная",
+        "express_type": null,
+        "transport_type": "suburban",
+        "carrier": {
+          "code": 153,
+          "title": "Центральная пригородная пассажирская компания",
+          "codes": {
+            "sirena": null,
+            "iata": null,
+            "icao": null
+          },
+          "address": "г. Москва, ул.Новорязанская, д.18, стр.22",
+          "url": "http://www.central-ppk.ru/",
+          "email": "info@central-ppk.ru",
+          "contacts": "&bull; <strong>Горячая линия для пассажиров:</strong><br/>телефон +7 (800) 775-00-00 <i>(звонок из регионов России бесплатный)</i><br/><br/>\r\n&bull; <strong>Для юридических лиц по вопросам перевозки корпоративных клиентов:</strong><br/>телефон +7 (499) 266-02-65,  доб. 7842, 7582, 7368;<br/>e-mail: <a href=\"mailto:corp@central-ppk.ru\">corp@central-ppk.ru</a><br/><br/>\r\n&bull; <strong>Пожелания и предложения:</strong> <br/>факс: +7 (499) 266-02-55<br/>e-mail: <a href=\"mailto:info@central-ppk.ru\">info@central-ppk.ru</a><br/><br/>\r\n&bull; <strong>Социальные сети:</strong><br/>\r\n<a href=\"http://www.facebook.com/CentralnayaPPK\">www.facebook.com/CentralnayaPPK</a><br/>\r\n<a href=\"http://www.vk.com/centralppk\">www.vk.com/centralppk</a><br/>\r\n<a href=\"http://www.odnoklassniki.ru/centralppk\">www.odnoklassniki.ru/centralppk</a><br/>",
+          "phone": "",
+          "logo": "https://yastat.net/s3/rasp/media/data/company/logo/cppk.png",
+          "logo_svg": null
+        },
+        "uid": "6755x6756_0_9601680_g24_4",
+        "vehicle": null,
+        "transport_subtype": {
+          "title": "Пригородный поезд",
+          "code": "suburban",
+          "color": "#CC6600"
+        },
+        "thread_method_link": "api.rasp.yandex.net/v3/thread/?date=2024-02-27&uid=6755x6756_0_9601680_g24_4"
+      },
+      "stops": "везде",
+      "from": {
+        "type": "station",
+        "title": "Чёрное",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9601301",
+        "station_type": "platform",
+        "station_type_name": "платформа",
+        "transport_type": "train"
+      },
+      "to": {
+        "type": "station",
+        "title": "Серп и Молот",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9601796",
+        "station_type": "platform",
+        "station_type_name": "платформа",
+        "transport_type": "train"
+      },
+      "departure_platform": "",
+      "arrival_platform": "",
+      "departure_terminal": null,
+      "arrival_terminal": null,
+      "duration": 2280.0,
+      "has_transfers": false,
+      "tickets_info": null,
+      "departure": "2024-02-27T15:45:00+03:00",
+      "arrival": "2024-02-27T16:23:00+03:00",
+      "start_date": "2024-02-27"
+    },
+    {
+      "thread": {
+        "number": "6759/6760",
+        "title": "Захарово — Крёкшино",
+        "short_title": "Захарово — Крёкшино",
+        "express_type": null,
+        "transport_type": "suburban",
+        "carrier": {
+          "code": 153,
+          "title": "Центральная пригородная пассажирская компания",
+          "codes": {
+            "sirena": null,
+            "iata": null,
+            "icao": null
+          },
+          "address": "г. Москва, ул.Новорязанская, д.18, стр.22",
+          "url": "http://www.central-ppk.ru/",
+          "email": "info@central-ppk.ru",
+          "contacts": "&bull; <strong>Горячая линия для пассажиров:</strong><br/>телефон +7 (800) 775-00-00 <i>(звонок из регионов России бесплатный)</i><br/><br/>\r\n&bull; <strong>Для юридических лиц по вопросам перевозки корпоративных клиентов:</strong><br/>телефон +7 (499) 266-02-65,  доб. 7842, 7582, 7368;<br/>e-mail: <a href=\"mailto:corp@central-ppk.ru\">corp@central-ppk.ru</a><br/><br/>\r\n&bull; <strong>Пожелания и предложения:</strong> <br/>факс: +7 (499) 266-02-55<br/>e-mail: <a href=\"mailto:info@central-ppk.ru\">info@central-ppk.ru</a><br/><br/>\r\n&bull; <strong>Социальные сети:</strong><br/>\r\n<a href=\"http://www.facebook.com/CentralnayaPPK\">www.facebook.com/CentralnayaPPK</a><br/>\r\n<a href=\"http://www.vk.com/centralppk\">www.vk.com/centralppk</a><br/>\r\n<a href=\"http://www.odnoklassniki.ru/centralppk\">www.odnoklassniki.ru/centralppk</a><br/>",
+          "phone": "",
+          "logo": "https://yastat.net/s3/rasp/media/data/company/logo/cppk.png",
+          "logo_svg": null
+        },
+        "uid": "6759x6760_0_9601712_g24_4",
+        "vehicle": null,
+        "transport_subtype": {
+          "title": "Стандарт плюс",
+          "code": "stdplus",
+          "color": "#17c104"
+        },
+        "thread_method_link": "api.rasp.yandex.net/v3/thread/?date=2024-02-27&uid=6759x6760_0_9601712_g24_4"
+      },
+      "stops": "везде",
+      "from": {
+        "type": "station",
+        "title": "Чёрное",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9601301",
+        "station_type": "platform",
+        "station_type_name": "платформа",
+        "transport_type": "train"
+      },
+      "to": {
+        "type": "station",
+        "title": "Серп и Молот",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9601796",
+        "station_type": "platform",
+        "station_type_name": "платформа",
+        "transport_type": "train"
+      },
+      "departure_platform": "",
+      "arrival_platform": "",
+      "departure_terminal": null,
+      "arrival_terminal": null,
+      "duration": 2280.0,
+      "has_transfers": false,
+      "tickets_info": null,
+      "departure": "2024-02-27T16:00:00+03:00",
+      "arrival": "2024-02-27T16:38:00+03:00",
+      "start_date": "2024-02-27"
+    },
+    {
+      "thread": {
+        "number": "6761/6762",
+        "title": "Храпуново — Лесной Городок",
+        "short_title": "Храпуново — Лесн. Городок",
+        "express_type": null,
+        "transport_type": "suburban",
+        "carrier": {
+          "code": 153,
+          "title": "Центральная пригородная пассажирская компания",
+          "codes": {
+            "sirena": null,
+            "iata": null,
+            "icao": null
+          },
+          "address": "г. Москва, ул.Новорязанская, д.18, стр.22",
+          "url": "http://www.central-ppk.ru/",
+          "email": "info@central-ppk.ru",
+          "contacts": "&bull; <strong>Горячая линия для пассажиров:</strong><br/>телефон +7 (800) 775-00-00 <i>(звонок из регионов России бесплатный)</i><br/><br/>\r\n&bull; <strong>Для юридических лиц по вопросам перевозки корпоративных клиентов:</strong><br/>телефон +7 (499) 266-02-65,  доб. 7842, 7582, 7368;<br/>e-mail: <a href=\"mailto:corp@central-ppk.ru\">corp@central-ppk.ru</a><br/><br/>\r\n&bull; <strong>Пожелания и предложения:</strong> <br/>факс: +7 (499) 266-02-55<br/>e-mail: <a href=\"mailto:info@central-ppk.ru\">info@central-ppk.ru</a><br/><br/>\r\n&bull; <strong>Социальные сети:</strong><br/>\r\n<a href=\"http://www.facebook.com/CentralnayaPPK\">www.facebook.com/CentralnayaPPK</a><br/>\r\n<a href=\"http://www.vk.com/centralppk\">www.vk.com/centralppk</a><br/>\r\n<a href=\"http://www.odnoklassniki.ru/centralppk\">www.odnoklassniki.ru/centralppk</a><br/>",
+          "phone": "",
+          "logo": "https://yastat.net/s3/rasp/media/data/company/logo/cppk.png",
+          "logo_svg": null
+        },
+        "uid": "6761x6762_0_9602038_g24_4",
+        "vehicle": null,
+        "transport_subtype": {
+          "title": "Пригородный поезд",
+          "code": "suburban",
+          "color": "#CC6600"
+        },
+        "thread_method_link": "api.rasp.yandex.net/v3/thread/?date=2024-02-27&uid=6761x6762_0_9602038_g24_4"
+      },
+      "stops": "Железнодорожная, Реутов, Новогиреево, Нижегородская (Горьковское направление), Серп и Молот",
+      "from": {
+        "type": "station",
+        "title": "Чёрное",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9601301",
+        "station_type": "platform",
+        "station_type_name": "платформа",
+        "transport_type": "train"
+      },
+      "to": {
+        "type": "station",
+        "title": "Серп и Молот",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9601796",
+        "station_type": "platform",
+        "station_type_name": "платформа",
+        "transport_type": "train"
+      },
+      "departure_platform": "",
+      "arrival_platform": "",
+      "departure_terminal": null,
+      "arrival_terminal": null,
+      "duration": 2280.0,
+      "has_transfers": false,
+      "tickets_info": null,
+      "departure": "2024-02-27T16:05:00+03:00",
+      "arrival": "2024-02-27T16:43:00+03:00",
+      "start_date": "2024-02-27"
+    },
+    {
+      "thread": {
+        "number": "6993/6764/6763",
+        "title": "Владимир — Апрелевка",
+        "short_title": "Владимир — Апрелевка",
+        "express_type": null,
+        "transport_type": "suburban",
+        "carrier": {
+          "code": 153,
+          "title": "Центральная пригородная пассажирская компания",
+          "codes": {
+            "sirena": null,
+            "iata": null,
+            "icao": null
+          },
+          "address": "г. Москва, ул.Новорязанская, д.18, стр.22",
+          "url": "http://www.central-ppk.ru/",
+          "email": "info@central-ppk.ru",
+          "contacts": "&bull; <strong>Горячая линия для пассажиров:</strong><br/>телефон +7 (800) 775-00-00 <i>(звонок из регионов России бесплатный)</i><br/><br/>\r\n&bull; <strong>Для юридических лиц по вопросам перевозки корпоративных клиентов:</strong><br/>телефон +7 (499) 266-02-65,  доб. 7842, 7582, 7368;<br/>e-mail: <a href=\"mailto:corp@central-ppk.ru\">corp@central-ppk.ru</a><br/><br/>\r\n&bull; <strong>Пожелания и предложения:</strong> <br/>факс: +7 (499) 266-02-55<br/>e-mail: <a href=\"mailto:info@central-ppk.ru\">info@central-ppk.ru</a><br/><br/>\r\n&bull; <strong>Социальные сети:</strong><br/>\r\n<a href=\"http://www.facebook.com/CentralnayaPPK\">www.facebook.com/CentralnayaPPK</a><br/>\r\n<a href=\"http://www.vk.com/centralppk\">www.vk.com/centralppk</a><br/>\r\n<a href=\"http://www.odnoklassniki.ru/centralppk\">www.odnoklassniki.ru/centralppk</a><br/>",
+          "phone": "",
+          "logo": "https://yastat.net/s3/rasp/media/data/company/logo/cppk.png",
+          "logo_svg": null
+        },
+        "uid": "6993x6764x6763_0_2060340_g24_4",
+        "vehicle": null,
+        "transport_subtype": {
+          "title": "Пригородный поезд",
+          "code": "suburban",
+          "color": "#CC6600"
+        },
+        "thread_method_link": "api.rasp.yandex.net/v3/thread/?date=2024-02-27&uid=6993x6764x6763_0_2060340_g24_4"
+      },
+      "stops": "везде",
+      "from": {
+        "type": "station",
+        "title": "Чёрное",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9601301",
+        "station_type": "platform",
+        "station_type_name": "платформа",
+        "transport_type": "train"
+      },
+      "to": {
+        "type": "station",
+        "title": "Серп и Молот",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9601796",
+        "station_type": "platform",
+        "station_type_name": "платформа",
+        "transport_type": "train"
+      },
+      "departure_platform": "",
+      "arrival_platform": "",
+      "departure_terminal": null,
+      "arrival_terminal": null,
+      "duration": 2340.0,
+      "has_transfers": false,
+      "tickets_info": null,
+      "departure": "2024-02-27T16:15:00+03:00",
+      "arrival": "2024-02-27T16:54:00+03:00",
+      "start_date": "2024-02-27"
+    },
+    {
+      "thread": {
+        "number": "6765/6766",
+        "title": "Электрогорск — Апрелевка",
+        "short_title": "Электрогорск — Апрелевка",
+        "express_type": null,
+        "transport_type": "suburban",
+        "carrier": {
+          "code": 153,
+          "title": "Центральная пригородная пассажирская компания",
+          "codes": {
+            "sirena": null,
+            "iata": null,
+            "icao": null
+          },
+          "address": "г. Москва, ул.Новорязанская, д.18, стр.22",
+          "url": "http://www.central-ppk.ru/",
+          "email": "info@central-ppk.ru",
+          "contacts": "&bull; <strong>Горячая линия для пассажиров:</strong><br/>телефон +7 (800) 775-00-00 <i>(звонок из регионов России бесплатный)</i><br/><br/>\r\n&bull; <strong>Для юридических лиц по вопросам перевозки корпоративных клиентов:</strong><br/>телефон +7 (499) 266-02-65,  доб. 7842, 7582, 7368;<br/>e-mail: <a href=\"mailto:corp@central-ppk.ru\">corp@central-ppk.ru</a><br/><br/>\r\n&bull; <strong>Пожелания и предложения:</strong> <br/>факс: +7 (499) 266-02-55<br/>e-mail: <a href=\"mailto:info@central-ppk.ru\">info@central-ppk.ru</a><br/><br/>\r\n&bull; <strong>Социальные сети:</strong><br/>\r\n<a href=\"http://www.facebook.com/CentralnayaPPK\">www.facebook.com/CentralnayaPPK</a><br/>\r\n<a href=\"http://www.vk.com/centralppk\">www.vk.com/centralppk</a><br/>\r\n<a href=\"http://www.odnoklassniki.ru/centralppk\">www.odnoklassniki.ru/centralppk</a><br/>",
+          "phone": "",
+          "logo": "https://yastat.net/s3/rasp/media/data/company/logo/cppk.png",
+          "logo_svg": null
+        },
+        "uid": "6765x6766_0_9600677_g24_4",
+        "vehicle": null,
+        "transport_subtype": {
+          "title": "Пригородный поезд",
+          "code": "suburban",
+          "color": "#CC6600"
+        },
+        "thread_method_link": "api.rasp.yandex.net/v3/thread/?date=2024-02-27&uid=6765x6766_0_9600677_g24_4"
+      },
+      "stops": "везде",
+      "from": {
+        "type": "station",
+        "title": "Чёрное",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9601301",
+        "station_type": "platform",
+        "station_type_name": "платформа",
+        "transport_type": "train"
+      },
+      "to": {
+        "type": "station",
+        "title": "Серп и Молот",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9601796",
+        "station_type": "platform",
+        "station_type_name": "платформа",
+        "transport_type": "train"
+      },
+      "departure_platform": "",
+      "arrival_platform": "",
+      "departure_terminal": null,
+      "arrival_terminal": null,
+      "duration": 2340.0,
+      "has_transfers": false,
+      "tickets_info": null,
+      "departure": "2024-02-27T16:21:00+03:00",
+      "arrival": "2024-02-27T17:00:00+03:00",
+      "start_date": "2024-02-27"
+    },
+    {
+      "thread": {
+        "number": "6767/6768",
+        "title": "Петушки — Лесной Городок",
+        "short_title": "Петушки — Лесн. Городок",
+        "express_type": null,
+        "transport_type": "suburban",
+        "carrier": {
+          "code": 153,
+          "title": "Центральная пригородная пассажирская компания",
+          "codes": {
+            "sirena": null,
+            "iata": null,
+            "icao": null
+          },
+          "address": "г. Москва, ул.Новорязанская, д.18, стр.22",
+          "url": "http://www.central-ppk.ru/",
+          "email": "info@central-ppk.ru",
+          "contacts": "&bull; <strong>Горячая линия для пассажиров:</strong><br/>телефон +7 (800) 775-00-00 <i>(звонок из регионов России бесплатный)</i><br/><br/>\r\n&bull; <strong>Для юридических лиц по вопросам перевозки корпоративных клиентов:</strong><br/>телефон +7 (499) 266-02-65,  доб. 7842, 7582, 7368;<br/>e-mail: <a href=\"mailto:corp@central-ppk.ru\">corp@central-ppk.ru</a><br/><br/>\r\n&bull; <strong>Пожелания и предложения:</strong> <br/>факс: +7 (499) 266-02-55<br/>e-mail: <a href=\"mailto:info@central-ppk.ru\">info@central-ppk.ru</a><br/><br/>\r\n&bull; <strong>Социальные сети:</strong><br/>\r\n<a href=\"http://www.facebook.com/CentralnayaPPK\">www.facebook.com/CentralnayaPPK</a><br/>\r\n<a href=\"http://www.vk.com/centralppk\">www.vk.com/centralppk</a><br/>\r\n<a href=\"http://www.odnoklassniki.ru/centralppk\">www.odnoklassniki.ru/centralppk</a><br/>",
+          "phone": "",
+          "logo": "https://yastat.net/s3/rasp/media/data/company/logo/cppk.png",
+          "logo_svg": null
+        },
+        "uid": "6767x6768_0_9612144_g24_4",
+        "vehicle": null,
+        "transport_subtype": {
+          "title": "Пригородный поезд",
+          "code": "suburban",
+          "color": "#CC6600"
+        },
+        "thread_method_link": "api.rasp.yandex.net/v3/thread/?date=2024-02-27&uid=6767x6768_0_9612144_g24_4"
+      },
+      "stops": "везде",
+      "from": {
+        "type": "station",
+        "title": "Чёрное",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9601301",
+        "station_type": "platform",
+        "station_type_name": "платформа",
+        "transport_type": "train"
+      },
+      "to": {
+        "type": "station",
+        "title": "Серп и Молот",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9601796",
+        "station_type": "platform",
+        "station_type_name": "платформа",
+        "transport_type": "train"
+      },
+      "departure_platform": "",
+      "arrival_platform": "",
+      "departure_terminal": null,
+      "arrival_terminal": null,
+      "duration": 2160.0,
+      "has_transfers": false,
+      "tickets_info": null,
+      "departure": "2024-02-27T16:37:00+03:00",
+      "arrival": "2024-02-27T17:13:00+03:00",
+      "start_date": "2024-02-27"
+    },
+    {
+      "thread": {
+        "number": "6777/6778",
+        "title": "Купавна — Апрелевка",
+        "short_title": "Купавна — Апрелевка",
+        "express_type": null,
+        "transport_type": "suburban",
+        "carrier": {
+          "code": 153,
+          "title": "Центральная пригородная пассажирская компания",
+          "codes": {
+            "sirena": null,
+            "iata": null,
+            "icao": null
+          },
+          "address": "г. Москва, ул.Новорязанская, д.18, стр.22",
+          "url": "http://www.central-ppk.ru/",
+          "email": "info@central-ppk.ru",
+          "contacts": "&bull; <strong>Горячая линия для пассажиров:</strong><br/>телефон +7 (800) 775-00-00 <i>(звонок из регионов России бесплатный)</i><br/><br/>\r\n&bull; <strong>Для юридических лиц по вопросам перевозки корпоративных клиентов:</strong><br/>телефон +7 (499) 266-02-65,  доб. 7842, 7582, 7368;<br/>e-mail: <a href=\"mailto:corp@central-ppk.ru\">corp@central-ppk.ru</a><br/><br/>\r\n&bull; <strong>Пожелания и предложения:</strong> <br/>факс: +7 (499) 266-02-55<br/>e-mail: <a href=\"mailto:info@central-ppk.ru\">info@central-ppk.ru</a><br/><br/>\r\n&bull; <strong>Социальные сети:</strong><br/>\r\n<a href=\"http://www.facebook.com/CentralnayaPPK\">www.facebook.com/CentralnayaPPK</a><br/>\r\n<a href=\"http://www.vk.com/centralppk\">www.vk.com/centralppk</a><br/>\r\n<a href=\"http://www.odnoklassniki.ru/centralppk\">www.odnoklassniki.ru/centralppk</a><br/>",
+          "phone": "",
+          "logo": "https://yastat.net/s3/rasp/media/data/company/logo/cppk.png",
+          "logo_svg": null
+        },
+        "uid": "6777x6778_0_9601192_g24_4",
+        "vehicle": null,
+        "transport_subtype": {
+          "title": "Стандарт плюс",
+          "code": "stdplus",
+          "color": "#17c104"
+        },
+        "thread_method_link": "api.rasp.yandex.net/v3/thread/?date=2024-02-27&uid=6777x6778_0_9601192_g24_4"
+      },
+      "stops": "Железнодорожная, Реутов, Новогиреево, Нижегородская (Горьковское направление), Серп и Молот",
+      "from": {
+        "type": "station",
+        "title": "Чёрное",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9601301",
+        "station_type": "platform",
+        "station_type_name": "платформа",
+        "transport_type": "train"
+      },
+      "to": {
+        "type": "station",
+        "title": "Серп и Молот",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9601796",
+        "station_type": "platform",
+        "station_type_name": "платформа",
+        "transport_type": "train"
+      },
+      "departure_platform": "",
+      "arrival_platform": "",
+      "departure_terminal": null,
+      "arrival_terminal": null,
+      "duration": 1860.0,
+      "has_transfers": false,
+      "tickets_info": null,
+      "departure": "2024-02-27T17:22:00+03:00",
+      "arrival": "2024-02-27T17:53:00+03:00",
+      "start_date": "2024-02-27"
+    },
+    {
+      "thread": {
+        "number": "6785/6786",
+        "title": "Захарово — Апрелевка",
+        "short_title": "Захарово — Апрелевка",
+        "express_type": null,
+        "transport_type": "suburban",
+        "carrier": {
+          "code": 153,
+          "title": "Центральная пригородная пассажирская компания",
+          "codes": {
+            "sirena": null,
+            "iata": null,
+            "icao": null
+          },
+          "address": "г. Москва, ул.Новорязанская, д.18, стр.22",
+          "url": "http://www.central-ppk.ru/",
+          "email": "info@central-ppk.ru",
+          "contacts": "&bull; <strong>Горячая линия для пассажиров:</strong><br/>телефон +7 (800) 775-00-00 <i>(звонок из регионов России бесплатный)</i><br/><br/>\r\n&bull; <strong>Для юридических лиц по вопросам перевозки корпоративных клиентов:</strong><br/>телефон +7 (499) 266-02-65,  доб. 7842, 7582, 7368;<br/>e-mail: <a href=\"mailto:corp@central-ppk.ru\">corp@central-ppk.ru</a><br/><br/>\r\n&bull; <strong>Пожелания и предложения:</strong> <br/>факс: +7 (499) 266-02-55<br/>e-mail: <a href=\"mailto:info@central-ppk.ru\">info@central-ppk.ru</a><br/><br/>\r\n&bull; <strong>Социальные сети:</strong><br/>\r\n<a href=\"http://www.facebook.com/CentralnayaPPK\">www.facebook.com/CentralnayaPPK</a><br/>\r\n<a href=\"http://www.vk.com/centralppk\">www.vk.com/centralppk</a><br/>\r\n<a href=\"http://www.odnoklassniki.ru/centralppk\">www.odnoklassniki.ru/centralppk</a><br/>",
+          "phone": "",
+          "logo": "https://yastat.net/s3/rasp/media/data/company/logo/cppk.png",
+          "logo_svg": null
+        },
+        "uid": "6785x6786_0_9601712_g24_4",
+        "vehicle": null,
+        "transport_subtype": {
+          "title": "Стандарт плюс",
+          "code": "stdplus",
+          "color": "#17c104"
+        },
+        "thread_method_link": "api.rasp.yandex.net/v3/thread/?date=2024-02-27&uid=6785x6786_0_9601712_g24_4"
+      },
+      "stops": "везде",
+      "from": {
+        "type": "station",
+        "title": "Чёрное",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9601301",
+        "station_type": "platform",
+        "station_type_name": "платформа",
+        "transport_type": "train"
+      },
+      "to": {
+        "type": "station",
+        "title": "Серп и Молот",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9601796",
+        "station_type": "platform",
+        "station_type_name": "платформа",
+        "transport_type": "train"
+      },
+      "departure_platform": "",
+      "arrival_platform": "",
+      "departure_terminal": null,
+      "arrival_terminal": null,
+      "duration": 2160.0,
+      "has_transfers": false,
+      "tickets_info": null,
+      "departure": "2024-02-27T17:42:00+03:00",
+      "arrival": "2024-02-27T18:18:00+03:00",
+      "start_date": "2024-02-27"
+    },
+    {
+      "thread": {
+        "number": "6791/6792",
+        "title": "Крутое — Апрелевка",
+        "short_title": "Крутое — Апрелевка",
+        "express_type": null,
+        "transport_type": "suburban",
+        "carrier": {
+          "code": 153,
+          "title": "Центральная пригородная пассажирская компания",
+          "codes": {
+            "sirena": null,
+            "iata": null,
+            "icao": null
+          },
+          "address": "г. Москва, ул.Новорязанская, д.18, стр.22",
+          "url": "http://www.central-ppk.ru/",
+          "email": "info@central-ppk.ru",
+          "contacts": "&bull; <strong>Горячая линия для пассажиров:</strong><br/>телефон +7 (800) 775-00-00 <i>(звонок из регионов России бесплатный)</i><br/><br/>\r\n&bull; <strong>Для юридических лиц по вопросам перевозки корпоративных клиентов:</strong><br/>телефон +7 (499) 266-02-65,  доб. 7842, 7582, 7368;<br/>e-mail: <a href=\"mailto:corp@central-ppk.ru\">corp@central-ppk.ru</a><br/><br/>\r\n&bull; <strong>Пожелания и предложения:</strong> <br/>факс: +7 (499) 266-02-55<br/>e-mail: <a href=\"mailto:info@central-ppk.ru\">info@central-ppk.ru</a><br/><br/>\r\n&bull; <strong>Социальные сети:</strong><br/>\r\n<a href=\"http://www.facebook.com/CentralnayaPPK\">www.facebook.com/CentralnayaPPK</a><br/>\r\n<a href=\"http://www.vk.com/centralppk\">www.vk.com/centralppk</a><br/>\r\n<a href=\"http://www.odnoklassniki.ru/centralppk\">www.odnoklassniki.ru/centralppk</a><br/>",
+          "phone": "",
+          "logo": "https://yastat.net/s3/rasp/media/data/company/logo/cppk.png",
+          "logo_svg": null
+        },
+        "uid": "6791x6792_0_9602107_g24_4",
+        "vehicle": null,
+        "transport_subtype": {
+          "title": "Пригородный поезд",
+          "code": "suburban",
+          "color": "#CC6600"
+        },
+        "thread_method_link": "api.rasp.yandex.net/v3/thread/?date=2024-02-27&uid=6791x6792_0_9602107_g24_4"
+      },
+      "stops": "везде",
+      "from": {
+        "type": "station",
+        "title": "Чёрное",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9601301",
+        "station_type": "platform",
+        "station_type_name": "платформа",
+        "transport_type": "train"
+      },
+      "to": {
+        "type": "station",
+        "title": "Серп и Молот",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9601796",
+        "station_type": "platform",
+        "station_type_name": "платформа",
+        "transport_type": "train"
+      },
+      "departure_platform": "",
+      "arrival_platform": "",
+      "departure_terminal": null,
+      "arrival_terminal": null,
+      "duration": 2340.0,
+      "has_transfers": false,
+      "tickets_info": null,
+      "departure": "2024-02-27T17:59:00+03:00",
+      "arrival": "2024-02-27T18:38:00+03:00",
+      "start_date": "2024-02-27"
+    },
+    {
+      "thread": {
+        "number": "6793/6794",
+        "title": "Фрязево — Апрелевка",
+        "short_title": "Фрязево — Апрелевка",
+        "express_type": null,
+        "transport_type": "suburban",
+        "carrier": {
+          "code": 153,
+          "title": "Центральная пригородная пассажирская компания",
+          "codes": {
+            "sirena": null,
+            "iata": null,
+            "icao": null
+          },
+          "address": "г. Москва, ул.Новорязанская, д.18, стр.22",
+          "url": "http://www.central-ppk.ru/",
+          "email": "info@central-ppk.ru",
+          "contacts": "&bull; <strong>Горячая линия для пассажиров:</strong><br/>телефон +7 (800) 775-00-00 <i>(звонок из регионов России бесплатный)</i><br/><br/>\r\n&bull; <strong>Для юридических лиц по вопросам перевозки корпоративных клиентов:</strong><br/>телефон +7 (499) 266-02-65,  доб. 7842, 7582, 7368;<br/>e-mail: <a href=\"mailto:corp@central-ppk.ru\">corp@central-ppk.ru</a><br/><br/>\r\n&bull; <strong>Пожелания и предложения:</strong> <br/>факс: +7 (499) 266-02-55<br/>e-mail: <a href=\"mailto:info@central-ppk.ru\">info@central-ppk.ru</a><br/><br/>\r\n&bull; <strong>Социальные сети:</strong><br/>\r\n<a href=\"http://www.facebook.com/CentralnayaPPK\">www.facebook.com/CentralnayaPPK</a><br/>\r\n<a href=\"http://www.vk.com/centralppk\">www.vk.com/centralppk</a><br/>\r\n<a href=\"http://www.odnoklassniki.ru/centralppk\">www.odnoklassniki.ru/centralppk</a><br/>",
+          "phone": "",
+          "logo": "https://yastat.net/s3/rasp/media/data/company/logo/cppk.png",
+          "logo_svg": null
+        },
+        "uid": "6793x6794_0_9601680_g24_4",
+        "vehicle": null,
+        "transport_subtype": {
+          "title": "Пригородный поезд",
+          "code": "suburban",
+          "color": "#CC6600"
+        },
+        "thread_method_link": "api.rasp.yandex.net/v3/thread/?date=2024-02-27&uid=6793x6794_0_9601680_g24_4"
+      },
+      "stops": "Железнодорожная, Реутов, Новогиреево, Нижегородская (Горьковское направление), Серп и Молот",
+      "from": {
+        "type": "station",
+        "title": "Чёрное",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9601301",
+        "station_type": "platform",
+        "station_type_name": "платформа",
+        "transport_type": "train"
+      },
+      "to": {
+        "type": "station",
+        "title": "Серп и Молот",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9601796",
+        "station_type": "platform",
+        "station_type_name": "платформа",
+        "transport_type": "train"
+      },
+      "departure_platform": "",
+      "arrival_platform": "",
+      "departure_terminal": null,
+      "arrival_terminal": null,
+      "duration": 2040.0,
+      "has_transfers": false,
+      "tickets_info": null,
+      "departure": "2024-02-27T18:09:00+03:00",
+      "arrival": "2024-02-27T18:43:00+03:00",
+      "start_date": "2024-02-27"
+    },
+    {
+      "thread": {
+        "number": "6799/6800",
+        "title": "Петушки — Апрелевка",
+        "short_title": "Петушки — Апрелевка",
+        "express_type": null,
+        "transport_type": "suburban",
+        "carrier": {
+          "code": 153,
+          "title": "Центральная пригородная пассажирская компания",
+          "codes": {
+            "sirena": null,
+            "iata": null,
+            "icao": null
+          },
+          "address": "г. Москва, ул.Новорязанская, д.18, стр.22",
+          "url": "http://www.central-ppk.ru/",
+          "email": "info@central-ppk.ru",
+          "contacts": "&bull; <strong>Горячая линия для пассажиров:</strong><br/>телефон +7 (800) 775-00-00 <i>(звонок из регионов России бесплатный)</i><br/><br/>\r\n&bull; <strong>Для юридических лиц по вопросам перевозки корпоративных клиентов:</strong><br/>телефон +7 (499) 266-02-65,  доб. 7842, 7582, 7368;<br/>e-mail: <a href=\"mailto:corp@central-ppk.ru\">corp@central-ppk.ru</a><br/><br/>\r\n&bull; <strong>Пожелания и предложения:</strong> <br/>факс: +7 (499) 266-02-55<br/>e-mail: <a href=\"mailto:info@central-ppk.ru\">info@central-ppk.ru</a><br/><br/>\r\n&bull; <strong>Социальные сети:</strong><br/>\r\n<a href=\"http://www.facebook.com/CentralnayaPPK\">www.facebook.com/CentralnayaPPK</a><br/>\r\n<a href=\"http://www.vk.com/centralppk\">www.vk.com/centralppk</a><br/>\r\n<a href=\"http://www.odnoklassniki.ru/centralppk\">www.odnoklassniki.ru/centralppk</a><br/>",
+          "phone": "",
+          "logo": "https://yastat.net/s3/rasp/media/data/company/logo/cppk.png",
+          "logo_svg": null
+        },
+        "uid": "6799x6800_0_9612144_g24_4",
+        "vehicle": null,
+        "transport_subtype": {
+          "title": "Пригородный поезд",
+          "code": "suburban",
+          "color": "#CC6600"
+        },
+        "thread_method_link": "api.rasp.yandex.net/v3/thread/?date=2024-02-27&uid=6799x6800_0_9612144_g24_4"
+      },
+      "stops": "везде",
+      "from": {
+        "type": "station",
+        "title": "Чёрное",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9601301",
+        "station_type": "platform",
+        "station_type_name": "платформа",
+        "transport_type": "train"
+      },
+      "to": {
+        "type": "station",
+        "title": "Серп и Молот",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9601796",
+        "station_type": "platform",
+        "station_type_name": "платформа",
+        "transport_type": "train"
+      },
+      "departure_platform": "",
+      "arrival_platform": "",
+      "departure_terminal": null,
+      "arrival_terminal": null,
+      "duration": 2460.0,
+      "has_transfers": false,
+      "tickets_info": null,
+      "departure": "2024-02-27T18:22:00+03:00",
+      "arrival": "2024-02-27T19:03:00+03:00",
+      "start_date": "2024-02-27"
+    },
+    {
+      "thread": {
+        "number": "6803/6804",
+        "title": "Захарово — Апрелевка",
+        "short_title": "Захарово — Апрелевка",
+        "express_type": null,
+        "transport_type": "suburban",
+        "carrier": {
+          "code": 153,
+          "title": "Центральная пригородная пассажирская компания",
+          "codes": {
+            "sirena": null,
+            "iata": null,
+            "icao": null
+          },
+          "address": "г. Москва, ул.Новорязанская, д.18, стр.22",
+          "url": "http://www.central-ppk.ru/",
+          "email": "info@central-ppk.ru",
+          "contacts": "&bull; <strong>Горячая линия для пассажиров:</strong><br/>телефон +7 (800) 775-00-00 <i>(звонок из регионов России бесплатный)</i><br/><br/>\r\n&bull; <strong>Для юридических лиц по вопросам перевозки корпоративных клиентов:</strong><br/>телефон +7 (499) 266-02-65,  доб. 7842, 7582, 7368;<br/>e-mail: <a href=\"mailto:corp@central-ppk.ru\">corp@central-ppk.ru</a><br/><br/>\r\n&bull; <strong>Пожелания и предложения:</strong> <br/>факс: +7 (499) 266-02-55<br/>e-mail: <a href=\"mailto:info@central-ppk.ru\">info@central-ppk.ru</a><br/><br/>\r\n&bull; <strong>Социальные сети:</strong><br/>\r\n<a href=\"http://www.facebook.com/CentralnayaPPK\">www.facebook.com/CentralnayaPPK</a><br/>\r\n<a href=\"http://www.vk.com/centralppk\">www.vk.com/centralppk</a><br/>\r\n<a href=\"http://www.odnoklassniki.ru/centralppk\">www.odnoklassniki.ru/centralppk</a><br/>",
+          "phone": "",
+          "logo": "https://yastat.net/s3/rasp/media/data/company/logo/cppk.png",
+          "logo_svg": null
+        },
+        "uid": "6803x6804_0_9601712_g24_4",
+        "vehicle": null,
+        "transport_subtype": {
+          "title": "Пригородный поезд",
+          "code": "suburban",
+          "color": "#CC6600"
+        },
+        "thread_method_link": "api.rasp.yandex.net/v3/thread/?date=2024-02-27&uid=6803x6804_0_9601712_g24_4"
+      },
+      "stops": "везде",
+      "from": {
+        "type": "station",
+        "title": "Чёрное",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9601301",
+        "station_type": "platform",
+        "station_type_name": "платформа",
+        "transport_type": "train"
+      },
+      "to": {
+        "type": "station",
+        "title": "Серп и Молот",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9601796",
+        "station_type": "platform",
+        "station_type_name": "платформа",
+        "transport_type": "train"
+      },
+      "departure_platform": "",
+      "arrival_platform": "",
+      "departure_terminal": null,
+      "arrival_terminal": null,
+      "duration": 2220.0,
+      "has_transfers": false,
+      "tickets_info": null,
+      "departure": "2024-02-27T18:41:00+03:00",
+      "arrival": "2024-02-27T19:18:00+03:00",
+      "start_date": "2024-02-27"
+    },
+    {
+      "thread": {
+        "number": "6807/6808",
+        "title": "Крутое — Лесной Городок",
+        "short_title": "Крутое — Лесн. Городок",
+        "express_type": null,
+        "transport_type": "suburban",
+        "carrier": {
+          "code": 153,
+          "title": "Центральная пригородная пассажирская компания",
+          "codes": {
+            "sirena": null,
+            "iata": null,
+            "icao": null
+          },
+          "address": "г. Москва, ул.Новорязанская, д.18, стр.22",
+          "url": "http://www.central-ppk.ru/",
+          "email": "info@central-ppk.ru",
+          "contacts": "&bull; <strong>Горячая линия для пассажиров:</strong><br/>телефон +7 (800) 775-00-00 <i>(звонок из регионов России бесплатный)</i><br/><br/>\r\n&bull; <strong>Для юридических лиц по вопросам перевозки корпоративных клиентов:</strong><br/>телефон +7 (499) 266-02-65,  доб. 7842, 7582, 7368;<br/>e-mail: <a href=\"mailto:corp@central-ppk.ru\">corp@central-ppk.ru</a><br/><br/>\r\n&bull; <strong>Пожелания и предложения:</strong> <br/>факс: +7 (499) 266-02-55<br/>e-mail: <a href=\"mailto:info@central-ppk.ru\">info@central-ppk.ru</a><br/><br/>\r\n&bull; <strong>Социальные сети:</strong><br/>\r\n<a href=\"http://www.facebook.com/CentralnayaPPK\">www.facebook.com/CentralnayaPPK</a><br/>\r\n<a href=\"http://www.vk.com/centralppk\">www.vk.com/centralppk</a><br/>\r\n<a href=\"http://www.odnoklassniki.ru/centralppk\">www.odnoklassniki.ru/centralppk</a><br/>",
+          "phone": "",
+          "logo": "https://yastat.net/s3/rasp/media/data/company/logo/cppk.png",
+          "logo_svg": null
+        },
+        "uid": "6807x6808_0_9602107_g24_4",
+        "vehicle": null,
+        "transport_subtype": {
+          "title": "Стандарт плюс",
+          "code": "stdplus",
+          "color": "#17c104"
+        },
+        "thread_method_link": "api.rasp.yandex.net/v3/thread/?date=2024-02-27&uid=6807x6808_0_9602107_g24_4"
+      },
+      "stops": "везде",
+      "from": {
+        "type": "station",
+        "title": "Чёрное",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9601301",
+        "station_type": "platform",
+        "station_type_name": "платформа",
+        "transport_type": "train"
+      },
+      "to": {
+        "type": "station",
+        "title": "Серп и Молот",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9601796",
+        "station_type": "platform",
+        "station_type_name": "платформа",
+        "transport_type": "train"
+      },
+      "departure_platform": "",
+      "arrival_platform": "",
+      "departure_terminal": null,
+      "arrival_terminal": null,
+      "duration": 2400.0,
+      "has_transfers": false,
+      "tickets_info": null,
+      "departure": "2024-02-27T18:53:00+03:00",
+      "arrival": "2024-02-27T19:33:00+03:00",
+      "start_date": "2024-02-27"
+    },
+    {
+      "thread": {
+        "number": "6815/6816",
+        "title": "Электрогорск — Апрелевка",
+        "short_title": "Электрогорск — Апрелевка",
+        "express_type": null,
+        "transport_type": "suburban",
+        "carrier": {
+          "code": 153,
+          "title": "Центральная пригородная пассажирская компания",
+          "codes": {
+            "sirena": null,
+            "iata": null,
+            "icao": null
+          },
+          "address": "г. Москва, ул.Новорязанская, д.18, стр.22",
+          "url": "http://www.central-ppk.ru/",
+          "email": "info@central-ppk.ru",
+          "contacts": "&bull; <strong>Горячая линия для пассажиров:</strong><br/>телефон +7 (800) 775-00-00 <i>(звонок из регионов России бесплатный)</i><br/><br/>\r\n&bull; <strong>Для юридических лиц по вопросам перевозки корпоративных клиентов:</strong><br/>телефон +7 (499) 266-02-65,  доб. 7842, 7582, 7368;<br/>e-mail: <a href=\"mailto:corp@central-ppk.ru\">corp@central-ppk.ru</a><br/><br/>\r\n&bull; <strong>Пожелания и предложения:</strong> <br/>факс: +7 (499) 266-02-55<br/>e-mail: <a href=\"mailto:info@central-ppk.ru\">info@central-ppk.ru</a><br/><br/>\r\n&bull; <strong>Социальные сети:</strong><br/>\r\n<a href=\"http://www.facebook.com/CentralnayaPPK\">www.facebook.com/CentralnayaPPK</a><br/>\r\n<a href=\"http://www.vk.com/centralppk\">www.vk.com/centralppk</a><br/>\r\n<a href=\"http://www.odnoklassniki.ru/centralppk\">www.odnoklassniki.ru/centralppk</a><br/>",
+          "phone": "",
+          "logo": "https://yastat.net/s3/rasp/media/data/company/logo/cppk.png",
+          "logo_svg": null
+        },
+        "uid": "6815x6816_0_9600677_g24_4",
+        "vehicle": null,
+        "transport_subtype": {
+          "title": "Пригородный поезд",
+          "code": "suburban",
+          "color": "#CC6600"
+        },
+        "thread_method_link": "api.rasp.yandex.net/v3/thread/?date=2024-02-27&uid=6815x6816_0_9600677_g24_4"
+      },
+      "stops": "везде",
+      "from": {
+        "type": "station",
+        "title": "Чёрное",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9601301",
+        "station_type": "platform",
+        "station_type_name": "платформа",
+        "transport_type": "train"
+      },
+      "to": {
+        "type": "station",
+        "title": "Серп и Молот",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9601796",
+        "station_type": "platform",
+        "station_type_name": "платформа",
+        "transport_type": "train"
+      },
+      "departure_platform": "",
+      "arrival_platform": "",
+      "departure_terminal": null,
+      "arrival_terminal": null,
+      "duration": 2460.0,
+      "has_transfers": false,
+      "tickets_info": null,
+      "departure": "2024-02-27T19:37:00+03:00",
+      "arrival": "2024-02-27T20:18:00+03:00",
+      "start_date": "2024-02-27"
+    },
+    {
+      "thread": {
+        "number": "6819/6820",
+        "title": "Крутое — Лесной Городок",
+        "short_title": "Крутое — Лесн. Городок",
+        "express_type": null,
+        "transport_type": "suburban",
+        "carrier": {
+          "code": 153,
+          "title": "Центральная пригородная пассажирская компания",
+          "codes": {
+            "sirena": null,
+            "iata": null,
+            "icao": null
+          },
+          "address": "г. Москва, ул.Новорязанская, д.18, стр.22",
+          "url": "http://www.central-ppk.ru/",
+          "email": "info@central-ppk.ru",
+          "contacts": "&bull; <strong>Горячая линия для пассажиров:</strong><br/>телефон +7 (800) 775-00-00 <i>(звонок из регионов России бесплатный)</i><br/><br/>\r\n&bull; <strong>Для юридических лиц по вопросам перевозки корпоративных клиентов:</strong><br/>телефон +7 (499) 266-02-65,  доб. 7842, 7582, 7368;<br/>e-mail: <a href=\"mailto:corp@central-ppk.ru\">corp@central-ppk.ru</a><br/><br/>\r\n&bull; <strong>Пожелания и предложения:</strong> <br/>факс: +7 (499) 266-02-55<br/>e-mail: <a href=\"mailto:info@central-ppk.ru\">info@central-ppk.ru</a><br/><br/>\r\n&bull; <strong>Социальные сети:</strong><br/>\r\n<a href=\"http://www.facebook.com/CentralnayaPPK\">www.facebook.com/CentralnayaPPK</a><br/>\r\n<a href=\"http://www.vk.com/centralppk\">www.vk.com/centralppk</a><br/>\r\n<a href=\"http://www.odnoklassniki.ru/centralppk\">www.odnoklassniki.ru/centralppk</a><br/>",
+          "phone": "",
+          "logo": "https://yastat.net/s3/rasp/media/data/company/logo/cppk.png",
+          "logo_svg": null
+        },
+        "uid": "6819x6820_0_9602107_g24_4",
+        "vehicle": null,
+        "transport_subtype": {
+          "title": "Пригородный поезд",
+          "code": "suburban",
+          "color": "#CC6600"
+        },
+        "thread_method_link": "api.rasp.yandex.net/v3/thread/?date=2024-02-27&uid=6819x6820_0_9602107_g24_4"
+      },
+      "stops": "везде",
+      "from": {
+        "type": "station",
+        "title": "Чёрное",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9601301",
+        "station_type": "platform",
+        "station_type_name": "платформа",
+        "transport_type": "train"
+      },
+      "to": {
+        "type": "station",
+        "title": "Серп и Молот",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9601796",
+        "station_type": "platform",
+        "station_type_name": "платформа",
+        "transport_type": "train"
+      },
+      "departure_platform": "",
+      "arrival_platform": "",
+      "departure_terminal": null,
+      "arrival_terminal": null,
+      "duration": 2220.0,
+      "has_transfers": false,
+      "tickets_info": null,
+      "departure": "2024-02-27T19:56:00+03:00",
+      "arrival": "2024-02-27T20:33:00+03:00",
+      "start_date": "2024-02-27"
+    },
+    {
+      "thread": {
+        "number": "6821/6822",
+        "title": "Захарово — Апрелевка",
+        "short_title": "Захарово — Апрелевка",
+        "express_type": null,
+        "transport_type": "suburban",
+        "carrier": {
+          "code": 153,
+          "title": "Центральная пригородная пассажирская компания",
+          "codes": {
+            "sirena": null,
+            "iata": null,
+            "icao": null
+          },
+          "address": "г. Москва, ул.Новорязанская, д.18, стр.22",
+          "url": "http://www.central-ppk.ru/",
+          "email": "info@central-ppk.ru",
+          "contacts": "&bull; <strong>Горячая линия для пассажиров:</strong><br/>телефон +7 (800) 775-00-00 <i>(звонок из регионов России бесплатный)</i><br/><br/>\r\n&bull; <strong>Для юридических лиц по вопросам перевозки корпоративных клиентов:</strong><br/>телефон +7 (499) 266-02-65,  доб. 7842, 7582, 7368;<br/>e-mail: <a href=\"mailto:corp@central-ppk.ru\">corp@central-ppk.ru</a><br/><br/>\r\n&bull; <strong>Пожелания и предложения:</strong> <br/>факс: +7 (499) 266-02-55<br/>e-mail: <a href=\"mailto:info@central-ppk.ru\">info@central-ppk.ru</a><br/><br/>\r\n&bull; <strong>Социальные сети:</strong><br/>\r\n<a href=\"http://www.facebook.com/CentralnayaPPK\">www.facebook.com/CentralnayaPPK</a><br/>\r\n<a href=\"http://www.vk.com/centralppk\">www.vk.com/centralppk</a><br/>\r\n<a href=\"http://www.odnoklassniki.ru/centralppk\">www.odnoklassniki.ru/centralppk</a><br/>",
+          "phone": "",
+          "logo": "https://yastat.net/s3/rasp/media/data/company/logo/cppk.png",
+          "logo_svg": null
+        },
+        "uid": "6821x6822_0_9601712_g24_4",
+        "vehicle": null,
+        "transport_subtype": {
+          "title": "Пригородный поезд",
+          "code": "suburban",
+          "color": "#CC6600"
+        },
+        "thread_method_link": "api.rasp.yandex.net/v3/thread/?date=2024-02-27&uid=6821x6822_0_9601712_g24_4"
+      },
+      "stops": "везде",
+      "from": {
+        "type": "station",
+        "title": "Чёрное",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9601301",
+        "station_type": "platform",
+        "station_type_name": "платформа",
+        "transport_type": "train"
+      },
+      "to": {
+        "type": "station",
+        "title": "Серп и Молот",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9601796",
+        "station_type": "platform",
+        "station_type_name": "платформа",
+        "transport_type": "train"
+      },
+      "departure_platform": "",
+      "arrival_platform": "",
+      "departure_terminal": null,
+      "arrival_terminal": null,
+      "duration": 2220.0,
+      "has_transfers": false,
+      "tickets_info": {
+        "et_marker": false,
+        "places": [
+          {
+            "name": null,
+            "price": {
+              "whole": 99,
+              "cents": 0
+            },
+            "currency": "RUB"
+          }
+        ]
+      },
+      "departure": "2024-02-27T20:01:00+03:00",
+      "arrival": "2024-02-27T20:38:00+03:00",
+      "start_date": "2024-02-27"
+    },
+    {
+      "thread": {
+        "number": "6825/6826",
+        "title": "Купавна — Апрелевка",
+        "short_title": "Купавна — Апрелевка",
+        "express_type": null,
+        "transport_type": "suburban",
+        "carrier": {
+          "code": 153,
+          "title": "Центральная пригородная пассажирская компания",
+          "codes": {
+            "sirena": null,
+            "iata": null,
+            "icao": null
+          },
+          "address": "г. Москва, ул.Новорязанская, д.18, стр.22",
+          "url": "http://www.central-ppk.ru/",
+          "email": "info@central-ppk.ru",
+          "contacts": "&bull; <strong>Горячая линия для пассажиров:</strong><br/>телефон +7 (800) 775-00-00 <i>(звонок из регионов России бесплатный)</i><br/><br/>\r\n&bull; <strong>Для юридических лиц по вопросам перевозки корпоративных клиентов:</strong><br/>телефон +7 (499) 266-02-65,  доб. 7842, 7582, 7368;<br/>e-mail: <a href=\"mailto:corp@central-ppk.ru\">corp@central-ppk.ru</a><br/><br/>\r\n&bull; <strong>Пожелания и предложения:</strong> <br/>факс: +7 (499) 266-02-55<br/>e-mail: <a href=\"mailto:info@central-ppk.ru\">info@central-ppk.ru</a><br/><br/>\r\n&bull; <strong>Социальные сети:</strong><br/>\r\n<a href=\"http://www.facebook.com/CentralnayaPPK\">www.facebook.com/CentralnayaPPK</a><br/>\r\n<a href=\"http://www.vk.com/centralppk\">www.vk.com/centralppk</a><br/>\r\n<a href=\"http://www.odnoklassniki.ru/centralppk\">www.odnoklassniki.ru/centralppk</a><br/>",
+          "phone": "",
+          "logo": "https://yastat.net/s3/rasp/media/data/company/logo/cppk.png",
+          "logo_svg": null
+        },
+        "uid": "6825x6826_0_9601192_g24_4",
+        "vehicle": null,
+        "transport_subtype": {
+          "title": "Пригородный поезд",
+          "code": "suburban",
+          "color": "#CC6600"
+        },
+        "thread_method_link": "api.rasp.yandex.net/v3/thread/?date=2024-02-27&uid=6825x6826_0_9601192_g24_4"
+      },
+      "stops": "везде",
+      "from": {
+        "type": "station",
+        "title": "Чёрное",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9601301",
+        "station_type": "platform",
+        "station_type_name": "платформа",
+        "transport_type": "train"
+      },
+      "to": {
+        "type": "station",
+        "title": "Серп и Молот",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9601796",
+        "station_type": "platform",
+        "station_type_name": "платформа",
+        "transport_type": "train"
+      },
+      "departure_platform": "",
+      "arrival_platform": "",
+      "departure_terminal": null,
+      "arrival_terminal": null,
+      "duration": 2220.0,
+      "has_transfers": false,
+      "tickets_info": {
+        "et_marker": false,
+        "places": [
+          {
+            "name": null,
+            "price": {
+              "whole": 99,
+              "cents": 0
+            },
+            "currency": "RUB"
+          }
+        ]
+      },
+      "departure": "2024-02-27T20:19:00+03:00",
+      "arrival": "2024-02-27T20:56:00+03:00",
+      "start_date": "2024-02-27"
+    },
+    {
+      "thread": {
+        "number": "6831/6832",
+        "title": "Крутое — Очаково",
+        "short_title": "Крутое — Очаково",
+        "express_type": null,
+        "transport_type": "suburban",
+        "carrier": {
+          "code": 153,
+          "title": "Центральная пригородная пассажирская компания",
+          "codes": {
+            "sirena": null,
+            "iata": null,
+            "icao": null
+          },
+          "address": "г. Москва, ул.Новорязанская, д.18, стр.22",
+          "url": "http://www.central-ppk.ru/",
+          "email": "info@central-ppk.ru",
+          "contacts": "&bull; <strong>Горячая линия для пассажиров:</strong><br/>телефон +7 (800) 775-00-00 <i>(звонок из регионов России бесплатный)</i><br/><br/>\r\n&bull; <strong>Для юридических лиц по вопросам перевозки корпоративных клиентов:</strong><br/>телефон +7 (499) 266-02-65,  доб. 7842, 7582, 7368;<br/>e-mail: <a href=\"mailto:corp@central-ppk.ru\">corp@central-ppk.ru</a><br/><br/>\r\n&bull; <strong>Пожелания и предложения:</strong> <br/>факс: +7 (499) 266-02-55<br/>e-mail: <a href=\"mailto:info@central-ppk.ru\">info@central-ppk.ru</a><br/><br/>\r\n&bull; <strong>Социальные сети:</strong><br/>\r\n<a href=\"http://www.facebook.com/CentralnayaPPK\">www.facebook.com/CentralnayaPPK</a><br/>\r\n<a href=\"http://www.vk.com/centralppk\">www.vk.com/centralppk</a><br/>\r\n<a href=\"http://www.odnoklassniki.ru/centralppk\">www.odnoklassniki.ru/centralppk</a><br/>",
+          "phone": "",
+          "logo": "https://yastat.net/s3/rasp/media/data/company/logo/cppk.png",
+          "logo_svg": null
+        },
+        "uid": "6831x6832_0_9602107_g24_4",
+        "vehicle": null,
+        "transport_subtype": {
+          "title": "Стандарт плюс",
+          "code": "stdplus",
+          "color": "#17c104"
+        },
+        "thread_method_link": "api.rasp.yandex.net/v3/thread/?date=2024-02-27&uid=6831x6832_0_9602107_g24_4"
+      },
+      "stops": "Железнодорожная, Реутов, Новогиреево, Нижегородская (Горьковское направление), Серп и Молот",
+      "from": {
+        "type": "station",
+        "title": "Чёрное",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9601301",
+        "station_type": "platform",
+        "station_type_name": "платформа",
+        "transport_type": "train"
+      },
+      "to": {
+        "type": "station",
+        "title": "Серп и Молот",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9601796",
+        "station_type": "platform",
+        "station_type_name": "платформа",
+        "transport_type": "train"
+      },
+      "departure_platform": "",
+      "arrival_platform": "",
+      "departure_terminal": null,
+      "arrival_terminal": null,
+      "duration": 2340.0,
+      "has_transfers": false,
+      "tickets_info": {
+        "et_marker": false,
+        "places": [
+          {
+            "name": null,
+            "price": {
+              "whole": 99,
+              "cents": 0
+            },
+            "currency": "RUB"
+          }
+        ]
+      },
+      "departure": "2024-02-27T20:39:00+03:00",
+      "arrival": "2024-02-27T21:18:00+03:00",
+      "start_date": "2024-02-27"
+    },
+    {
+      "thread": {
+        "number": "6835/6836",
+        "title": "Захарово — Очаково",
+        "short_title": "Захарово — Очаково",
+        "express_type": null,
+        "transport_type": "suburban",
+        "carrier": {
+          "code": 153,
+          "title": "Центральная пригородная пассажирская компания",
+          "codes": {
+            "sirena": null,
+            "iata": null,
+            "icao": null
+          },
+          "address": "г. Москва, ул.Новорязанская, д.18, стр.22",
+          "url": "http://www.central-ppk.ru/",
+          "email": "info@central-ppk.ru",
+          "contacts": "&bull; <strong>Горячая линия для пассажиров:</strong><br/>телефон +7 (800) 775-00-00 <i>(звонок из регионов России бесплатный)</i><br/><br/>\r\n&bull; <strong>Для юридических лиц по вопросам перевозки корпоративных клиентов:</strong><br/>телефон +7 (499) 266-02-65,  доб. 7842, 7582, 7368;<br/>e-mail: <a href=\"mailto:corp@central-ppk.ru\">corp@central-ppk.ru</a><br/><br/>\r\n&bull; <strong>Пожелания и предложения:</strong> <br/>факс: +7 (499) 266-02-55<br/>e-mail: <a href=\"mailto:info@central-ppk.ru\">info@central-ppk.ru</a><br/><br/>\r\n&bull; <strong>Социальные сети:</strong><br/>\r\n<a href=\"http://www.facebook.com/CentralnayaPPK\">www.facebook.com/CentralnayaPPK</a><br/>\r\n<a href=\"http://www.vk.com/centralppk\">www.vk.com/centralppk</a><br/>\r\n<a href=\"http://www.odnoklassniki.ru/centralppk\">www.odnoklassniki.ru/centralppk</a><br/>",
+          "phone": "",
+          "logo": "https://yastat.net/s3/rasp/media/data/company/logo/cppk.png",
+          "logo_svg": null
+        },
+        "uid": "6835x6836_0_9601712_g24_4",
+        "vehicle": null,
+        "transport_subtype": {
+          "title": "Стандарт плюс",
+          "code": "stdplus",
+          "color": "#17c104"
+        },
+        "thread_method_link": "api.rasp.yandex.net/v3/thread/?date=2024-02-27&uid=6835x6836_0_9601712_g24_4"
+      },
+      "stops": "везде",
+      "from": {
+        "type": "station",
+        "title": "Чёрное",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9601301",
+        "station_type": "platform",
+        "station_type_name": "платформа",
+        "transport_type": "train"
+      },
+      "to": {
+        "type": "station",
+        "title": "Серп и Молот",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9601796",
+        "station_type": "platform",
+        "station_type_name": "платформа",
+        "transport_type": "train"
+      },
+      "departure_platform": "",
+      "arrival_platform": "",
+      "departure_terminal": null,
+      "arrival_terminal": null,
+      "duration": 2460.0,
+      "has_transfers": false,
+      "tickets_info": {
+        "et_marker": false,
+        "places": [
+          {
+            "name": null,
+            "price": {
+              "whole": 99,
+              "cents": 0
+            },
+            "currency": "RUB"
+          }
+        ]
+      },
+      "departure": "2024-02-27T20:53:00+03:00",
+      "arrival": "2024-02-27T21:34:00+03:00",
+      "start_date": "2024-02-27"
+    },
+    {
+      "thread": {
+        "number": "6995/6898/6897",
+        "title": "Владимир — Лесной Городок",
+        "short_title": "Владимир — Лесн. Городок",
+        "express_type": null,
+        "transport_type": "suburban",
+        "carrier": {
+          "code": 153,
+          "title": "Центральная пригородная пассажирская компания",
+          "codes": {
+            "sirena": null,
+            "iata": null,
+            "icao": null
+          },
+          "address": "г. Москва, ул.Новорязанская, д.18, стр.22",
+          "url": "http://www.central-ppk.ru/",
+          "email": "info@central-ppk.ru",
+          "contacts": "&bull; <strong>Горячая линия для пассажиров:</strong><br/>телефон +7 (800) 775-00-00 <i>(звонок из регионов России бесплатный)</i><br/><br/>\r\n&bull; <strong>Для юридических лиц по вопросам перевозки корпоративных клиентов:</strong><br/>телефон +7 (499) 266-02-65,  доб. 7842, 7582, 7368;<br/>e-mail: <a href=\"mailto:corp@central-ppk.ru\">corp@central-ppk.ru</a><br/><br/>\r\n&bull; <strong>Пожелания и предложения:</strong> <br/>факс: +7 (499) 266-02-55<br/>e-mail: <a href=\"mailto:info@central-ppk.ru\">info@central-ppk.ru</a><br/><br/>\r\n&bull; <strong>Социальные сети:</strong><br/>\r\n<a href=\"http://www.facebook.com/CentralnayaPPK\">www.facebook.com/CentralnayaPPK</a><br/>\r\n<a href=\"http://www.vk.com/centralppk\">www.vk.com/centralppk</a><br/>\r\n<a href=\"http://www.odnoklassniki.ru/centralppk\">www.odnoklassniki.ru/centralppk</a><br/>",
+          "phone": "",
+          "logo": "https://yastat.net/s3/rasp/media/data/company/logo/cppk.png",
+          "logo_svg": null
+        },
+        "uid": "6995x6898x6897_0_2060340_g24_4",
+        "vehicle": null,
+        "transport_subtype": {
+          "title": "Пригородный поезд",
+          "code": "suburban",
+          "color": "#CC6600"
+        },
+        "thread_method_link": "api.rasp.yandex.net/v3/thread/?date=2024-02-27&uid=6995x6898x6897_0_2060340_g24_4"
+      },
+      "stops": "везде",
+      "from": {
+        "type": "station",
+        "title": "Чёрное",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9601301",
+        "station_type": "platform",
+        "station_type_name": "платформа",
+        "transport_type": "train"
+      },
+      "to": {
+        "type": "station",
+        "title": "Серп и Молот",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9601796",
+        "station_type": "platform",
+        "station_type_name": "платформа",
+        "transport_type": "train"
+      },
+      "departure_platform": "",
+      "arrival_platform": "",
+      "departure_terminal": null,
+      "arrival_terminal": null,
+      "duration": 2460.0,
+      "has_transfers": false,
+      "tickets_info": {
+        "et_marker": false,
+        "places": [
+          {
+            "name": null,
+            "price": {
+              "whole": 99,
+              "cents": 0
+            },
+            "currency": "RUB"
+          }
+        ]
+      },
+      "departure": "2024-02-27T21:17:00+03:00",
+      "arrival": "2024-02-27T21:58:00+03:00",
+      "start_date": "2024-02-27"
+    },
+    {
+      "thread": {
+        "number": "6843/6844",
+        "title": "Захарово — Апрелевка",
+        "short_title": "Захарово — Апрелевка",
+        "express_type": null,
+        "transport_type": "suburban",
+        "carrier": {
+          "code": 153,
+          "title": "Центральная пригородная пассажирская компания",
+          "codes": {
+            "sirena": null,
+            "iata": null,
+            "icao": null
+          },
+          "address": "г. Москва, ул.Новорязанская, д.18, стр.22",
+          "url": "http://www.central-ppk.ru/",
+          "email": "info@central-ppk.ru",
+          "contacts": "&bull; <strong>Горячая линия для пассажиров:</strong><br/>телефон +7 (800) 775-00-00 <i>(звонок из регионов России бесплатный)</i><br/><br/>\r\n&bull; <strong>Для юридических лиц по вопросам перевозки корпоративных клиентов:</strong><br/>телефон +7 (499) 266-02-65,  доб. 7842, 7582, 7368;<br/>e-mail: <a href=\"mailto:corp@central-ppk.ru\">corp@central-ppk.ru</a><br/><br/>\r\n&bull; <strong>Пожелания и предложения:</strong> <br/>факс: +7 (499) 266-02-55<br/>e-mail: <a href=\"mailto:info@central-ppk.ru\">info@central-ppk.ru</a><br/><br/>\r\n&bull; <strong>Социальные сети:</strong><br/>\r\n<a href=\"http://www.facebook.com/CentralnayaPPK\">www.facebook.com/CentralnayaPPK</a><br/>\r\n<a href=\"http://www.vk.com/centralppk\">www.vk.com/centralppk</a><br/>\r\n<a href=\"http://www.odnoklassniki.ru/centralppk\">www.odnoklassniki.ru/centralppk</a><br/>",
+          "phone": "",
+          "logo": "https://yastat.net/s3/rasp/media/data/company/logo/cppk.png",
+          "logo_svg": null
+        },
+        "uid": "6843x6844_0_9601712_g24_4",
+        "vehicle": null,
+        "transport_subtype": {
+          "title": "Пригородный поезд",
+          "code": "suburban",
+          "color": "#CC6600"
+        },
+        "thread_method_link": "api.rasp.yandex.net/v3/thread/?date=2024-02-27&uid=6843x6844_0_9601712_g24_4"
+      },
+      "stops": "везде",
+      "from": {
+        "type": "station",
+        "title": "Чёрное",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9601301",
+        "station_type": "platform",
+        "station_type_name": "платформа",
+        "transport_type": "train"
+      },
+      "to": {
+        "type": "station",
+        "title": "Серп и Молот",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9601796",
+        "station_type": "platform",
+        "station_type_name": "платформа",
+        "transport_type": "train"
+      },
+      "departure_platform": "",
+      "arrival_platform": "",
+      "departure_terminal": null,
+      "arrival_terminal": null,
+      "duration": 2220.0,
+      "has_transfers": false,
+      "tickets_info": {
+        "et_marker": false,
+        "places": [
+          {
+            "name": null,
+            "price": {
+              "whole": 99,
+              "cents": 0
+            },
+            "currency": "RUB"
+          }
+        ]
+      },
+      "departure": "2024-02-27T21:57:00+03:00",
+      "arrival": "2024-02-27T22:34:00+03:00",
+      "start_date": "2024-02-27"
+    },
+    {
+      "thread": {
+        "number": "6845/6846",
+        "title": "Храпуново — Площадь трёх вокзалов (Каланчёвская)",
+        "short_title": "Храпуново — Площадь трёх вокзалов",
+        "express_type": null,
+        "transport_type": "suburban",
+        "carrier": {
+          "code": 153,
+          "title": "Центральная пригородная пассажирская компания",
+          "codes": {
+            "sirena": null,
+            "iata": null,
+            "icao": null
+          },
+          "address": "г. Москва, ул.Новорязанская, д.18, стр.22",
+          "url": "http://www.central-ppk.ru/",
+          "email": "info@central-ppk.ru",
+          "contacts": "&bull; <strong>Горячая линия для пассажиров:</strong><br/>телефон +7 (800) 775-00-00 <i>(звонок из регионов России бесплатный)</i><br/><br/>\r\n&bull; <strong>Для юридических лиц по вопросам перевозки корпоративных клиентов:</strong><br/>телефон +7 (499) 266-02-65,  доб. 7842, 7582, 7368;<br/>e-mail: <a href=\"mailto:corp@central-ppk.ru\">corp@central-ppk.ru</a><br/><br/>\r\n&bull; <strong>Пожелания и предложения:</strong> <br/>факс: +7 (499) 266-02-55<br/>e-mail: <a href=\"mailto:info@central-ppk.ru\">info@central-ppk.ru</a><br/><br/>\r\n&bull; <strong>Социальные сети:</strong><br/>\r\n<a href=\"http://www.facebook.com/CentralnayaPPK\">www.facebook.com/CentralnayaPPK</a><br/>\r\n<a href=\"http://www.vk.com/centralppk\">www.vk.com/centralppk</a><br/>\r\n<a href=\"http://www.odnoklassniki.ru/centralppk\">www.odnoklassniki.ru/centralppk</a><br/>",
+          "phone": "",
+          "logo": "https://yastat.net/s3/rasp/media/data/company/logo/cppk.png",
+          "logo_svg": null
+        },
+        "uid": "6845x6846_0_9602038_g24_4",
+        "vehicle": null,
+        "transport_subtype": {
+          "title": "Стандарт плюс",
+          "code": "stdplus",
+          "color": "#17c104"
+        },
+        "thread_method_link": "api.rasp.yandex.net/v3/thread/?date=2024-02-27&uid=6845x6846_0_9602038_g24_4"
+      },
+      "stops": "везде",
+      "from": {
+        "type": "station",
+        "title": "Чёрное",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9601301",
+        "station_type": "platform",
+        "station_type_name": "платформа",
+        "transport_type": "train"
+      },
+      "to": {
+        "type": "station",
+        "title": "Серп и Молот",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9601796",
+        "station_type": "platform",
+        "station_type_name": "платформа",
+        "transport_type": "train"
+      },
+      "departure_platform": "",
+      "arrival_platform": "",
+      "departure_terminal": null,
+      "arrival_terminal": null,
+      "duration": 2160.0,
+      "has_transfers": false,
+      "tickets_info": {
+        "et_marker": false,
+        "places": [
+          {
+            "name": null,
+            "price": {
+              "whole": 99,
+              "cents": 0
+            },
+            "currency": "RUB"
+          }
+        ]
+      },
+      "departure": "2024-02-27T22:37:00+03:00",
+      "arrival": "2024-02-27T23:13:00+03:00",
+      "start_date": "2024-02-27"
+    },
+    {
+      "thread": {
+        "number": "6849/6850",
+        "title": "Петушки — Площадь трёх вокзалов (Каланчёвская)",
+        "short_title": "Петушки — Площадь трёх вокзалов",
+        "express_type": null,
+        "transport_type": "suburban",
+        "carrier": {
+          "code": 153,
+          "title": "Центральная пригородная пассажирская компания",
+          "codes": {
+            "sirena": null,
+            "iata": null,
+            "icao": null
+          },
+          "address": "г. Москва, ул.Новорязанская, д.18, стр.22",
+          "url": "http://www.central-ppk.ru/",
+          "email": "info@central-ppk.ru",
+          "contacts": "&bull; <strong>Горячая линия для пассажиров:</strong><br/>телефон +7 (800) 775-00-00 <i>(звонок из регионов России бесплатный)</i><br/><br/>\r\n&bull; <strong>Для юридических лиц по вопросам перевозки корпоративных клиентов:</strong><br/>телефон +7 (499) 266-02-65,  доб. 7842, 7582, 7368;<br/>e-mail: <a href=\"mailto:corp@central-ppk.ru\">corp@central-ppk.ru</a><br/><br/>\r\n&bull; <strong>Пожелания и предложения:</strong> <br/>факс: +7 (499) 266-02-55<br/>e-mail: <a href=\"mailto:info@central-ppk.ru\">info@central-ppk.ru</a><br/><br/>\r\n&bull; <strong>Социальные сети:</strong><br/>\r\n<a href=\"http://www.facebook.com/CentralnayaPPK\">www.facebook.com/CentralnayaPPK</a><br/>\r\n<a href=\"http://www.vk.com/centralppk\">www.vk.com/centralppk</a><br/>\r\n<a href=\"http://www.odnoklassniki.ru/centralppk\">www.odnoklassniki.ru/centralppk</a><br/>",
+          "phone": "",
+          "logo": "https://yastat.net/s3/rasp/media/data/company/logo/cppk.png",
+          "logo_svg": null
+        },
+        "uid": "6849x6850_0_9612144_g24_4",
+        "vehicle": null,
+        "transport_subtype": {
+          "title": "Пригородный поезд",
+          "code": "suburban",
+          "color": "#CC6600"
+        },
+        "thread_method_link": "api.rasp.yandex.net/v3/thread/?date=2024-02-27&uid=6849x6850_0_9612144_g24_4"
+      },
+      "stops": "везде",
+      "from": {
+        "type": "station",
+        "title": "Чёрное",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9601301",
+        "station_type": "platform",
+        "station_type_name": "платформа",
+        "transport_type": "train"
+      },
+      "to": {
+        "type": "station",
+        "title": "Серп и Молот",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9601796",
+        "station_type": "platform",
+        "station_type_name": "платформа",
+        "transport_type": "train"
+      },
+      "departure_platform": "",
+      "arrival_platform": "",
+      "departure_terminal": null,
+      "arrival_terminal": null,
+      "duration": 2220.0,
+      "has_transfers": false,
+      "tickets_info": {
+        "et_marker": false,
+        "places": [
+          {
+            "name": null,
+            "price": {
+              "whole": 99,
+              "cents": 0
+            },
+            "currency": "RUB"
+          }
+        ]
+      },
+      "departure": "2024-02-27T22:58:00+03:00",
+      "arrival": "2024-02-27T23:35:00+03:00",
+      "start_date": "2024-02-27"
+    },
+    {
+      "thread": {
+        "number": "6853/6854",
+        "title": "Крутое — Площадь трёх вокзалов (Каланчёвская)",
+        "short_title": "Крутое — Площадь трёх вокзалов",
+        "express_type": null,
+        "transport_type": "suburban",
+        "carrier": {
+          "code": 153,
+          "title": "Центральная пригородная пассажирская компания",
+          "codes": {
+            "sirena": null,
+            "iata": null,
+            "icao": null
+          },
+          "address": "г. Москва, ул.Новорязанская, д.18, стр.22",
+          "url": "http://www.central-ppk.ru/",
+          "email": "info@central-ppk.ru",
+          "contacts": "&bull; <strong>Горячая линия для пассажиров:</strong><br/>телефон +7 (800) 775-00-00 <i>(звонок из регионов России бесплатный)</i><br/><br/>\r\n&bull; <strong>Для юридических лиц по вопросам перевозки корпоративных клиентов:</strong><br/>телефон +7 (499) 266-02-65,  доб. 7842, 7582, 7368;<br/>e-mail: <a href=\"mailto:corp@central-ppk.ru\">corp@central-ppk.ru</a><br/><br/>\r\n&bull; <strong>Пожелания и предложения:</strong> <br/>факс: +7 (499) 266-02-55<br/>e-mail: <a href=\"mailto:info@central-ppk.ru\">info@central-ppk.ru</a><br/><br/>\r\n&bull; <strong>Социальные сети:</strong><br/>\r\n<a href=\"http://www.facebook.com/CentralnayaPPK\">www.facebook.com/CentralnayaPPK</a><br/>\r\n<a href=\"http://www.vk.com/centralppk\">www.vk.com/centralppk</a><br/>\r\n<a href=\"http://www.odnoklassniki.ru/centralppk\">www.odnoklassniki.ru/centralppk</a><br/>",
+          "phone": "",
+          "logo": "https://yastat.net/s3/rasp/media/data/company/logo/cppk.png",
+          "logo_svg": null
+        },
+        "uid": "6853x6854_0_9602107_g24_4",
+        "vehicle": null,
+        "transport_subtype": {
+          "title": "Пригородный поезд",
+          "code": "suburban",
+          "color": "#CC6600"
+        },
+        "thread_method_link": "api.rasp.yandex.net/v3/thread/?date=2024-02-27&uid=6853x6854_0_9602107_g24_4"
+      },
+      "stops": "везде",
+      "from": {
+        "type": "station",
+        "title": "Чёрное",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9601301",
+        "station_type": "platform",
+        "station_type_name": "платформа",
+        "transport_type": "train"
+      },
+      "to": {
+        "type": "station",
+        "title": "Серп и Молот",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9601796",
+        "station_type": "platform",
+        "station_type_name": "платформа",
+        "transport_type": "train"
+      },
+      "departure_platform": "",
+      "arrival_platform": "",
+      "departure_terminal": null,
+      "arrival_terminal": null,
+      "duration": 2160.0,
+      "has_transfers": false,
+      "tickets_info": {
+        "et_marker": false,
+        "places": [
+          {
+            "name": null,
+            "price": {
+              "whole": 99,
+              "cents": 0
+            },
+            "currency": "RUB"
+          }
+        ]
+      },
+      "departure": "2024-02-27T23:06:00+03:00",
+      "arrival": "2024-02-27T23:42:00+03:00",
+      "start_date": "2024-02-27"
+    },
+    {
+      "thread": {
+        "number": "6855/6856",
+        "title": "Захарово — Апрелевка",
+        "short_title": "Захарово — Апрелевка",
+        "express_type": null,
+        "transport_type": "suburban",
+        "carrier": {
+          "code": 153,
+          "title": "Центральная пригородная пассажирская компания",
+          "codes": {
+            "sirena": null,
+            "iata": null,
+            "icao": null
+          },
+          "address": "г. Москва, ул.Новорязанская, д.18, стр.22",
+          "url": "http://www.central-ppk.ru/",
+          "email": "info@central-ppk.ru",
+          "contacts": "&bull; <strong>Горячая линия для пассажиров:</strong><br/>телефон +7 (800) 775-00-00 <i>(звонок из регионов России бесплатный)</i><br/><br/>\r\n&bull; <strong>Для юридических лиц по вопросам перевозки корпоративных клиентов:</strong><br/>телефон +7 (499) 266-02-65,  доб. 7842, 7582, 7368;<br/>e-mail: <a href=\"mailto:corp@central-ppk.ru\">corp@central-ppk.ru</a><br/><br/>\r\n&bull; <strong>Пожелания и предложения:</strong> <br/>факс: +7 (499) 266-02-55<br/>e-mail: <a href=\"mailto:info@central-ppk.ru\">info@central-ppk.ru</a><br/><br/>\r\n&bull; <strong>Социальные сети:</strong><br/>\r\n<a href=\"http://www.facebook.com/CentralnayaPPK\">www.facebook.com/CentralnayaPPK</a><br/>\r\n<a href=\"http://www.vk.com/centralppk\">www.vk.com/centralppk</a><br/>\r\n<a href=\"http://www.odnoklassniki.ru/centralppk\">www.odnoklassniki.ru/centralppk</a><br/>",
+          "phone": "",
+          "logo": "https://yastat.net/s3/rasp/media/data/company/logo/cppk.png",
+          "logo_svg": null
+        },
+        "uid": "6855x6856_0_9601712_g24_4",
+        "vehicle": null,
+        "transport_subtype": {
+          "title": "Стандарт плюс",
+          "code": "stdplus",
+          "color": "#17c104"
+        },
+        "thread_method_link": "api.rasp.yandex.net/v3/thread/?date=2024-02-27&uid=6855x6856_0_9601712_g24_4"
+      },
+      "stops": "везде",
+      "from": {
+        "type": "station",
+        "title": "Чёрное",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9601301",
+        "station_type": "platform",
+        "station_type_name": "платформа",
+        "transport_type": "train"
+      },
+      "to": {
+        "type": "station",
+        "title": "Серп и Молот",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9601796",
+        "station_type": "platform",
+        "station_type_name": "платформа",
+        "transport_type": "train"
+      },
+      "departure_platform": "",
+      "arrival_platform": "",
+      "departure_terminal": null,
+      "arrival_terminal": null,
+      "duration": 2220.0,
+      "has_transfers": false,
+      "tickets_info": {
+        "et_marker": false,
+        "places": [
+          {
+            "name": null,
+            "price": {
+              "whole": 99,
+              "cents": 0
+            },
+            "currency": "RUB"
+          }
+        ]
+      },
+      "departure": "2024-02-27T23:17:00+03:00",
+      "arrival": "2024-02-27T23:54:00+03:00",
+      "start_date": "2024-02-27"
+    },
+    {
+      "thread": {
+        "number": "6857/6858",
+        "title": "Петушки — Площадь трёх вокзалов (Каланчёвская)",
+        "short_title": "Петушки — Площадь трёх вокзалов",
+        "express_type": null,
+        "transport_type": "suburban",
+        "carrier": {
+          "code": 153,
+          "title": "Центральная пригородная пассажирская компания",
+          "codes": {
+            "sirena": null,
+            "iata": null,
+            "icao": null
+          },
+          "address": "г. Москва, ул.Новорязанская, д.18, стр.22",
+          "url": "http://www.central-ppk.ru/",
+          "email": "info@central-ppk.ru",
+          "contacts": "&bull; <strong>Горячая линия для пассажиров:</strong><br/>телефон +7 (800) 775-00-00 <i>(звонок из регионов России бесплатный)</i><br/><br/>\r\n&bull; <strong>Для юридических лиц по вопросам перевозки корпоративных клиентов:</strong><br/>телефон +7 (499) 266-02-65,  доб. 7842, 7582, 7368;<br/>e-mail: <a href=\"mailto:corp@central-ppk.ru\">corp@central-ppk.ru</a><br/><br/>\r\n&bull; <strong>Пожелания и предложения:</strong> <br/>факс: +7 (499) 266-02-55<br/>e-mail: <a href=\"mailto:info@central-ppk.ru\">info@central-ppk.ru</a><br/><br/>\r\n&bull; <strong>Социальные сети:</strong><br/>\r\n<a href=\"http://www.facebook.com/CentralnayaPPK\">www.facebook.com/CentralnayaPPK</a><br/>\r\n<a href=\"http://www.vk.com/centralppk\">www.vk.com/centralppk</a><br/>\r\n<a href=\"http://www.odnoklassniki.ru/centralppk\">www.odnoklassniki.ru/centralppk</a><br/>",
+          "phone": "",
+          "logo": "https://yastat.net/s3/rasp/media/data/company/logo/cppk.png",
+          "logo_svg": null
+        },
+        "uid": "6857x6858_0_9612144_g24_4",
+        "vehicle": null,
+        "transport_subtype": {
+          "title": "Пригородный поезд",
+          "code": "suburban",
+          "color": "#CC6600"
+        },
+        "thread_method_link": "api.rasp.yandex.net/v3/thread/?date=2024-02-27&uid=6857x6858_0_9612144_g24_4"
+      },
+      "stops": "везде",
+      "from": {
+        "type": "station",
+        "title": "Чёрное",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9601301",
+        "station_type": "platform",
+        "station_type_name": "платформа",
+        "transport_type": "train"
+      },
+      "to": {
+        "type": "station",
+        "title": "Серп и Молот",
+        "short_title": "",
+        "popular_title": "",
+        "code": "s9601796",
+        "station_type": "platform",
+        "station_type_name": "платформа",
+        "transport_type": "train"
+      },
+      "departure_platform": "",
+      "arrival_platform": "",
+      "departure_terminal": null,
+      "arrival_terminal": null,
+      "duration": 2160.0,
+      "has_transfers": false,
+      "tickets_info": {
+        "et_marker": false,
+        "places": [
+          {
+            "name": null,
+            "price": {
+              "whole": 99,
+              "cents": 0
+            },
+            "currency": "RUB"
+          }
+        ]
+      },
+      "departure": "2024-02-27T23:24:00+03:00",
+      "arrival": "2024-02-28T00:00:00+03:00",
+      "start_date": "2024-02-27"
+    }
+  ],
+  "interval_segments": [],
+  "pagination": {
+    "total": 62,
+    "limit": 500,
+    "offset": 0
+  }
+}

@@ -26,6 +26,7 @@ black = "^24.2.0"
 icecream = "^2.1.3"
 pytest = "^8.0.1"
 pylint = "^3.0.3"
+pytest-asyncio = "^0.23.5"
 
 [build-system]
 requires = ["poetry-core"]
@@ -34,3 +35,7 @@ build-backend = "poetry.core.masonry.api"
 
 [tool.poetry.scripts]
 startbot = "schedtrans.telegram.management.commands.startbot:main"
+
+
+[tool.pytest.ini_options]
+asyncio_mode = "auto"
