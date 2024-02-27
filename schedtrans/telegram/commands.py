@@ -85,6 +85,7 @@ class CallBackQueryHandlerTransportType:
                     == CallBackQueryHandlerTransportType.result_json_route.items(),
                     'thread_json_data',
                 )
+
                 await selected_route(
                     message=call.message,
                     json_route=thread_json_data,
