@@ -6,6 +6,6 @@ async def make_request(url, params):
         base_url='https://api.rasp.yandex.net/v3.0/',
         http2=True,
         params=params,
-        timeout=3,
+        timeout=10,
     ) as client:
         return await client.get(f'/{url}')
