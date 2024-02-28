@@ -1,7 +1,10 @@
 import datetime
+import json
 import os
 
 from dotenv import load_dotenv
+from icecream import ic
+
 from schedtrans.httpx_client.client import make_request
 from httpx import Response
 
@@ -47,9 +50,11 @@ class RequestSchedule:
             'from': f's{self.from_station}',
             'to': f's{self.to_station}',
             'date': self.date,
-            'offset': self.offset,
-            'limit': self.limit,
+            'offset': 200,
         }
+        result = await make_request(self.search_url, params=params)
+        with open('test.json', 'w') as file:
+            json.dump(result.json(), file, ensure_ascii=False, indent=4)
         return await make_request(self.search_url, params=params)
 
     async def request_thread_transport_route(self) -> Response:
