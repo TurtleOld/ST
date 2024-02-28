@@ -8,6 +8,8 @@ from icecream import ic
 from schedtrans.httpx_client.client import make_request
 from httpx import Response
 
+from schedtrans.telegram.common import save_file
+
 load_dotenv()
 
 
@@ -29,7 +31,7 @@ class RequestSchedule:
         longitude: float = 0,
         distance: int = 1,
         offset: int = 0,
-        limit: int = 500,
+        limit: int = 700,
         uid: str = '',
     ):
         self.transport_types: str = transport_types
@@ -43,21 +45,19 @@ class RequestSchedule:
         self.limit: int = limit
         self.uid: str = uid
 
-    async def request_transport_between_stations(self) -> Response:
+    async def request_transport_between_stations(self) -> None:
         params: dict[str, str | int | None] = {
             'apikey': self.api_key,
             'transport_types': self.transport_types,
             'from': f's{self.from_station}',
             'to': f's{self.to_station}',
             'date': self.date,
-            'offset': 200,
+            'limit': self.limit,
         }
         result = await make_request(self.search_url, params=params)
-        with open('test.json', 'w') as file:
-            json.dump(result.json(), file, ensure_ascii=False, indent=4)
-        return await make_request(self.search_url, params=params)
+        save_file('route_between_stations.json', result.json())
 
-    async def request_thread_transport_route(self) -> Response:
+    async def request_thread_transport_route(self) -> None:
         params: dict[str, str | int | None] = {
             'apikey': self.api_key,
             'uid': self.uid,
@@ -65,7 +65,8 @@ class RequestSchedule:
             'to': self.to_station,
             'limit': self.limit,
         }
-        return await make_request(self.thread_url, params=params)
+        result = await make_request(self.thread_url, params=params)
+        save_file('threads.json', result.json())
 
     async def request_station_location(self) -> Response:
         params: dict[str, str | int | None] = {

@@ -1,10 +1,11 @@
 from typing import Any
 from telebot import types
 from schedtrans.json_request.request import RequestSchedule
-from schedtrans.prepare_data.process_data_generate import Processing
+from schedtrans.prepare_data.process_data_generate import get_schedule_route
 from schedtrans.telegram.common import (
     SentMessage,
     prepare_json_file_route,
+    open_file,
 )
 from schedtrans.telegram.config import bot
 from schedtrans.telegram.keyboards import (
@@ -73,18 +74,10 @@ class CallBackQueryHandlerTransportType:
                     to_station=value.get('to_station'),
                     transport_types=transport_type,
                 )
-                result_request = (
-                    await prepare_request.request_transport_between_stations()
-                )
-                process_json_data = Processing(result_request.json())
-                await process_json_data.detail_route()
-                thread_json_data = await process_json_data.detail_thread()
+                await prepare_request.request_transport_between_stations()
+                json_data = open_file('route_between_stations.json')
+                thread_json_data = await get_schedule_route(json_data)
                 CallBackQueryHandlerTransportType.result_json_route = thread_json_data
-                print(
-                    thread_json_data
-                    == CallBackQueryHandlerTransportType.result_json_route,
-                    'thread_json_data',
-                )
 
                 await selected_route(
                     message=call.message,
