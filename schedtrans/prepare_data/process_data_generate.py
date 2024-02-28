@@ -1,8 +1,5 @@
 from datetime import timedelta, datetime, timezone
 from typing import Any
-
-from icecream import ic
-
 from schedtrans.json_parser.json_parse import JsonParser
 from schedtrans.json_request.request import RequestSchedule
 from schedtrans.telegram.common import open_file, save_file
@@ -106,9 +103,7 @@ async def detail_thread():
         )
         await request.request_thread_transport_route()
         threads = open_file('threads.json')
-        ic(threads)
         days = parser.parse_json(threads, 'days')
-        ic(days)
         result[uid]['days'] = days
     save_file('result_transport_route.json', result)
 

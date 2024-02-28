@@ -1,9 +1,7 @@
 import datetime
-import json
 import os
 
 from dotenv import load_dotenv
-from icecream import ic
 
 from schedtrans.httpx_client.client import make_request
 from httpx import Response
