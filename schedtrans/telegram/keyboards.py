@@ -1,10 +1,12 @@
 from telebot import types
 from telebot.types import InlineKeyboardMarkup, InlineKeyboardButton
 
+from schedtrans.logger.log import logger
 from schedtrans.telegram.common import SentMessage, prepare_json_file_route
 from schedtrans.telegram.config import bot
 
 
+@logger.catch
 async def select_transport_type(message: types.Message) -> None:
     keyboard = InlineKeyboardMarkup(row_width=1)
     bus = InlineKeyboardButton(
@@ -24,6 +26,7 @@ async def select_transport_type(message: types.Message) -> None:
     SentMessage.send_message.append(sent_message)
 
 
+@logger.catch
 async def selected_transport_type(message: types.Message, call_data) -> None:
     keyboard = InlineKeyboardMarkup(row_width=2)
     json_route = prepare_json_file_route()
@@ -72,6 +75,7 @@ async def selected_transport_type(message: types.Message, call_data) -> None:
         SentMessage.send_message.append(sent_message)
 
 
+@logger.catch
 async def selected_route(message, json_route, transport_type):
     keyboard = InlineKeyboardMarkup(row_width=2)
     if json_route:
@@ -121,6 +125,7 @@ async def selected_route(message, json_route, transport_type):
         SentMessage.send_message.append(sent_message)
 
 
+@logger.catch
 async def back_main(message: types.Message, threads: str) -> None:
     keyboard = InlineKeyboardMarkup()
     keyboard.add(
@@ -143,6 +148,7 @@ async def back_main(message: types.Message, threads: str) -> None:
     SentMessage.send_message.append(sent_message)
 
 
+@logger.catch
 async def back_from_routes(message: types.Message, routes: str) -> None:
     keyboard = InlineKeyboardMarkup()
     keyboard.add(

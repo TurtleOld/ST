@@ -26,18 +26,9 @@ async def handler_command_request(message: types.Message) -> None:
     await select_transport_type(message)
 
 
-class CallBackQueryHandlerTransportType:
-    result_json_route = {}
-
-    @staticmethod
-    @bot.callback_query_handler(
-        func=lambda call: call.data
-        in [
-            'bus',
-            'suburban',
-        ]
-    )
-    async def callback_handle_transport_type(call: types.CallbackQuery) -> None:
+@bot.callback_query_handler(func=lambda call: call.data in ['bus', 'suburban'])
+async def callback_handle_transport_type(call: types.CallbackQuery) -> None:
+    try:
         await bot.delete_message(call.message.chat.id, call.message.id)
         if call.data == 'bus':
             sent_message = await bot.send_message(
@@ -53,12 +44,15 @@ class CallBackQueryHandlerTransportType:
             )
             SentMessage.send_message.append(sent_message)
             await selected_transport_type(call.message, call.data)
+    except Exception as error:
+        await bot.send_message(call.message.chat.id, error)
 
-    @staticmethod
-    @bot.callback_query_handler(
-        func=lambda call: call.data in [key for key in prepare_json_file_route()],
-    )
-    async def callback_handle_transport_route(call: types):
+
+@bot.callback_query_handler(
+    func=lambda call: call.data in [key for key in prepare_json_file_route()],
+)
+async def callback_handle_transport_route(call: types):
+    try:
         await bot.delete_message(call.message.chat.id, call.message.id)
         sent_message = await bot.send_message(
             call.message.chat.id,
@@ -88,26 +82,27 @@ class CallBackQueryHandlerTransportType:
             call.message.chat.id,
             SentMessage.send_message[-2].message_id,
         )
+    except Exception as error:
+        await bot.send_message(call.message.chat.id, error)
 
-    @staticmethod
-    @bot.callback_query_handler(
-        func=lambda call: call.data in 'back',
-    )  # type: ignore
-    async def come_back_main(call: types.CallbackQuery) -> None:
-        for message in SentMessage.send_message:
-            try:
-                await bot.delete_message(
-                    call.message.chat.id,
-                    message.message_id,
-                )
-            except Exception as e:
-                print(e)
-                continue
-        await select_transport_type(call.message)
 
-    @staticmethod
-    @bot.callback_query_handler(func=lambda call: True)
-    async def callback_handle_detail_transport(call: types.CallbackQuery) -> None:
+@bot.callback_query_handler(func=lambda call: call.data in 'back')
+async def come_back_main(call: types.CallbackQuery) -> None:
+    for message in SentMessage.send_message:
+        try:
+            await bot.delete_message(
+                call.message.chat.id,
+                message.message_id,
+            )
+        except Exception as e:
+            print(e)
+            continue
+    await select_transport_type(call.message)
+
+
+@bot.callback_query_handler(func=lambda call: True)
+async def callback_handle_detail_transport(call: types.CallbackQuery) -> None:
+    try:
         await bot.delete_message(call.message.chat.id, call.message.id)
         result_detail_transport = ''
         thread_json_data = open_file('result_transport_route.json')
@@ -152,6 +147,8 @@ class CallBackQueryHandlerTransportType:
                     )
                 )
         await back_from_routes(call.message, result_detail_transport)
+    except Exception as error:
+        await bot.send_message(call.message.chat.id, error)
 
 
 def start_bot() -> Any:

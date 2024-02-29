@@ -2,9 +2,11 @@ from datetime import timedelta, datetime, timezone
 from typing import Any
 from schedtrans.json_parser.json_parse import JsonParser
 from schedtrans.json_request.request import RequestSchedule
+from schedtrans.logger.log import logger
 from schedtrans.telegram.common import open_file, save_file
 
 
+@logger.catch
 def convert_time(seconds: str | float) -> str:
     minutes = int(seconds) // 60
     if minutes >= 60:
@@ -12,6 +14,7 @@ def convert_time(seconds: str | float) -> str:
     return f'{int(minutes)} мин.'
 
 
+@logger.catch
 async def detail_route(json_data) -> dict[Any, dict[str, str | Any]] | None:
     parser = JsonParser()
     count_results = 0
@@ -81,6 +84,7 @@ async def detail_route(json_data) -> dict[Any, dict[str, str | Any]] | None:
         return None
 
 
+@logger.catch
 async def detail_thread():
     parser = JsonParser()
     result = open_file('result_transport_route.json')
@@ -110,6 +114,7 @@ async def detail_thread():
     save_file('result_transport_route.json', result)
 
 
+@logger.catch
 async def get_schedule_route(json_data):
     await detail_route(json_data)
     await detail_thread()
