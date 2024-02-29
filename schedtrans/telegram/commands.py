@@ -77,13 +77,13 @@ class CallBackQueryHandlerTransportType:
                 await prepare_request.request_transport_between_stations()
                 json_data = open_file('route_between_stations.json')
                 thread_json_data = await get_schedule_route(json_data)
-                CallBackQueryHandlerTransportType.result_json_route = thread_json_data
-
-                await selected_route(
-                    message=call.message,
-                    json_route=thread_json_data,
-                    transport_type=transport_type,
-                )
+                print(thread_json_data, 'thread_json_data')
+                if thread_json_data:
+                    await selected_route(
+                        message=call.message,
+                        json_route=thread_json_data,
+                        transport_type=transport_type,
+                    )
         await bot.delete_message(
             call.message.chat.id,
             SentMessage.send_message[-2].message_id,
@@ -103,7 +103,6 @@ class CallBackQueryHandlerTransportType:
             except Exception as e:
                 print(e)
                 continue
-        CallBackQueryHandlerTransportType.result_json_route.clear()
         await select_transport_type(call.message)
 
     @staticmethod
@@ -111,7 +110,8 @@ class CallBackQueryHandlerTransportType:
     async def callback_handle_detail_transport(call: types.CallbackQuery) -> None:
         await bot.delete_message(call.message.chat.id, call.message.id)
         result_detail_transport = ''
-        for key, value in CallBackQueryHandlerTransportType.result_json_route.items():
+        thread_json_data = open_file('result_transport_route.json')
+        for key, value in thread_json_data.items():
             if call.data == key:
                 transport_type = value.get('transport_type')
                 number = value.get('number')

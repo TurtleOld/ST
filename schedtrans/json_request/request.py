@@ -53,6 +53,7 @@ class RequestSchedule:
             'limit': self.limit,
         }
         result = await make_request(self.search_url, params=params)
+        print(result, 'request_result')
         save_file('route_between_stations.json', result.json())
 
     async def request_thread_transport_route(self) -> None:
@@ -64,6 +65,7 @@ class RequestSchedule:
             'limit': self.limit,
         }
         result = await make_request(self.thread_url, params=params)
+        print(result, 'request_result_thread')
         save_file('threads.json', result.json())
 
     async def request_station_location(self) -> Response:

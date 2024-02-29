@@ -103,8 +103,10 @@ async def detail_thread():
         )
         await request.request_thread_transport_route()
         threads = open_file('threads.json')
+        print(threads)
         days = parser.parse_json(threads, 'days')
         result[uid]['days'] = days
+    print(result, 'result')
     save_file('result_transport_route.json', result)
 
 

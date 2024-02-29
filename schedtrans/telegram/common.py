@@ -16,7 +16,7 @@ def prepare_json_file_route():
 
 def save_file(file_name, data):
     with open(file_name, 'w') as file:
-        json.dump(data, file, indent=4)
+        json.dump(data, file, ensure_ascii=False, indent=4)
 
 
 def open_file(file_name):
