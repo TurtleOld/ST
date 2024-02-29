@@ -4,24 +4,21 @@ from blacksheep import post, Request
 from telebot import types
 
 from schedtrans.telegram.commands import (
-    CallBackQueryHandlerTransportType,
     handler_command_request,
     start_command_bot,
+    come_back_main,
+    callback_handle_transport_route,
+    callback_handle_transport_type,
+    callback_handle_detail_transport,
 )
 from schedtrans.telegram.config import bot
 
 bot.add_message_handler(start_command_bot)
 bot.add_message_handler(handler_command_request)
-bot.add_callback_query_handler(
-    CallBackQueryHandlerTransportType.callback_handle_transport_type,
-)
-bot.add_callback_query_handler(
-    CallBackQueryHandlerTransportType.callback_handle_transport_route,
-)
-bot.add_callback_query_handler(
-    CallBackQueryHandlerTransportType.callback_handle_detail_transport,
-)
-bot.add_callback_query_handler(CallBackQueryHandlerTransportType.come_back_main)
+bot.add_callback_query_handler(callback_handle_transport_type)
+bot.add_callback_query_handler(callback_handle_transport_route)
+bot.add_callback_query_handler(callback_handle_detail_transport)
+bot.add_callback_query_handler(come_back_main)
 
 
 @post('/webhooks')
