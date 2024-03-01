@@ -45,7 +45,10 @@ async def callback_handle_transport_type(call: types.CallbackQuery) -> None:
             SentMessage.send_message.append(sent_message)
             await selected_transport_type(call.message, call.data)
     except Exception as error:
-        await bot.send_message(call.message.chat.id, error)
+        await bot.send_message(
+            call.message.chat.id,
+            f'callback_handle_transport_type: {error}',
+        )
 
 
 @bot.callback_query_handler(
@@ -83,7 +86,10 @@ async def callback_handle_transport_route(call: types):
             SentMessage.send_message[-2].message_id,
         )
     except Exception as error:
-        await bot.send_message(call.message.chat.id, error)
+        await bot.send_message(
+            call.message.chat.id,
+            f'callback_handle_transport_route: {error}',
+        )
 
 
 @bot.callback_query_handler(func=lambda call: call.data in 'back')
@@ -148,7 +154,10 @@ async def callback_handle_detail_transport(call: types.CallbackQuery) -> None:
                 )
         await back_from_routes(call.message, result_detail_transport)
     except Exception as error:
-        await bot.send_message(call.message.chat.id, error)
+        await bot.send_message(
+            call.message.chat.id,
+            f'callback_handle_detail_transport: {error}',
+        )
 
 
 def start_bot() -> Any:
