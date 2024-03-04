@@ -3,7 +3,7 @@ import sys
 from loguru import logger
 
 logger.add(
-    sys.stderr,
+    sys.stdout,
     format="{time} {level} {message}",
     level='ERROR',
     enqueue=True,
