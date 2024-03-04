@@ -6,7 +6,7 @@ from dotenv import load_dotenv
 from schedtrans.httpx_client.client import make_request
 from httpx import Response
 
-from schedtrans.telegram.common import save_file
+from schedtrans.telegram.common import save_file, open_file
 
 load_dotenv()
 
@@ -53,8 +53,8 @@ class RequestSchedule:
             'limit': self.limit,
         }
         result = await make_request(self.search_url, params=params)
-        print(result.json(), 'request_result')
         save_file('route_between_stations.json', result.json())
+        print(open_file('route_between_stations.json'))
 
     async def request_thread_transport_route(self) -> None:
         params: dict[str, str | int | None] = {
