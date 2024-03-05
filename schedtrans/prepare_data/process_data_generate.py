@@ -80,6 +80,7 @@ async def detail_route(json_data) -> dict[Any, dict[str, str | Any]] | None:
                 if count_results >= 10:
                     break
         save_file('result_transport_route.json', result_json_route)
+        await detail_thread()
     else:
         return None
 
@@ -88,6 +89,7 @@ async def detail_route(json_data) -> dict[Any, dict[str, str | Any]] | None:
 async def detail_thread():
     parser = JsonParser()
     result = open_file('result_transport_route.json')
+    print(result, 'detail_thread_result_transport_route.json')
     for key, value in result.items():
         uid = key
         code_from_station = parser.parse_json(
@@ -117,5 +119,4 @@ async def detail_thread():
 @logger.catch
 async def get_schedule_route(json_data):
     await detail_route(json_data)
-    await detail_thread()
     return open_file('result_transport_route.json')

@@ -4,9 +4,10 @@ import os
 from dotenv import load_dotenv
 
 from schedtrans.httpx_client.client import make_request
+from schedtrans.logger.log import logger
 from httpx import Response
 
-from schedtrans.telegram.common import save_file, open_file
+from schedtrans.telegram.common import save_file
 
 load_dotenv()
 
@@ -43,6 +44,7 @@ class RequestSchedule:
         self.limit: int = limit
         self.uid: str = uid
 
+    @logger.catch
     async def request_transport_between_stations(self) -> None:
         params: dict[str, str | int | None] = {
             'apikey': self.api_key,
@@ -54,8 +56,8 @@ class RequestSchedule:
         }
         result = await make_request(self.search_url, params=params)
         save_file('route_between_stations.json', result.json())
-        print(open_file('route_between_stations.json'))
 
+    @logger.catch
     async def request_thread_transport_route(self) -> None:
         params: dict[str, str | int | None] = {
             'apikey': self.api_key,
@@ -68,6 +70,7 @@ class RequestSchedule:
         print(result.json(), 'request_result_thread')
         save_file('threads.json', result.json())
 
+    @logger.catch
     async def request_station_location(self) -> Response:
         params: dict[str, str | int | None] = {
             'apikey': self.api_key,
@@ -78,6 +81,7 @@ class RequestSchedule:
         }
         return await make_request(self.nearest_stations_url, params=params)
 
+    @logger.catch
     async def request_flight_schedule_station(self) -> Response:
         params: dict[str, str | int | None] = {
             'apikey': self.api_key,
