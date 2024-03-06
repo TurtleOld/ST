@@ -66,7 +66,7 @@ async def detail_route(json_data) -> dict[Any, dict[str, str | Any]] | None:
                         parser.parse_json(segment, 'duration'),
                     )
                     stops = parser.parse_json(segment, 'stops')
-    
+
                     result_json_route[uid_thread] = {
                         'transport_type': transport_type,
                         'from_station': from_station,
