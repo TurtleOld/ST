@@ -63,7 +63,11 @@ async def callback_handle_transport_route(call: types):
         )
         SentMessage.send_message.append(sent_message)
         json_route = prepare_json_file_route()
+        print(call.data, 'call.data')
+        print(json_route, 'json_route')
         for key, value in json_route.items():
+            print(key, 'key')
+            print(value, 'value')
             if call.data == key:
                 transport_type = value.get('transport_types')
                 prepare_request = RequestSchedule(
