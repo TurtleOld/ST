@@ -24,7 +24,6 @@ async def detail_route(json_data) -> dict[Any, dict[str, str | Any]] | None:
         utc_offset = timedelta(hours=3)
         current_time = timezone(utc_offset)
         current_datetime = datetime.now(current_time)
-        print(json_data, 'json_data_detail_route_segments')
         if segments:
             for segment in segments:
                 departure = parser.parse_json(segment, 'departure')
@@ -94,7 +93,6 @@ async def detail_thread():
     try:
         parser = JsonParser()
         result = open_file('result_transport_route.json')
-        print(result, 'detail_thread_result_transport_route.json')
         for key, value in result.items():
             uid = key
             code_from_station = parser.parse_json(

@@ -63,11 +63,7 @@ async def callback_handle_transport_route(call: types):
         )
         SentMessage.send_message.append(sent_message)
         json_route = prepare_json_file_route()
-        print(call.data, 'call.data')
-        print(json_route, 'json_route')
         for key, value in json_route.items():
-            print(key, 'key')
-            print(value, 'value')
             if call.data == key:
                 transport_type = value.get('transport_types')
                 prepare_request = RequestSchedule(
@@ -77,9 +73,7 @@ async def callback_handle_transport_route(call: types):
                 )
                 await prepare_request.request_transport_between_stations()
                 json_data = open_file('route_between_stations.json')
-                print(json_data, 'route_between_stations.json')
                 thread_json_data = await get_schedule_route(json_data)
-                print(thread_json_data, 'thread_json_data')
                 if thread_json_data:
                     await selected_route(
                         message=call.message,

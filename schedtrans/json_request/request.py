@@ -67,7 +67,6 @@ class RequestSchedule:
             'limit': self.limit,
         }
         result = await make_request(self.thread_url, params=params)
-        print(result.json(), 'request_result_thread')
         save_file('threads.json', result.json())
 
     @logger.catch
